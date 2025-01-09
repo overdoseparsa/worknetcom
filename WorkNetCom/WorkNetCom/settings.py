@@ -274,9 +274,11 @@ EMAIL_PASSWORD = ...
 
 # if need from message service use Kavenegar 
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    "home/static/", # this is from home app static files 
-]
-MEDIA_URL = ... 
-MEDIA_ROOT = ... 
+# STATICFILES_DIRS = [
+#     "home/static/", # this is from home app static files 
+# ]
+
+
+MEDIA_URL = 'file/' 
+MEDIA_ROOT = BASE_DIR / 'file/'
+print("This is django static files ",MEDIA_ROOT)
