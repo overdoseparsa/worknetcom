@@ -118,7 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATIC_ROOT = 'static/' # this is 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
@@ -265,3 +265,18 @@ JAZZMIN_SETTINGS = {
     # Add a language dropdown into the admin
     "language_chooser": True,
 }
+TOKEN_FROM_PASSWORD = ... 
+TOKEN_FROM_MAIL = ... 
+
+
+EMAIL_HOST_BACKEND = ...
+EMAIL_PASSWORD = ... 
+
+# if need from message service use Kavenegar 
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    "home/static/", # this is from home app static files 
+]
+MEDIA_URL = ... 
+MEDIA_ROOT = ... 
