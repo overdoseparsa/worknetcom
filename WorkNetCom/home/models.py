@@ -19,7 +19,7 @@ class Content(models.Model):
     project = models.ForeignKey(
         Project , on_delete=models.CASCADE  , related_name="content_images"
     )
-    image = models.ImageField(upload_to='static')
+    image = models.ImageField()
     published = models.DateTimeField()
 
     def __str__(self):
