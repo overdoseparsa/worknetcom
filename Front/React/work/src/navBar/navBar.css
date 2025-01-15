@@ -9,7 +9,7 @@
 .customNavbar {
     transition: all 0.3s ease;
     height: 120px;
-    backdrop-filter: 5px;
+    backdrop-filter: 9px;
 }
 
 .customNavbar.scrolled {
@@ -46,7 +46,7 @@
     border: 3px solid gray;
 }
 #root > nav{
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
 }
 #responsive-navbar-nav\  > div.me-auto.ms-3.navbar-nav > a{
 font-size: 23px;

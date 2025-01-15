@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from "../navBar/navBar"
-import infoContainer from '../infoContainer/infoContainer'
-
+import InfoContainer from '../infoContainer/infoContainer'
+import MainImage from '../mianImage/mainImage'
 export default class Home extends Component {
   constructor() {
     super()
@@ -14,7 +14,10 @@ export default class Home extends Component {
     return (
       <>
         <NavBar />
-        <infoContainer/>
+        <MainImage />
+        <InfoContainer/>
+        <InfoContainer/>
+
       </>
 
     )
