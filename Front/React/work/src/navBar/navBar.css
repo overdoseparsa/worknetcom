@@ -1,8 +1,54 @@
-*{
+* {
+    font-size: large;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgb(24, 24, 24) ;
 }
-.navbar-brand{
-    font-size:30px;
+
+.customNavbar {
+    background-color: #000000;
+    transition: all 0.3s ease;
+    height: 120px;
+    backdrop-filter: 5px;
+}
+
+.customNavbar.scrolled {
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(201, 201, 201, 0.436);
+}
+
+.navTitle {
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 50px;
+}
+
+.navbar-collapse {
+    padding-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #000000;
+}
+
+.navbarLink {
+    font-size: 20px;
+    background-color: #000000;
+}
+
+.searchForm:focus {
+    border: 3px solid gray;
+}
+
+#responsive-navbar-nav\ bg-black\  {
+    background-color: #000000;
 }
