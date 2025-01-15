@@ -3,11 +3,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(24, 24, 24) ;
+
 }
 
 .customNavbar {
-    background-color: #000000;
     transition: all 0.3s ease;
     height: 120px;
     backdrop-filter: 5px;
@@ -18,7 +17,7 @@
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 20px;
-    border: 1px solid rgba(201, 201, 201, 0.436);
+    border: 1px solid rgba(185, 185, 185, 0.436);
 }
 
 .navTitle {
@@ -37,18 +36,37 @@
 .navbar-collapse {
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
-    background-color: #000000;
 }
 
 .navbarLink {
     font-size: 20px;
-    background-color: #000000;
 }
 
 .searchForm:focus {
     border: 3px solid gray;
 }
+#root > nav{
+    backdrop-filter: blur(2px);
+}
+#responsive-navbar-nav\  > div.me-auto.ms-3.navbar-nav > a{
+font-size: 23px;
+}
+#responsive-navbar-nav\  > div:nth-child(2) > a{
+font-size: 23px;
 
-#responsive-navbar-nav\ bg-black\  {
-    background-color: #000000;
+}
+#collapsible-nav-dropdown{
+font-size: 23px;
+}
+#responsive-navbar-nav\  > div.me-auto.ms-3.navbar-nav > a:hover{
+    color: white;
+}
+#responsive-navbar-nav\  > div:nth-child(2) > a:hover{
+    color: white;
+}
+#collapsible-nav-dropdown:hover{
+    color: white;
+}
+#root > nav > a:hover{
+    color: white;
 }

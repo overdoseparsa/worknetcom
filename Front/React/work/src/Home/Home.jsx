@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from "../navBar/navBar"
-import { Container, Row, Col, Image, ButtonGroup, Table, Alert } from 'react-bootstrap'
+import infoContainer from '../infoContainer/infoContainer'
 
 export default class Home extends Component {
   constructor() {
@@ -14,7 +14,7 @@ export default class Home extends Component {
     return (
       <>
         <NavBar />
-        
+        <infoContainer/>
       </>
 
     )

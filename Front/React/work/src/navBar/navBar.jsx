@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, Container, Nav, NavDropdown , Form , Button} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown , Form , Button} from "react-bootstrap";
 import "./navBar.css";
 
 export default function NavBar() {
@@ -26,14 +26,13 @@ export default function NavBar() {
         <>
             <Navbar
                 collapseOnSelect expand="lg"
-                className={`customNavbar ${scrolled ? "scrolled" : ""} pb-2 pt-3 `}
-                variant="dark"
+                className={`customNavbar ${scrolled ? "scrolled" : ""} pb-2 pt-3  bg-secondary bg-opacity-75`}
                 fixed="top"
             >
-                <Navbar.Brand href="#home" className="ms-lg-5 ms-3 pb-2 pt-0 bg-black navTitle">Work Net</Navbar.Brand>
+                <Navbar.Brand href="#home" className="ms-lg-5 ms-3 pb-2 pt-0  navTitle fs-2">Work Net</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-                <Navbar.Collapse id="responsive-navbar-nav bg-black " style={{backgroundColor:"black", width:"100%"}} >
-                    <Nav className="me-auto ms-3 bg-black">
+                <Navbar.Collapse id="responsive-navbar-nav " style={{width:"100%"}} >
+                    <Nav className="me-auto ms-3 ">
                         <Nav.Link href="../Home/Home.jsx"  className="navbarLink">Home</Nav.Link>
                         <Nav.Link href="#pricing"  className="navbarLink">Pricing</Nav.Link>
                         <NavDropdown title="Dropdown" id="collapsible-nav-dropdown" className="navbarLink">
@@ -54,7 +53,7 @@ export default function NavBar() {
                             Dank memes
                         </Nav.Link>
                     </Nav>
-                    <Form className="d-flex bg-black">
+                    <Form className="d-flex">
                         <Form.Control
                             type="search"
                             placeholder="Search"
@@ -62,7 +61,7 @@ export default function NavBar() {
                             aria-label="Search"
                             style={{backgroundColor:"lightgray"}}
                         />
-                        <Button variant="outline-success" className="me-5 mb-lg-0 mb-sm-3">Search</Button>
+                        <Button variant="outline-success" className="me-5 mb-lg-0 mb-sm-3 fs-5">Search</Button>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>
