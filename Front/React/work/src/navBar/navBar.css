@@ -10,6 +10,9 @@
     transition: all 0.3s ease;
     height: 120px;
     backdrop-filter: 9px;
+    background-color: #03417700;
+    backdrop-filter: blur(5px);
+    padding: 0px 50px;
 }
 
 .customNavbar.scrolled {
@@ -17,7 +20,9 @@
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 20px;
-    border: 1px solid rgba(185, 185, 185, 0.436);
+    border: 1px solid rgba(230, 107, 0, 0.681);
+    background-color: #0341778f;
+    backdrop-filter: blur(5px);
 }
 
 .navTitle {
@@ -43,30 +48,71 @@
 }
 
 .searchForm:focus {
-    border: 3px solid gray;
+    border: 3px solid rgb(255, 136, 0);
 }
-#root > nav{
-    backdrop-filter: blur(5px);
+
+#responsive-navbar-nav\ >div.me-auto.ms-3.navbar-nav>a {
+    font-size: 23px;
 }
-#responsive-navbar-nav\  > div.me-auto.ms-3.navbar-nav > a{
-font-size: 23px;
-}
-#responsive-navbar-nav\  > div:nth-child(2) > a{
-font-size: 23px;
+
+#responsive-navbar-nav\ >div:nth-child(2)>a {
+    font-size: 23px;
 
 }
-#collapsible-nav-dropdown{
-font-size: 23px;
+
+#collapsible-nav-dropdown {
+    font-size: 23px;
 }
-#responsive-navbar-nav\  > div.me-auto.ms-3.navbar-nav > a:hover{
-    color: white;
+
+#responsive-navbar-nav\ >div.me-auto.ms-3.navbar-nav>a:hover {
+    color: rgb(255, 136, 0);
 }
-#responsive-navbar-nav\  > div:nth-child(2) > a:hover{
-    color: white;
+
+#responsive-navbar-nav\ >div:nth-child(2)>a:hover {
+    color: rgb(255, 136, 0);
 }
-#collapsible-nav-dropdown:hover{
-    color: white;
+
+#collapsible-nav-dropdown:hover {
+    color: rgb(255, 136, 0);
 }
-#root > nav > a:hover{
-    color: white;
+
+#root>nav>a:hover {
+    color: rgb(255, 136, 0);
+}
+
+#responsive-navbar-nav\ >form>button {
+    border-color: rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+}
+
+#responsive-navbar-nav\ >form>button:hover {
+    border-color: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 136, 0);
+}
+
+#root>nav>button {
+    width: 90px;
+}
+
+#root>nav>button>span {
+    font-size: 40px;
+}
+
+/* responsive */
+@media (max-width:1200px) {
+    #root>nav {
+        padding: 18px 10px 9px 10px;
+    }
+
+    #responsive-navbar-nav\ >form>button {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:435px) {
+    #root>nav {
+        padding: 18px 10px 10px 9px;
+    }
+
 }

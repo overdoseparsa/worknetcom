@@ -1,0 +1,28 @@
+.partnerCol >img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.partnerRow{
+    margin-bottom: 150px;
+}
+@media (max-width:1546px){
+    .partnerTitle{
+        font-size: 40px;
+    }
+}
+@media (max-width:1116px){
+    .partnerTitle{
+        font-size: 30px;
+    }
+}
+@media (max-width:683px){
+    .partnerTitle{
+        font-size: 20px;
+    }
+}
+@media (max-width:478px){
+    .partnerTitle{
+        font-size: 15px;
+    }
+}

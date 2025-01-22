@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, Nav, NavDropdown , Form , Button} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
 import "./navBar.css";
 
 export default function NavBar() {
@@ -26,15 +26,17 @@ export default function NavBar() {
         <>
             <Navbar
                 collapseOnSelect expand="lg"
-                className={`customNavbar ${scrolled ? "scrolled" : ""} pb-2 pt-3  bg-secondary bg-opacity-75`}
+                className={`customNavbar ${scrolled ? "scrolled" : ""} pb-2 pt-3 `}
                 fixed="top"
             >
                 <Navbar.Brand href="#home" className="ms-lg-5 ms-3 pb-2 pt-0  navTitle fs-2">Work Net</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-                <Navbar.Collapse id="responsive-navbar-nav " style={{width:"100%"}} >
+                <Navbar.Collapse id="responsive-navbar-nav " style={{
+                    width: "100%"
+                }} >
                     <Nav className="me-auto ms-3 ">
-                        <Nav.Link href="../Home/Home.jsx"  className="navbarLink">Home</Nav.Link>
-                        <Nav.Link href="#pricing"  className="navbarLink">Pricing</Nav.Link>
+                        <Nav.Link href="../Home/Home.jsx" className="navbarLink" >Home</Nav.Link>
+                        <Nav.Link href="#pricing" className="navbarLink">Pricing</Nav.Link>
                         <NavDropdown title="Dropdown" id="collapsible-nav-dropdown" className="navbarLink">
                             <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
@@ -59,7 +61,7 @@ export default function NavBar() {
                             placeholder="Search"
                             className="mx-3 mb-lg-0 mb-sm-3 searchForm"
                             aria-label="Search"
-                            style={{backgroundColor:"lightgray"}}
+                            style={{ backgroundColor: "lightgray" }}
                         />
                         <Button variant="outline-success" className="me-5 mb-lg-0 mb-sm-3 fs-5">Search</Button>
                     </Form>
