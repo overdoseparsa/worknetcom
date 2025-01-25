@@ -1,0 +1,161 @@
+.serviceContainer {
+    background-color: #034177;
+    min-height: 1000px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.expalneService {
+    background-color: rgb(48, 76, 100);
+    display: flex;
+    padding: 10px;
+    min-height: 850px;
+    padding-bottom: 100px;
+}
+
+.explaneCompany {
+    text-align: end;
+    padding: 50px;
+    padding: 15px;
+}
+
+.explaneCompany>h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin: 250px 50px 100px 0px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 136, 0);
+    text-align: right;
+
+}
+
+.explaneCompany>h6 {
+    margin: 100px 50px 20px 50px;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.iamgeCompany {
+    object-fit: fill;
+    margin-top:100px;
+}
+
+.iamgeContainer {
+    max-height: 800px;
+    min-width: 350px;
+    margin-top: 250px;
+    overflow: hidden;
+}
+
+/* all h1 in under og explaneCompany */
+#root > div.p-0.m-0.container-fluid > div.expalneService.row > div.explaneCompany.col > div> div> h1{
+    min-width: 350px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+/* all h4 in under og explaneCompany */
+#root > div.p-0.m-0.container-fluid > div.expalneService.row > div.explaneCompany.col > div> div> h4{
+    color: white;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 10px auto;
+    float: right;
+}
+/* responsive */
+@media(max-width:1789px) {
+    .expalneService {
+        display: grid;
+        padding: 0px;
+    }
+
+    .iamgeCompany {
+        margin: 20px;
+    }
+
+    .iamgeContainer {
+        padding-right: 0px;
+    }
+
+    .explaneCompany>h1 {
+        text-align: center;
+        margin-right: 0px;
+        font-size: 40px;
+    }
+
+    /* all h1 in under og explaneCompany */
+    #root>div.serviceContainer.container-fluid>div>div.explaneCompany.col>div>div>h1 {
+        text-align: center;
+        padding: 5%;
+        font-size: 30px;
+    }
+
+    /* all h4 in under og explaneCompany */
+    #root>div.serviceContainer.container-fluid>div>div.explaneCompany.col>div>div>h4 {
+        text-align: center;
+        padding: 0px;
+        font-size: 20px;
+    }
+    .explaneCompany {
+        text-align: center;
+        padding: 50px;
+        padding: 0px;
+    }
+}
+@media(max-width:547px){
+    .explaneCompany>h1 {
+        text-align: center;
+        margin-right: 0px;
+        font-size: 40px;
+    }
+
+    /* all h1 in under og explaneCompany */
+    #root>div.serviceContainer.container-fluid>div>div.explaneCompany.col>div>div>h1 {
+        text-align: center;
+        padding: 5%;
+        font-size: 30px;
+    }
+
+    /* all h4 in under og explaneCompany */
+    #root>div.serviceContainer.container-fluid>div>div.explaneCompany.col>div>div>h4 {
+        font-size: 15px;
+    }
+}
+
+
+/*----------------------- second part ------------------*/
+.expalneService2{
+    min-height: 1000px;
+    padding-bottom: 100px;
+}
+.headerServicetitle2{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom:150px ;
+}
+.rowServiceContainer{
+    background-color: #ffffff;
+    height: 470px;
+    max-width: 1100px;
+    margin: 100px auto ;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.imgserviceContainer{
+    overflow: hidden;
+}
+.imageService{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.textServiceContainer{
+    padding: 30px;
+}
+/* responsive */
+@media(max-width:1000px){
+
+}

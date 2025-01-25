@@ -1,4 +1,63 @@
-.serContainer{
+.serviceTagContainer{
     text-align: center;
     padding-top: 150px;
+    min-height: 1000px;
 }
+.rowService{
+    max-width: 1600px;
+    margin: 150px auto;
+    min-height: auto;
+    justify-content: space-around;
+}
+.serviceInfo{
+    max-width: 500px;
+    min-width: 350px;
+    min-height: 350px;
+    text-align: right;
+    margin: 10px 10px;
+    border: rgba(56, 56, 56, 0.436) solid 2px ;
+    padding: 20px;
+    border-radius: 15px;
+}
+.serviceInfo:hover{
+    box-shadow: rgba(255, 136, 0, 0.55) 0px 2px 8px 0px;
+}
+ .serviceInfo>h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.serviceInfo>h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+    margin-bottom: 40px;
+}
+.numService{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.306);
+}
+.buttomService{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 136, 0);
+    border-color: rgba(255, 255, 255, 0);
+}
+.buttomService :hover {
+    color: rgb(184, 98, 0);
+}
+.buttomService>h6{
+    font-size: 20px;
+}
+@media(max-width:555px){
+    .serviceContainer{
+        padding: 0px;
+    }
+    .rowService{
+        width: 100%;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+}
+
+
