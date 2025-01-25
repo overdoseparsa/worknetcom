@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import NavBar from "../navBar/navBar"
-import InfoContainer from '../infoContainer/infoContainer'
-import MainImage from '../mianImage/mainImage'
-import Slides from '../slides/slides'
-import Partner from '../partner/partner'
+// import InfoContainer from '../infoContainer/infoContainer'
+// import MainImage from '../mianImage/mainImage'
+// import Slides from '../slides/slides'
+// import Partner from '../partner/partner'
+import ServicePage from '../servicePage/servicePage'
 import 'bootstrap'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Home.css'
@@ -19,7 +20,7 @@ export default class Home extends Component {
     return (
       <>
         <NavBar />
-        <MainImage />
+        {/* <MainImage /> */}
 
         {/* information zon*/}
 
@@ -87,7 +88,7 @@ export default class Home extends Component {
                 <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
                 </Image>
                 <div className='overlay'>
-                  <div className="text"><h2>سیستم مداربسته</h2></div>
+                  <div className="text"><h2>طراحی سایت</h2></div>
                 </div>
               </Col>
             </Row>
@@ -96,10 +97,10 @@ export default class Home extends Component {
 
         {/* //////// end \\\\\\\\ */}
 
-        <Slides />
+        {/* <Slides />
         <InfoContainer />
-        <Partner/>
-
+        <Partner/> */}
+        <ServicePage />
       </>
 
     )

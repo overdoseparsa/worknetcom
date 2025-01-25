@@ -11,13 +11,13 @@
     color: white;
     text-decoration: underline ;
     text-decoration-color: rgba(255, 136, 0, 0.532) ;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 #root > div.baseContainer.container-fluid{
     min-height: auto;
-    min-height: 700px;
+    min-height: 900px;
     background-color: #043a6a;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 20px;
 }
 .information{

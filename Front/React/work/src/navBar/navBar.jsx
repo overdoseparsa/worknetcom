@@ -36,7 +36,7 @@ export default function NavBar() {
                 }} >
                     <Nav className="me-auto ms-3 ">
                         <Nav.Link href="../Home/Home.jsx" className="navbarLink" >Home</Nav.Link>
-                        <Nav.Link href="#pricing" className="navbarLink">Pricing</Nav.Link>
+                        <Nav.Link href="../Service/Service.jsx" className="navbarLink">Service</Nav.Link>
                         <NavDropdown title="Dropdown" id="collapsible-nav-dropdown" className="navbarLink">
                             <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
