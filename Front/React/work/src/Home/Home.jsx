@@ -4,7 +4,8 @@ import NavBar from "../navBar/navBar"
 // import MainImage from '../mianImage/mainImage'
 // import Slides from '../slides/slides'
 // import Partner from '../partner/partner'
-import ServicePage from '../servicePage/servicePage'
+// import ServicePage from '../servicePage/servicePage'
+import NetworkConsulting from '../networkConsulting/networkConsulting'
 import 'bootstrap'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Home.css'
@@ -23,6 +24,10 @@ export default class Home extends Component {
         {/* <MainImage /> */}
 
         {/* information zon*/}
+
+
+        {/* there is a single page */}
+        <NetworkConsulting /> 
 
         <Container className='baseContainer' fluid>
           <p className='pTag'>چشم‌انداز عملکرد ما</p>
@@ -100,7 +105,9 @@ export default class Home extends Component {
         {/* <Slides />
         <InfoContainer />
         <Partner/> */}
-        <ServicePage />
+
+        {/* there is a single page */}
+        {/* <ServicePage /> */}
       </>
 
     )

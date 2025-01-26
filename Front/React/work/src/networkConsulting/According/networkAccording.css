@@ -1,0 +1,14 @@
+.accordingHeader{
+    direction: rtl;
+}
+#root > div.networkAccordingContainer.container-fluid > div > div > div > h2 > button > h6{
+    margin-left: 10px;
+}
+#root > div.networkAccordingContainer.container-fluid > div > div > div > div > div{
+    text-align: right;
+}
+.accordingTitle{
+    margin-top: -150px;
+    margin-bottom: 150px;
+    text-align: center;
+}

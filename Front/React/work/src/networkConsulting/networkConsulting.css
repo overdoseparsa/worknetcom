@@ -1,0 +1,82 @@
+.networkTitleContainer{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../public/image/jyo0shjbauwp-zou0c8r1a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(58, 57, 57, 0.646);
+    background-blend-mode: darken;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+.networkTitle{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+.networkParagraphContainer{
+    min-height: 1000px;
+    padding-top: 250px;
+}
+.networkRow{
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+}
+.networkparagraph{
+    direction: rtl;
+    height: 600px;
+    padding-right: 50px;
+}
+.networkparagraph >h1{
+    margin: 0px -20px 50px 0px;
+    font-size: 60px;
+
+}
+.networkparagraph >ol >li{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.758);
+    margin-right: 20px;
+}
+.networkImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+}
+.networkAccordingContainer{
+    background-color: #f3f4f6;
+    margin-top: 250px;
+    padding: 350px 0px 150px 0px;
+}
+.explanenetworkColsulting{
+    text-align: right;
+    padding-top: 200px;
+}
+.imageNetworkConsulting{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+}
+.whatsNetwork{
+    padding: 90px;
+}
+.whatsNetwork >h6{
+    max-width: 800px;
+}
+.whatsNetwork >h1{
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+.rowExplanenetworkColsulting{
+    display: flex;
+    justify-content: space-between;
+}
