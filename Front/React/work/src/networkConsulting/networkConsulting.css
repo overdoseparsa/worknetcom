@@ -51,13 +51,15 @@
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
 .networkAccordingContainer{
-    background-color: #f3f4f6;
+
     margin-top: 250px;
     padding: 350px 0px 150px 0px;
 }
 .explanenetworkColsulting{
+    background-color: #f3f4f6;
     text-align: right;
-    padding-top: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 .imageNetworkConsulting{
     width: 80%;
@@ -71,6 +73,7 @@
 }
 .whatsNetwork >h6{
     max-width: 800px;
+    padding: 20px;
 }
 .whatsNetwork >h1{
     max-width: 800px;

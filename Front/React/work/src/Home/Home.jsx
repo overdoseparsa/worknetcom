@@ -5,7 +5,8 @@ import NavBar from "../navBar/navBar"
 // import Slides from '../slides/slides'
 // import Partner from '../partner/partner'
 // import ServicePage from '../servicePage/servicePage'
-import NetworkConsulting from '../networkConsulting/networkConsulting'
+// import NetworkConsulting from '../networkConsulting/networkConsulting'
+import ActiveNetworkServices from '../activeNetworkServices/activeNetworkServices'
 import 'bootstrap'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Home.css'
@@ -27,7 +28,8 @@ export default class Home extends Component {
 
 
         {/* there is a single page */}
-        <NetworkConsulting /> 
+        {/* <NetworkConsulting />  */}
+        <ActiveNetworkServices />
 
         <Container className='baseContainer' fluid>
           <p className='pTag'>چشم‌انداز عملکرد ما</p>
@@ -40,7 +42,7 @@ export default class Home extends Component {
               {/* firstBox */}
 
               <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>شبکه</h2></div>
@@ -50,7 +52,7 @@ export default class Home extends Component {
               {/* secondBox */}
 
               <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>دیتاسنتر</h2></div>
@@ -60,7 +62,7 @@ export default class Home extends Component {
               {/* thirdBox */}
 
               <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>برق</h2></div>
@@ -70,7 +72,7 @@ export default class Home extends Component {
               {/* fourthBox */}
 
               <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>ups</h2></div>
@@ -80,7 +82,7 @@ export default class Home extends Component {
               {/* fivthBox */}
 
               <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>سیستم امینتی</h2></div>
@@ -90,7 +92,7 @@ export default class Home extends Component {
               {/* sixthBox */}
 
               <Col className='colInformation' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                <Image className='infoImage' src='image/bigBulding.jpg'>
                 </Image>
                 <div className='overlay'>
                   <div className="text"><h2>طراحی سایت</h2></div>
