@@ -10,7 +10,7 @@ export default class partner extends Component {
                 <Container fluid>
                     <Row className='partnerRow'>
                         <Col className='col-2 partnerCol'>
-                            <Image src='image/food-brand-products-logo-1.png'/>
+                            <Image src='image/tech-co-logo.png'/>
                         </Col>
                         <Col className='col-2 partnerCol'>
                             <Image src='image/online-academy-logo.png'/>

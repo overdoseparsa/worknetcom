@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import NavBar from "../navBar/navBar"
-// import InfoContainer from '../infoContainer/infoContainer'
-// import MainImage from '../mianImage/mainImage'
-// import Slides from '../slides/slides'
-// import Partner from '../partner/partner'
-// import ServicePage from '../servicePage/servicePage'
-// import NetworkConsulting from '../networkConsulting/networkConsulting'
+import InfoContainer from '../infoContainer/infoContainer'
+import MainImage from '../mianImage/mainImage'
+import Slides from '../slides/slides'
+import Partner from '../partner/partner'
+import ServicePage from '../servicePage/servicePage'
+import NetworkConsulting from '../networkConsulting/networkConsulting'
 import ActiveNetworkServices from '../activeNetworkServices/activeNetworkServices'
 import 'bootstrap'
 import { Container, Row, Col, Image } from 'react-bootstrap'
@@ -22,14 +22,11 @@ export default class Home extends Component {
     return (
       <>
         <NavBar />
-        {/* <MainImage /> */}
+        <MainImage />
 
         {/* information zon*/}
 
 
-        {/* there is a single page */}
-        {/* <NetworkConsulting />  */}
-        <ActiveNetworkServices />
 
         <Container className='baseContainer' fluid>
           <p className='pTag'>چشم‌انداز عملکرد ما</p>
@@ -104,12 +101,17 @@ export default class Home extends Component {
 
         {/* //////// end \\\\\\\\ */}
 
-        {/* <Slides />
+        <Slides />
         <InfoContainer />
-        <Partner/> */}
+        <Partner />
 
         {/* there is a single page */}
-        {/* <ServicePage /> */}
+        <h1>service page</h1>
+        <ServicePage />
+        <h1>NetworkConsulting</h1>
+        <NetworkConsulting />
+        <h1>ActiveNetworkServices</h1>
+        <ActiveNetworkServices />
       </>
 
     )

@@ -8,7 +8,7 @@ export default class mainImage extends Component {
         return (
             <>
                 <Container className='mainContainer' >
-                    <Image className='mainImage' src='image/corporative-building-new-york-city_62972-11.jpg' />
+                    <Image className='mainImage' src='image/bigBulding.jpg' />
                     {/* راهکارهای هوشمند، آینده‌ای امن و متصل */}
 
 

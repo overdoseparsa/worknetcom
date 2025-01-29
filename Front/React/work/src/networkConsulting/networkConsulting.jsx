@@ -26,7 +26,7 @@ export default class networkConsulting extends Component {
                             </ol>
                         </Col>
                         <Col lg={6} xs={{ order: 'first' }} md={{ order: 'last' }}>
-                            <Image className='networkImage col-12' src='image/corporative-building-new-york-city_62972-11.jpg'>
+                            <Image className='networkImage col-12' src='image/bigBulding.jpg'>
                             </Image>
                         </Col>
                     </Row>
@@ -34,7 +34,7 @@ export default class networkConsulting extends Component {
                 <Container fluid className='explanenetworkColsulting'>
                     <Row className='rowExplanenetworkColsulting'>
                         <Col>
-                        <Image className='imageNetworkConsulting' src='image/Navigating-the-Complex-Networking-Landscape_1000x567.webp'></Image>
+                        <Image className='imageNetworkConsulting' src='image/Navigating-ai.webp'></Image>
                         </Col>
                         <Col className='whatsNetwork'>
                             <h1>شبکه</h1>

@@ -7,22 +7,112 @@ export default class activeNetworkServices extends Component {
   render() {
     return (
       <>
-        <Container className='activeContainer' fluid>
-          <h1 className="activeTitle">خدمات اکتیو شبکه</h1>
-        </Container>
-        <Container className='explaneNetworkContainer' fluid>
+        <Container className="explaneNetworkContainer" fluid>
           <Container className='expalneNetwork'>
-            <h1>شبکه<span>(Active)</span></h1>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquid sit unde rem ex quisquam perferendis quia eveniet et, dolores iste sapiente expedita optio fuga nobis? Amet facilis aspernatur id.
-              Libero molestias ab enim provident vitae eius, optio aut fuga? Voluptate fuga praesentium non distinctio libero voluptatibus nihil sequi nesciunt voluptatum, id aliquid molestias vitae sunt nam, reprehenderit, veniam magnam.
-              Aliquam veniam ipsa recusandae voluptatibus magni ipsam sunt unde! Commodi totam ducimus explicabo laudantium repellat, impedit earum, quod cupiditate corrupti quis quam omnis saepe esse perferendis asperiores error? Ea, ratione.
-              Tempore voluptates qui aperiam ullam? Ullam iusto reprehenderit laboriosam explicabo nam inventore rerum non cum corrupti eligendi consequuntur quas aliquid accusantium veritatis mollitia dolores temporibus ipsam, itaque odit vel similique.
-              Et quae obcaecati soluta fugit odio rem nihil voluptate. Laudantium molestiae asperiores modi nisi doloremque perferendis nihil, saepe alias dolor repellendus deserunt quam veritatis, labore vitae ullam officia, cupiditate in.</h6>
+            <Row>
+              <Col>
+                <h1>شبکه<span>(Active)</span></h1>
+                <h6 > خدماتی که شامل طراحی، نصب و اجرای تجهیزات و اجزای شبکه است که به‌عنوان بستر اصلی ارتباطات شبکه عمل می‌کنند. برخلاف خدمات اکتیو که به مدیریت و راه‌اندازی نرم‌افزارها و سرویس‌های شبکه مربوط می‌شود، خدمات پسیو بر آماده‌سازی محیط فیزیکی و سخت‌افزارهای موردنیاز برای عملکرد صحیح شبکه تمرکز دارد.
+                  یکی از اصلی‌ترین جنبه‌های خدمات پسیو، طراحی دقیق ساختار شبکه است. این مرحله شامل برنامه‌ریزی برای نحوه استقرار تجهیزات شبکه مانند سوئیچ‌ها، روترها و سرورها، و همچنین تعیین مسیرهای کابل‌کشی است. کابل‌کشی یکی از مهم‌ترین بخش‌های خدمات پسیو است که شامل استفاده از انواع کابل‌های مسی، فیبر نوری یا کابل‌های تلفنی می‌شود. انتخاب نوع کابل و استانداردهای کابل‌کشی به عوامل مختلفی مانند پهنای باند موردنیاز، فاصله بین تجهیزات و نیازهای امنیتی شبکه بستگی دارد.
+
+                  نصب تجهیزات زیرساختی نیز بخشی از این خدمات است. برای مثال، رک‌های دیواری یا ایستاده به‌منظور سازمان‌دهی تجهیزات شبکه و دسترسی آسان‌تر به آن‌ها نصب می‌شوند. همچنین، از پچ پنل‌ها برای اتصال کابل‌ها به تجهیزات شبکه به‌صورت مرتب و قابل مدیریت استفاده می‌شود. برای محافظت از کابل‌ها و ایجاد نظم، از داکت‌ها و ترانک‌ها استفاده می‌شود که علاوه بر محافظت فیزیکی، به زیبایی محیط نیز کمک می‌کنند.
+
+                  یکی دیگر از جنبه‌های مهم خدمات پسیو، ایجاد اتصالات پایدار و مطمئن است. این شامل نصب سوکت‌ها و کیستون‌ها برای ارتباط تجهیزات شبکه با کابل‌ها و تست اتصالات برای اطمینان از کیفیت و عملکرد صحیح آن‌ها می‌شود. تمام این اقدامات به‌گونه‌ای طراحی شده‌اند که شبکه بتواند به‌صورت پایدار و با کمترین احتمال قطعی یا مشکل فیزیکی کار کند.
+
+                  در نهایت، خدمات پسیو شبکه با ایجاد زیرساخت‌های استاندارد و قابل اعتماد، امکان عملکرد صحیح تجهیزات اکتیو شبکه و سرویس‌های نرم‌افزاری را فراهم می‌کند و به‌عنوان پایه‌ای برای شبکه‌های پایدار و کارآمد شناخته می‌شود.
+                </h6></Col>
+              <Col className='actineNetworkserviceimageCol p-0 pt-4 pe-5'>
+                <  Image className='actineNetworkserviceimage' src='image/earth.jpg' fluid/>
+              </Col>
+            </Row>
+            {/* <ol>
+              <li>
+                <h5>نصب و راه‌اندازی سرورها
+                  :
+                </h5>
+                <h6>
+                  یاده‌سازی و مدیریت سرورهای ویندوزی و لینوکسی شامل انواع سرورهای Domain Controller، File Server، Backup Server، Web Server، Application Server، Mail Server و Print Server با هدف ارائه خدمات پیشرفته و مطمئن به کاربران شبکه.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  راه‌اندازی سرویس‌های شبکه:
+                </h5>
+                <h6>
+                  تنظیم و پیکربندی سرویس‌هایی نظیر
+                  Active Directory، DNS، DHCP، NAT، PROXY، IIS، RAS و خدمات امنیتی برای مدیریت متمرکز و بهبود دسترسی شبکه.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  مدیریت و مانیتورینگ شبکه :
+                </h5>
+                <h6>
+                  نصب سیستم‌های مدیریتی و ابزارهای مانیتورینگ جهت پایش لحظه‌ای وضعیت شبکه و افزایش بهره‌وری.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  تنظیم تجهیزات شبکه :
+                </h5>
+                <h6>
+                  پیکربندی و تنظیم روترهای سیسکو، میکروتیک و هواوی برای بهبود روتینگ و مدیریت ترافیک شبکه.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  فایروال و امنیت شبکه :
+                </h5>
+                <h6>
+                  نصب و پیکربندی فایروال‌های سخت‌افزاری برای حفاظت از شبکه در برابر تهدیدات و حملات سایبری.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  شبکه‌های بی‌سیم و پهنای باند :
+                </h5>
+                <h6>
+                  نصب و راه‌اندازی شبکه‌های وایرلس و سیستم‌های مدیریت پهنای باند و ترافیک اینترنت.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  VoIP و تلفن‌های تحت شبکه :
+                </h5>
+                <h6>
+                  ایجاد بستر ارتباطی VoIP با استفاده از تجهیزات پیشرفته سیسکو و مدیریت تماس‌های صوتی بر بستر شبکه.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  خدمات تخصصی سیسکو :
+                </h5>
+                <h6>
+                  ارائه خدمات پیشرفته LAN و WAN شامل VLAN‌بندی، Subnetting، Ether Channel، HSRP، پروتکل‌های روتینگ OSPF و EIGRP، پیکربندی امن SSH و Telnet، راه‌اندازی مانیتورینگ تجهیزات SNMP و سایر خدمات مرتبط
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  امنیت و پایداری شبکه :
+                </h5>
+                <h6>
+                  جلوگیری از مشکلات شبکه‌ای مانند لوپ با استفاده از Spanning Tree Protocol و تنظیمات یکپارچه‌سازی مانند VTP Domain.
+                </h6>
+              </li>
+              <li>
+                <h5>
+                  سیستم‌های پشتیبان‌گیری و آنتی‌ویروس :
+                </h5>
+                <h6>
+                  نصب و راه‌اندازی سیستم‌های خودکار برای پشتیبان‌گیری از اطلاعات سرورها و کلاینت‌ها و همچنین نصب آنتی‌ویروس برای حفظ امنیت اطلاعات.
+                </h6>
+              </li>
+            </ol> */}
           </Container>
         </Container>
-        <Container className='olActive'>
-          <Row>
-            <Col className='liActive col-lg-6'xs={{order:'last'}} lg={{order:'first'}}>
+        <Container className='olActive' fluid>
+          <Row className='rowOlActove'>
+            <Col className='liActive col-lg-6 p-0' xs={{ order: 'last' }} lg={{ order: 'first' }}>
               <h1>خدمات اکتیو شبکه</h1>
               <ol>
                 <li><h6>
@@ -42,13 +132,13 @@ export default class activeNetworkServices extends Component {
                 <li><h6>روتینگ و سوئیجینگ و فایروال سیسکو</h6></li>
               </ol>
             </Col>
-            <Col className=' col-lg-6' xs={{order:'first'}} lg={{order:'last'}} >
+            <Col className=' col-lg-6 ps-md-4 ps-0' xs={{ order: 'first' }} lg={{ order: 'last' }} >
               <Image className='activeImage' src='image/earth (2).jpg' />
             </Col>
           </Row>
         </Container>
         <Container fluid>
-          
+
         </Container>
       </>
     )

@@ -12,7 +12,7 @@ export default class slides extends Component {
                     <Carousel.Item>
                         <img
                             className="slideImage d-block w-100"
-                            src="image/h7-column1.jpg"
+                            src="image/wave (4).jpg"
                             alt="First slide"
                         />
                         <Carousel.Caption className='slidelItem'>
@@ -23,7 +23,7 @@ export default class slides extends Component {
                     <Carousel.Item>
                         <img
                             className="slideImage d-block w-100"
-                            src="image/corporative-building-new-york-city_62972-11.jpg"
+                            src="image/bigBulding.jpg"
                         />
                         <Carousel.Caption className='slidelItem'>
                             <h2 >Second slide label</h2>
@@ -33,7 +33,7 @@ export default class slides extends Component {
                     <Carousel.Item>
                         <img
                             className="slideImage d-block w-100"
-                            src="image/corporative-building-new-york-city_62972-11.jpg"
+                            src="image/bigBulding.jpg"
                         />
                         <Carousel.Caption className='slidelItem'>
                             <h2 >Second slide label</h2>
@@ -43,7 +43,7 @@ export default class slides extends Component {
                     <Carousel.Item>
                         <img
                             className="slideImage d-block w-100"
-                            src="image/corporative-building-new-york-city_62972-11.jpg"
+                            src="image/bigBulding.jpg"
                         />
                         <Carousel.Caption className='slidelItem'>
                             <h2 >Second slide label</h2>

@@ -40,7 +40,7 @@ export default class Service extends Component {
 
             </Col>
             <Col className='iamgeContainer p-0'>
-              <Image className='iamgeCompany  p-0' src='image/jyo0shjbauwp-zou0c8r1a.jpg' fluid />
+              <Image className='iamgeCompany  p-0' src='image/group.jpg' fluid />
             </Col>
           </Row>
 
@@ -51,7 +51,7 @@ export default class Service extends Component {
             <h1 className='headerServicetitle2'> نمونه‌هایی از هنر و تخصص ما </h1>
             <Row className='rowServiceContainer d-md-flex d-grid'>
               <Col className='imgserviceContainer col-sm-12 col-md-6 p-0' xs={{ order: 'first' }}>
-                <Image className='imageService' src='image/corporative-building-new-york-city_62972-11.jpg' fluid />
+                <Image className='imageService' src='image/earth (3).jpg' fluid />
               </Col>
               <Col className='textServiceContainer col-sm-12 col-md-6 pt-0 pt-md-5 ' xs={{ order: 'last' }}>
                 <h2 className='mb-4 mt-5'>Lorem ipsum dolor sit</h2>
@@ -60,7 +60,7 @@ export default class Service extends Component {
             </Row>
             <Row className='rowServiceContainer d-md-flex d-grid'>
               <Col className='imgserviceContainer col-sm-12 col-md-6 p-0' xs={{ order: 'first' }}>
-                <Image className='imageService' src='image/corporative-building-new-york-city_62972-11.jpg' fluid />
+                <Image className='imageService' src='image/bigBulding.jpg' fluid />
               </Col>
               <Col className='textServiceContainer col-sm-12 col-md-6 pt-0 pt-md-5 ' xs={{ order: 'last' }}>
                 <h2 className='mb-4 mt-5'>Lorem ipsum dolor sit</h2>
@@ -73,7 +73,7 @@ export default class Service extends Component {
                 <p>amet consectetur adipisicing elit. Voluptatem aut harum voluptatum accusantium, repudiandae ad reiciendis, quia nemo aperiam excepturi impedit veniam distinctio ut modi ipsa animi provident architecto labore.</p>
               </Col>
               <Col className='imgserviceContainer col-sm-12 col-md-6 p-0' xs={{ order: 'first' }}>
-                <Image className='imageService' src='image/corporative-building-new-york-city_62972-11.jpg' fluid />
+                <Image className='imageService' src='image/5Gearth.png' fluid />
               </Col>
             </Row>
           </Container>

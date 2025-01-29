@@ -1,5 +1,6 @@
-.activeContainer{
-    min-height: 75vh;
+/* .activeContainer {
+    min-width: 100%;
+    min-height: 85vh;
     background-image: url('../../public/image/wave.jpg');
     background-color: rgba(0, 0, 0, 0.454);
     background-blend-mode: darken;
@@ -9,108 +10,151 @@
     display: grid;
     align-items: center;
     text-align: center;
-}
-.activeTitle{
+    border-radius: 0px 0px 30% 30%;
+} */
+
+.activeTitle {
     font-size: 70px;
     color: white;
 }
-.olActive{
-    margin: 250px auto;
+
+.olActive {
+    background-color: rgb(242, 242, 242);
     padding: 0px;
 }
-.liActive,#root > div.olActive.container > div > div:nth-child(2) {
+.rowOlActove{
+    padding: 250px 0px;
+}
+
+.liActive,
+#root>div.olActive.container>div>div:nth-child(2) {
     min-width: 350px;
 }
+
 /* imageCol */
-#root > div.olActive.container > div > div:nth-child(2) {
+#root>div.olActive.container>div>div:nth-child(2) {
     text-align: center;
 }
-.activeImage{
-    max-width: 100%;
+
+.activeImage {
+    max-width: 70%;
     min-width: 350px;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.explaneNetworkContainer{
-    background-color: rgb(242, 242, 242);
+
+.explaneNetworkContainer {
+    background-image: url(../../public/image/background.jpg);
+    min-height: auto;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
 }
-.expalneNetwork{
+
+.expalneNetwork {
     direction: rtl;
     padding: 200px 0px;
 }
-.expalneNetwork>h1{
-    font-size: 60px;
+.actineNetworkserviceimageCol{
+    display: grid;
+    align-self: center;
+}
+.actineNetworkserviceimage{
+    height: 500px;
+    min-height: auto;
+    min-width: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    justify-content: center;
+    box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+}
+.expalneNetwork>h1 {
+    font-size: 50px;
     margin: 50px 0px;
 }
-.expalneNetwork>h6{
+
+.expalneNetwork>h6 {
     font-size: 25px;
     line-height: 35px;
     color: rgba(0, 0, 0, 0.76);
+    line-height: 60px;
 }
-.liActive{
+
+.liActive {
     direction: rtl;
-    padding-right: 30px;
     padding-bottom: 20px;
 }
-.liActive>h1{
+
+.liActive>h1 {
     margin: 20px 0px 20px 0px;
 }
-.liActive>ol{
+
+.liActive>ol {
     padding-right: 30px;
 }
-.liActive>ol>li{
-    margin: 20px 0px ;
+
+.liActive>ol>li {
+    margin: 20px 0px;
 }
-.liActive>ol>li>h6{
+
+.liActive>ol>li>h6 {
     color: rgba(0, 0, 0, 0.742);
 }
-/* responsive */
-@media(max-width:1210px){
 
-    .activeImage{
+/* responsive */
+@media(max-width:1210px) {
+
+    .activeImage {
         max-width: 100%;
         object-fit: cover;
         border-radius: 15px;
         box-shadow: rgb(0, 0, 0) 0px 4px 12px;
     }
-    #root > div.olActive.container > div{
+
+    #root>div.olActive.container>div {
         display: grid;
         justify-content: center;
     }
-    #root > div.olActive.container > div > div.col-lg-6.order-lg-last.order-first.col ,#root > div.olActive.container > div > div.liActive.col-lg-6.order-lg-first.order-last.col{
+
+    #root>div.olActive.container>div>div.col-lg-6.order-lg-last.order-first.col,
+    #root>div.olActive.container>div>div.liActive.col-lg-6.order-lg-first.order-last.col {
         width: 100%;
     }
-    .activeTitle{
+
+    .activeTitle {
         font-size: 35px;
     }
 }
-@media(max-width:576px){
-    .activeImage{
+
+@media(max-width:576px) {
+    .activeImage {
         max-width: 320px;
         object-fit: cover;
         border-radius: 15px;
         box-shadow: rgb(0, 0, 0) 0px 4px 12px;
     }
-    .liActive{
+
+    .liActive {
         max-width: 100%;
         text-align: right;
     }
-    #root > div.olActive.container > div {
+
+    #root>div.olActive.container>div {
         text-align: center;
         max-width: 100%;
         margin: 0px auto;
     }
-    #root > div.olActive.container > div > div:nth-child(2) {
+
+    #root>div.olActive.container>div>div:nth-child(2) {
         padding: 0px;
     }
-    .expalneNetwork>h1{
+
+    .expalneNetwork>h1 {
         font-size: 40px;
     }
-    .expalneNetwork>h6{
-        font-size: 20px ;
+
+    .expalneNetwork>h6 {
+        font-size: 20px;
     }
 }
