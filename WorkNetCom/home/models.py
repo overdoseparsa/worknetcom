@@ -2,13 +2,13 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 class Project(models.Model):
-    
+      
     title = models.CharField(
         max_length=122 , 
         verbose_name=_('title') , 
     )
     body = models.TextField()
-    dateproject = models.DateTimeField()
+    dateproject = models.DateTimeField() # Date time 
     dateFinished = models.DateTimeField()
     
     def __str__(self):
@@ -25,5 +25,7 @@ class Content(models.Model):
     def __str__(self):
         return f'{self.image} {self.published}'
 
+# api ro minivisam 
+# set DATABASE 
+# it is in ver2 
 
-# 

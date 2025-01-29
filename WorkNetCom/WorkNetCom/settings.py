@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home.apps.HomeConfig' , # add home config  
+    'Connection.apps.ConnectionConfig' , #  This is for connection from server  
+    'rest_framework' , # rest fream work for this 
 ]
 
 MIDDLEWARE = [

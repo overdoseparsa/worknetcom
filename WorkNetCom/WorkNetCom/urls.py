@@ -15,16 +15,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path , include
 from django.conf import settings 
 from django.conf.urls.static import static 
 
 def set_language(request):...
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('set_language/' , set_language , name= 'set_language' )
+    path('set_language/' , set_language , name= 'set_language' ) , 
+    path('api/v1/' , include('Connection.urls') , name='api_v1') , 
+
 ] + static(
     settings.STATIC_URL , document_root=  settings.STATIC_ROOT
 ) + static(
     settings.MEDIA_URL , document_root=  settings.MEDIA_ROOT
 )
+# version 

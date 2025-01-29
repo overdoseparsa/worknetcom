@@ -1,0 +1,4 @@
+# / GET 
+# / POST # create a new api 
+# /DELETE # delete 
+# finishd api from here 
