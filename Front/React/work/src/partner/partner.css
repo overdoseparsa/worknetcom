@@ -1,3 +1,18 @@
+.partnerContainer{
+    text-align: center;
+    background-color: #f9f9fa;
+    display: grid;
+    align-items: center;
+    padding: 250px 0px;
+    background-image: url(../../public/image/background\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partnerCol {
+    width: 200px;
+    height: 100%;
+}
 .partnerCol >img{
     object-fit: cover;
     width: 100%;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navBar.css";
 
 export default function NavBar() {
@@ -30,14 +30,16 @@ export default function NavBar() {
                 className={`customNavbar ${scrolled ? "scrolled" : ""} pb-2 pt-3 `}
                 fixed="top"
             >
-                <Navbar.Brand href="#home" className="ms-lg-5 ms-3 pb-2 pt-0  navTitle fs-2">Work Net</Navbar.Brand>
+                <Navbar.Brand as={NavLink} 
+                to={"/"}
+                className="ms-lg-5 ms-3 pb-2 pt-0  navTitle fs-2">Work Net</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                 <Navbar.Collapse id="responsive-navbar-nav " style={{
                     width: "100%"
                 }} >
                     <Nav className="me-auto ms-3 ">
-                        <Nav.Link href="../Home/Home.jsx" className="navbarLink" >Home</Nav.Link>
-                        <Nav.Link href="../Service/Service.jsx" className="navbarLink">Service</Nav.Link>
+                        <Nav.Link as={NavLink} to={"/"} className="navbarLink" >Home</Nav.Link>
+                        <Nav.Link as={NavLink} to={"/Service"} className="navbarLink">Service</Nav.Link>
                         <NavDropdown title="Dropdown" id="collapsible-nav-dropdown" className="navbarLink">
                             <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
