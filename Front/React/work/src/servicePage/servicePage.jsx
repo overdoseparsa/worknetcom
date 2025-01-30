@@ -7,7 +7,7 @@ export default class Service extends Component {
   render() {
     return (
       <>
-        <Container className='p-0 m-0' fluid>
+        {/* <Container className='p-0 m-0' fluid>
           <ServiceTag />
           <Row className='expalneService'>
             <Col className='explaneCompany'>
@@ -42,11 +42,11 @@ export default class Service extends Component {
             <Col className='iamgeContainer p-0'>
               <Image className='iamgeCompany  p-0' src='image/group.jpg' fluid />
             </Col>
-          </Row>
+          </Row> */}
+          
+        {/*----------------- second part ----------------- */}
 
-          {/*----------------- second part ----------------- */}
-
-
+        <Container>
           <Container className='expalneService2' fluid>
             <h1 className='headerServicetitle2'> نمونه‌هایی از هنر و تخصص ما </h1>
             <Row className='rowServiceContainer d-md-flex d-grid'>

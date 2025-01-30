@@ -11,13 +11,13 @@ import 'bootstrap'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Home.css'
 export default class Home extends Component {
-  constructor() {
-    super()
+  // constructor() {
+  //   super()
 
-    this.state = {
-      users: []
-    }
-  }
+  //   this.state = {
+  //     users: []
+  //   }
+  // }
   render() {
     return (
       <>
@@ -25,75 +25,89 @@ export default class Home extends Component {
         <MainImage />
 
         {/* information zon*/}
+        <Container className='serviveContainer' fluid>
+          <h2 className='pTag'>چشم‌انداز عملکرد ما</h2>
+          <p>خدمات <span>ورک‌نت</span> با ترکیبی از کیفیت بی‌نظیر، ایده‌های نو و توجه به خواسته‌های مشتری، راهی مطمئن برای پیشرفت و تحول کسب‌وکار شما فراهم می‌کند.</p>
+          <Container className='srviceContant' fluid>
 
-
-
-        <Container className='baseContainer' fluid>
-          <p className='pTag'>چشم‌انداز عملکرد ما</p>
-          <Container className='information d-md-flex' fluid>
-
-            {/* information box */}
-
-            <Row className='rowInfo justify-content-evenly container-lg-fluid container-xl-fluid justify-content-md-around'>
-
-              {/* firstBox */}
-
-              <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>شبکه</h2></div>
-                </div>
+            {/*////////////////   left: */}
+            <Row className='leftRow' >
+              <Col className='leftCol'>
+                <Row className='d-flex'>
+                  <Col className='leftImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='leftTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
-
-              {/* secondBox */}
-
-              <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>دیتاسنتر</h2></div>
-                </div>
+              <Col className='leftCol'>
+                <Row className='d-flex'>
+                  <Col className='leftImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='leftTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
-
-              {/* thirdBox */}
-
-              <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>برق</h2></div>
-                </div>
+              <Col className='leftCol'>
+                <Row className='d-flex'>
+                  <Col className='leftImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='leftTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
+            </Row>
+            <Row className='middleRow sm-4'>
+              <div>
+                <h1>WorkNet</h1>
+              </div>
+            </Row>
 
-              {/* fourthBox */}
+            {/* ///////////// right */}
 
-              <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>ups</h2></div>
-                </div>
+
+            <Row className='rightRow sm-4'>
+            <Col className='rightCol'>
+                <Row className='d-flex'>
+                  <Col className='rightImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='rightTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
-
-              {/* fivthBox */}
-
-              <Col className='colInformation ' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>سیستم امینتی</h2></div>
-                </div>
+              <Col className='rightCol'>
+                <Row className='d-flex'>
+                  <Col className='rightImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='rightTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
-
-              {/* sixthBox */}
-
-              <Col className='colInformation' md={3} lg={2} sm={'auto'}>
-                <Image className='infoImage' src='image/bigBulding.jpg'>
-                </Image>
-                <div className='overlay'>
-                  <div className="text"><h2>طراحی سایت</h2></div>
-                </div>
+              <Col className='rightCol'>
+                <Row className='d-flex'>
+                  <Col className='rightImageCol col-5'>
+                    <Image className='leftImage' src='image/network-and-infrastructure-icon.png'></Image>
+                  </Col>
+                  <Col className='rightTitle'>
+                    <h2>مشاوره شبکه</h2>
+                    <p>Network Consulting</p>
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Container>
@@ -111,7 +125,7 @@ export default class Home extends Component {
         <h1>NetworkConsulting</h1>
         <NetworkConsulting />
         <h1>ActiveNetworkServices</h1>
-        <ActiveNetworkServices />
+        {/* <ActiveNetworkServices /> */}
       </>
 
     )
