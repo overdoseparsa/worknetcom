@@ -18,24 +18,26 @@
 }
 
 .mainText {
-    padding-right: 200px;
+    padding-right: 150px;
+    padding-top: 50px;
 }
 
 .mainText>h1 {
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(255, 159, 49);
 }
 
 .mainText>h2 {
     font-size: 35px;
-    line-height: 100px;
+    line-height: 50px;
     margin-right: 20px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
 }
 
 .mainText>h3 {
     direction: rtl;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
     margin-right: 20px;
     color: rgb(230, 230, 230);
@@ -46,18 +48,19 @@
 /* span */
 #root>div.mainContainer.container-fluid>div>h1>span {
     color: rgb(255, 159, 49);
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .botton1 , .botton2{
     margin: 10px;
     float: right;
-    background-color: rgb(255, 136, 0);
+    background-color: 
+    rgba(255, 136, 0, 0.954);
     border-radius: 15px;
     padding: 10px 15px;
     border-color: rgb(255, 136, 0);
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     transition: all 0.5s;
 }
@@ -68,7 +71,7 @@
 
 .botton2 {
     background-color: #00000000;
-    border: 3px solid;
+    border: 2px solid;
 }
 
 .button1:hover {
