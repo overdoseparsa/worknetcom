@@ -42,7 +42,7 @@ export default class Home extends Component {
 
         {/* information zon*/}
         <Container className='serviveContainer' fluid>
-          <h2 className='pTag'>چشم‌انداز عملکرد ما</h2>
+          <h3 className='pTag'>چشم‌انداز عملکرد ما</h3>
           <p>خدمات <span>ورک‌نت</span> با ترکیبی از کیفیت بی‌نظیر، ایده‌های نو و توجه به خواسته‌های مشتری، راهی مطمئن برای پیشرفت و تحول کسب‌وکار شما فراهم می‌کند.</p>
           <Container className="srviceContant" fluid>
 

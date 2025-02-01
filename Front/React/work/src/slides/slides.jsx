@@ -7,8 +7,8 @@ export default class slides extends Component {
         return (
             <>
 
-                <h1><span className='Text'>از</span> ایده <span className='Text'>تا</span> اجرا</h1>
-                <h3>همراه با <span className='orangText'>ورک‌نت</span> در مسیر پروژه‌های شرکتی</h3>
+                <h2><span className='Text'>از</span> ایده <span className='Text'>تا</span> اجرا</h2>
+                <h4>همراه با <span className='orangText'>ورک‌نت</span> در مسیر پروژه‌های شرکتی</h4 >
                 <Carousel data-bs-theme="light" className='Carousel'>
                     <Carousel.Item>
                         <img
@@ -17,7 +17,7 @@ export default class slides extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption className='slidelItem'>
-                            <h2>First slide label</h2>
+                            <h3>First slide label</h3>
                             <p className='carousel-p'>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -28,7 +28,7 @@ export default class slides extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption className='slidelItem'>
-                            <h2 >Second slide label</h2>
+                            <h3 >Second slide label</h3>
                             <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -39,7 +39,7 @@ export default class slides extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption className='slidelItem'>
-                            <h2 >Second slide label</h2>
+                            <h3 >Second slide label</h3>
                             <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -50,7 +50,7 @@ export default class slides extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption className='slidelItem'>
-                            <h2 >Second slide label</h2>
+                            <h3 >Second slide label</h3>
                             <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
