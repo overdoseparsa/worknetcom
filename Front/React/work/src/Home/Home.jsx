@@ -9,18 +9,6 @@ import Slides from '../slides/slides'
 import InfoContainer from '../infoContainer/infoContainer'
 import Partner from '../partner/partner'
 
-
-
-
-import { Swiper } from "swiper/react";
-import { SwiperSlide } from 'swiper/react'
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-
-
 export default class Home extends Component {
 
   render() {
@@ -143,7 +131,7 @@ export default class Home extends Component {
           </Container>
         </Container>
         {/* //////// about us \\\\\\\\\ */}
-        <Container className="aboutContainer" >
+        <Container className="aboutContainer p-0" >
           <Row className="aboutRow p-0">
             <Col xs={3} className=" history ">
               <Row className="historyRow d-grid">
@@ -166,28 +154,76 @@ export default class Home extends Component {
               </h2>
               <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga impedit perspiciatis distinctio labore quae at sapiente est commodi hic id laudantium perferendis officiis, voluptatem ex incidunt maiores, error totam corrupti?</h4>
               <ol>
-                <li>fghrethrthyth</li>
-                <li>tshthsthrsthrthjhrtjh</li>
-                <li>trhswertawr46tyn5yb5hty5t</li>
-                <li>rtybqg345tq43wetvb45ty543t3wt534h6</li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className=" tickIcon size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  fghrethrthyth</li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className=" tickIcon size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  tshthsthrsthrthjhrtjh</li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className=" tickIcon size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  trhswertawr46tyn5yb5hty5t</li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className=" tickIcon size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  rtybqg345tq43wetvb45ty543t3wt534h6</li>
               </ol>
             </Col>
           </Row>
         </Container>
+
+        {/* another Component */}
         <Partner />
         <Slides />
         <InfoContainer />
+
+
+        {/* Cotact Form Container */}
+        <Container className='cotactFormContainer' fluid>
+          <div className='cubeContainer1'>
+          </div>
+          <div className='cubeContainer2'></div>
+          <div className='cubeContainer3'></div>
+          <div className='cubeContainer4'></div>
+          <div className='cubeContainer5'></div>
+          <Container className='contactForm'>
+            <Row className='contactRow'>
+              <Col>
+              </Col>
+              <Col xs={7} className='fromP'>
+                <h3 className='pb-3'>
+                  Lorem, ipsum dolor sit amet
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis alias, nihil eligendi aperiam voluptatum velit numquam magnam, soluta laudantium corrupti, voluptatem dolorum? Placeat, rerum. Sed molestiae autem tenetur aut voluptatum.
+                </p>
+                <button type='botton' className='botton1' id='contactBotton1' >اطلاعات بیشتر</button>
+                <button type='botton' id='contactBotton2' className='botton2 '>تماس باما</button>
+              </Col>
+            </Row>
+          </Container>
+        </Container>
+
         {/* there is a single page */}
-        <h1>service page</h1>
+
+
         {/* <ServicePage /> */}
-        <h1>NetworkConsulting</h1>
+        <h1>service page</h1>
         {/* <NetworkConsulting /> */}
-        <h1>ActiveNetworkServices</h1>
+        <h1>NetworkConsulting</h1>
         {/* <ActiveNetworkServices /> */}
+        <h1>ActiveNetworkServices</h1>
       </>
 
-)
-}
+    )
+  }
 }
 {/*   Swiper 
   

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* //////////////////// Service Container */
 .serviveContainer {
     background-color: #f9f9fa;
     padding: 150px 0px;
@@ -28,7 +29,7 @@
     color: #393939;
 }
 
-/*  ////////  span */
+/*  span */
 #root>div.serviveContainer.container-fluid>p>span {
     font-size: 25px;
     color: rgb(255, 136, 0);
@@ -40,7 +41,7 @@
     justify-content: space-evenly;
 }
 
-/* ///////////   left & right */
+/* left & right */
 .leftRow,
 .rightRow {
     display: grid;
@@ -77,23 +78,28 @@
     width: 70px;
     height: 70px;
 }
+
 .rightImageCol>img {
     width: 70px;
     height: 70px;
 }
+
 .leftTitle,
 .rightTitle {
     direction: rtl;
     display: grid;
     padding-right: 20px;
-    font-size: 10px ;
+    font-size: 10px;
 }
-.leftTitle >a >h2{
+
+.leftTitle>a>h2 {
     font-size: 30px;
 }
-.rightTitle >a >h2{
+
+.rightTitle>a>h2 {
     font-size: 30px;
 }
+
 .rightTitle {
     text-align: end;
 }
@@ -117,6 +123,7 @@ a :hover {
     color: rgb(116, 116, 116);
     font-weight: 500;
 }
+
 .rightTitle>p {
     font-size: 15px;
     color: rgb(116, 116, 116);
@@ -129,10 +136,12 @@ a :hover {
     align-items: center;
 }
 
-/* aboutContainer */
+/* /////////////////// aboutContainer */
+
 .aboutContainer {
-    padding: 0px;
     padding: 150px 0px;
+    min-width: 355px;
+    justify-content: center;
 }
 
 .aboutRow {
@@ -158,6 +167,7 @@ a :hover {
 }
 
 /* lasthistory col */
+
 #root>div.aboutContainer.container>div>div.history.col-3>div>div:nth-child(3) {
     border-bottom: 2px dashed #7a7a7a00;
 }
@@ -184,11 +194,111 @@ a :hover {
     color: rgba(255, 136, 0, 0.993);
 }
 
+.explaneCol>h4 {
+    text-align: start;
+}
+
 .explaneCol>ol>li {
     margin-top: 15px;
     font-size: 20px;
     font-weight: 500;
     list-style: none;
+}
+
+.tickIcon {
+    width: 25px;
+    height: 25px;
+    color: orange;
+}
+
+/* //////////////// Contact Form */
+
+.cubeContainer2,
+.cubeContainer3,
+.cubeContainer1,
+.cubeContainer4,
+.cubeContainer5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 136, 0, 0.927);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.cubeContainer1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.cubeContainer2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
+.cubeContainer3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 22%;
+    left: 8%;
+}
+
+.cubeContainer4 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.cubeContainer5 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+
+}
+
+.cotactFormContainer {
+    padding: 250px 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(white, rgba(255, 136, 0, 0.993));
+    position: relative;
+}
+
+.contactForm {
+    direction: rtl;
+    border: 2px solid #ececec;
+    background-color: #39393900;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    min-height: 400px;
+    min-width: 355px;
+}
+
+.contactRow {
+    height: 100%;
+}
+
+.fromP {
+    padding-top: 100px;
+}
+
+#contactBotton1 {
+    font-weight: 500;
+}
+
+#contactBotton2 {
+    color: #5e5e5e;
+    font-weight: 500;
 }
 
 /* responsive */
@@ -206,7 +316,94 @@ a :hover {
     .rightRow {
         display: grid;
         width: 900px;
+        justify-content: center;
     }
+}
+
+@media (max-width:1240px) {
+    .aboutContainer {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .aboutRow {
+        display: grid;
+        text-align: center;
+        max-width: 100%;
+        min-height: 400px;
+    }
+
+    .historyRow {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .history,
+    .imgCol {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgCol>img {
+        height: 400px;
+        max-width: 100%;
+        min-width: 355px;
+    }
+
+    .explaneCol {
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 60px;
+        text-align: right;
+    }
+
+    .explaneCol>ol>li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1048px) {
+    .cubeContainer1 {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 30%;
+        left: 65%;
+    }
+
+    .cubeContainer2 {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+
+    .cubeContainer3 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 22%;
+        left: 8%;
+    }
+
+    .cubeContainer4 {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+
+    .cubeContainer5 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+
+    }
+
 }
 
 @media(max-width:940px) {
@@ -222,6 +419,146 @@ a :hover {
     .leftRow,
     .rightRow {
         display: grid;
-        width: 400px;
+        width: 355px;
+    }
+}
+
+@media (max-width:584px) {
+    .cubeContainer1 {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    .cubeContainer2 {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+    }
+
+    .cubeContainer3 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 22%;
+        left: 8%;
+    }
+
+    .cubeContainer4 {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+
+    .cubeContainer5 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+
+    }
+}
+
+@media (max-width:536px) {
+    .aboutContainer {
+        width: 100%;
+        margin: 0px 0px;
+
+    }
+
+    .aboutRow {
+        display: grid;
+        text-align: center;
+        max-width: 355px;
+        min-height: 400px;
+        margin: 0px auto;
+    }
+
+    .historyRow {
+        width: 355px;
+        margin: 0px;
+    }
+
+    .history,
+    .imgCol {
+        width: 355px;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .imgCol>img {
+        height: 400px;
+        max-width: 355px;
+        min-width: 355px;
+    }
+
+    .explaneCol {
+        width: 355px;
+        margin-top: 50px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .explaneCol>ol>li {
+        font-size: 20px;
+    }
+
+    .cubeContainer1 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    .cubeContainer2 {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+    }
+
+    .cubeContainer3 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 22%;
+        left: 8%;
+    }
+
+    .cubeContainer4 {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+
+    .cubeContainer5 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+
+    }
+
+    .leftCol,
+    .rightCol {
+        width: 100%;
+    }
+    .rightTitle> a >h2 ,.leftTitle> a >h2{
+        font-size: 20px;
+    }
+    .rightTitle>p,.leftTitle>p{
+        font-size: 15px;
     }
 }
