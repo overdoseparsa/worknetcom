@@ -1,16 +1,17 @@
 from django.shortcuts import render
-from django.http import JsonResponse  , Http404
+from django.http import JsonResponse  , Http404  ,HttpRequest
 from rest_framework.response import Response
 from rest_framework import status 
 from rest_framework.decorators import api_view, renderer_classes
 # Create api here # simple api 
+# file upload for pass farda 
 
 # dont use seriaizer 
 
 from .models import ContentConnection
 from .serializer import CONTENTSerializer
 '/get/contentsid={}' # GET # POST __> BADREQUESTS
-@api_view(('GET',))
+@api_view(('GET',)) # TODO class base 
 def get_content(request , ID_):
     # try : 
     #seriaizer = CONTENTSerializer
@@ -41,9 +42,47 @@ def get_content(request , ID_):
     return Response(
         seriaizer.data , status=status.HTTP_200_OK
     )
-'/get/content/all'
 
-def get_Content_admin_link(requests , ID):
-    pass
+from .serializer import CONTENTSerializerInhertance
+'/content/all' 
+@api_view(('GET',))
+def get_Content_admin_link(request):
+    data = ContentConnection.objects.all() 
+    serializer_content_All = CONTENTSerializerInhertance(data , many = True)
+    CONTENTSerializerInhertance.create_with_link(serializer_content_All)
+    return Response(serializer_content_All.data , status=status.HTTP_200_OK)
 
+# create 
+# update 
+# class save Fiel from server 
 
+from .FIleManager import FileUploadSimple
+
+@api_view(('POST' ,))
+def create_the_content(request:HttpRequest):
+    upload = FileUploadSimple(request.FILES.get('Appendix'))
+    print(upload)
+    print('the file is ....////', type(request.FILES.get('Appendix')))
+    # for i in request.FILES.get('Appendix'):
+    #     print('requests is '  , i)
+    data_context  = dict(request.POST)
+    data_context['Appendix'] = upload.create_file_uploaded()
+    print(data_context['Appendix'])
+    print('request')
+    print('the data is ' , data_context)
+
+    serializer_content = CONTENTSerializer(
+        data = data_context 
+    )
+    
+    print(serializer_content.is_valid()) 
+    print(serializer_content.errors)
+    print(serializer_content)
+    serializer_content.save()
+    return Response(
+            serializer_content.data  , status=status.HTTP_200_OK
+        )
+    # else : 
+    #     return Response(
+    #         {'400':'bad request arggumans'}, status=status.HTTP_400_BAD_REQUEST
+    #     )

@@ -1,5 +1,6 @@
 from django.db import models
 import re
+# from django.db.models.signals import pre_save
 
 ## create validator here we have to create in nother file v2  
 
@@ -7,7 +8,7 @@ def mail_validator(values): # will add if we need
     print(values)
     return True 
 
-
+# v1 ---> urls create 
 ####
 """
 test 
@@ -41,11 +42,27 @@ class ContentConnection(
     answer_time = models.DateTimeField(
         null= True , blank=True 
     )
+    link = models.CharField(null=True , max_length=122 , blank=True) # dont mater when it is create 
 
     def __str__(self):
         return f'{self.name}'
+    
+class Link(models.Model):
+    post_content = models.ForeignKey(
+        ContentConnection , related_name='POST_CON' , on_delete=models.CASCADE
+    )
+
+    link = models.CharField(
+        max_length=122 
+    )
+
+
+    def __str__(self):
+        return str(self.post_content)+'--'+self.link 
 
 
 
 # create the file file now we start with api without the drf for start 
 # get api 
+
+
