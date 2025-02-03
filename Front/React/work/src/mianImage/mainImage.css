@@ -53,11 +53,12 @@
     font-size: 45px;
 }
 
-.botton1 , .botton2{
+.botton1,
+.botton2 {
     margin: 10px;
     float: right;
-    background-color: 
-    rgba(255, 136, 0, 0.954);
+    background-color:
+        rgba(255, 136, 0, 0.954);
     border-radius: 10px;
     padding: 7px 12px;
     border-color: rgb(255, 136, 0);
@@ -92,21 +93,41 @@
 @media (max-width:1496px) {
     .mainText {
         margin-top: 120px;
+        padding-right: 50px;
+        padding-top: 0px;
         top: 30%;
         left: 50%;
         min-width: auto;
-        text-align: center;
+        text-align: start;
     }
 
     .mainText>h1 {
-        font-size: 60px;
-        color: #000000;
-        text-align: end;
+        font-size: 30px;
+        color: rgb(255, 159, 49);
+        text-align: start;
     }
 
-    #root>div.mainContainer.container>div>h1>span {
+    #root>div.mainContainer.container-fluid>div>h1>span {
         color: rgb(255, 136, 0);
-        font-size: 90px;
+        font-size: 30px;
+    }
+
+    .mainText>h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-right: 0px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .mainText>h3 {
+        direction: rtl;
+        font-size: 20px;
+        line-height: 50px;
+        margin-right: 20px;
+        color: rgb(230, 230, 230);
+        text-align: start;
+        max-width: 700px;
     }
 
     .button {
@@ -115,54 +136,105 @@
 }
 
 @media (max-width: 768px) {
+    .mainContainer {
+        min-height: 85vh;
+        max-height: fit-content;
+    }
+
     .mainText {
         margin-top: 120px;
-        top: 30%;
-        left: 50%;
         min-width: auto;
         text-align: end;
         padding: 0px;
     }
 
     .mainText>h1 {
-        font-size: 40px;
-        color: #000000;
-        text-align: center;
+        font-size: 20px;
+        color: rgb(255, 159, 49);
+        text-align: start;
+        margin-right: 20px;
     }
 
-    #root>div.mainContainer.container>div>h1>span {
+    #root>div.mainContainer.container-fluid>div>h1>span {
         color: rgb(255, 136, 0);
-        font-size: 70px;
+        font-size: 20px;
+    }
+
+    .mainText>h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-right: 20px;
+    }
+
+    .mainText>h3 {
+        direction: rtl;
+        font-size: 20px;
+        line-height: 50px;
+        margin-right: 20px;
+        color: rgb(230, 230, 230);
+        text-align: start;
+        max-width: 700px;
     }
 }
 
 @media(max-width:576px) {
+    .mainContainer {
+        background-color: rgba(0, 0, 0, 0.219);
+        background-blend-mode: darken;
+    }
+
     .mainText {
-        align-items: center;
-        text-align: center;
-        top: 30%;
-        right: 0px;
-        min-width: 355px;
+        text-align: start;
+        min-width: 100%;
         max-width: 355px;
     }
 
     .mainText>h1 {
-        font-size: 30px;
-        color: #000000;
-        text-align: end;
-        min-height: auto;
+        font-size: 20px;
+        color: rgb(255, 159, 49);
+        text-align: start;
+        width: 100%;
         float: right;
     }
 
-    #root>div.mainContainer.container>div>h1>span {
+    #root>div.mainContainer.container-fluid>div>h1>span {
         color: rgb(255, 136, 0);
-        font-size: 40px;
-        display: block;
+        font-size: 30px;
         margin-bottom: 10px;
+    }
+
+    .mainText>h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        text-align: start;
+        margin-right: 20px;
+    }
+
+    .mainText>h3 {
+        direction: rtl;
+        font-size: 15px;
+        line-height: 50px;
+        margin-right: 20px;
+        color: rgb(230, 230, 230);
+        text-align: start;
+        max-width: 700px;
     }
 
     .button {
         padding: 8px 20px 10px 20px;
         font-size: 15px;
+    }
+}
+
+@media(max-width:370px) {
+    .mainContainer {
+        height: 90vh;
     }
 }
