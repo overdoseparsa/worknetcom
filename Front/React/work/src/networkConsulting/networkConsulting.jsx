@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image, Form } from "react-bootstrap";
 import "bootstrap";
 import "./networkConsulting.css";
-import NetworkAccording from "./According/networkAccording";
+import NetworkAccording from "./networkAccording/networkAccording";
 export default class networkConsulting extends Component {
   render() {
     return (
@@ -30,10 +30,9 @@ export default class networkConsulting extends Component {
         <Container className="networkParagraphContainer" fluid>
           <Row className="networkRow">
             <Col
-              className="networkparagraph col-12"
-              lg={6}
+              className="networkparagraph col-12 col-lg-6"
               xs={{ order: "last" }}
-              md={{ order: "first" }}
+              lg={{order:"first"}}
             >
               <h1>مشاوره شبکه</h1>
               <ol>
@@ -47,7 +46,11 @@ export default class networkConsulting extends Component {
                 <li>مشاوره در خصوص راه اندازی سیستم برق اضطراری</li>
               </ol>
             </Col>
-            <Col lg={6} xs={{ order: "first" }} md={{ order: "last" }}>
+            <Col
+              className="col-12 col-lg-6"
+              lg={{order:"last"}}
+              xs={{ order: "first" }}
+            >
               <Image
                 className="networkImage col-12"
                 src="image/bigBulding.jpg"

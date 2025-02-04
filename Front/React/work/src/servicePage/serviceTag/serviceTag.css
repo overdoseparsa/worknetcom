@@ -5,7 +5,9 @@
     top: 0;
 }
 .serviceTagContainer{
-    background-image: url('/public//image/bluebackground\ \(3\).jpg');
+    background-color: rgba(172, 83, 0, 0.342);
+    background-blend-mode: darken;
+    background-image: url('/public/image/orangebackground\ \(2\).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +17,7 @@
     min-height: 1000px;
 }
 .serviceTagContainer>h1{
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: rgba(255, 255, 255, 0.8) 1px 0px 40px;
 }
 .rowService{
@@ -31,7 +33,7 @@
     text-align: right;
     margin: 10px 10px;
     border: rgba(56, 56, 56, 0.436) solid 2px ;
-    background-color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 15px;
     /* box-shadow: rgb(255, 255, 255 , 0.4) 0px 4px 12px; */

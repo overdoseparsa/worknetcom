@@ -7,6 +7,8 @@ import Footer from '../Footer/footer'
 import NetworkConsulting from '../networkConsulting/networkConsulting'
 import ActiveNetworkServices from '../activeNetworkServices/activeNetworkServices'
 import ServicePage from '../servicePage/servicePage'
+import PasiveNetworkService from '../pasiveNetworkService/pasiveNetworkService'
+import NetworkSecurity from '../networkSecurity/networkSecurity';
 
 function App() {
 
@@ -22,6 +24,9 @@ function App() {
           <Route path='/ActiveNetworkServices' element={
             <ActiveNetworkServices />
           } />
+          <Route path='/PasiveNetworkService' element={<PasiveNetworkService />} />
+          <Route path='/NetworkSecurity' 
+          element={<NetworkSecurity />} />
         </Routes>
         <Footer />
       </Router>

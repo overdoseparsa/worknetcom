@@ -1,160 +1,191 @@
-/* .activeContainer {
-    min-width: 100%;
-    min-height: 85vh;
-    background-image: url('../../public/image/wave.jpg');
-    background-color: rgba(0, 0, 0, 0.454);
-    background-blend-mode: darken;
+.networkTitle{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+}
+.ActiveNetworkParagraphContainer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    border-radius: 0px 0px 30% 30%;
-} */
-
-.activeTitle {
-    font-size: 70px;
-    color: white;
+    min-height: 1000px;
+    padding-top: 250px;
+}
+.activeNetworkRow{
+    justify-content: space-between;
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+}
+.activeNetworkparagraph{
+    direction: rtl;
+    height: 500px;
+    padding-right: 50px;
+}
+.activeNetworkparagraph >h1{
+    margin: 0px -20px 50px 0px;
+    font-size: 40px;
 }
 
-.olActive {
-    background-color: rgb(242, 242, 242);
-    padding: 0px;
+.activeNetworkparagraph >ol >li{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.676);
+    margin-right: 20px;
 }
-.rowOlActove{
-    padding: 250px 0px;
-}
-
-.liActive,
-#root>div.olActive.container>div>div:nth-child(2) {
-    min-width: 350px;
-}
-
-/* imageCol */
-#root>div.olActive.container>div>div:nth-child(2) {
-    text-align: center;
-}
-
-.activeImage {
-    max-width: 70%;
-    min-width: 350px;
+.ActiveNetworkImage{
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-
-.explaneNetworkContainer {
-    background-image: url(../../public/image/background.jpg);
-    min-height: auto;
+.activeNetworkAccordingContainer{
+    padding: 200px 0px 150px 0px;
+    background-image: url('/public//image/background\ \(4\).jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.expalneNetwork {
-    direction: rtl;
-    padding: 200px 0px;
-}
-.actineNetworkserviceimageCol{
+.explaneActivenetwork{
+    background-blend-mode: color-dodge;
+    background-color: #0055ff12;
+    background-image: url('/public/image/activenetworkservice\ \(2\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
     display: grid;
-    align-self: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 50px 0px;
 }
-.actineNetworkserviceimage{
+.imageNetworkConsulting{
+    width: 80%;
     height: 500px;
-    min-height: auto;
-    min-width: 350px;
     object-fit: cover;
     border-radius: 15px;
-    justify-content: center;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.expalneNetwork>h1 {
-    font-size: 50px;
-    margin: 50px 0px;
+.whatsActiveNetwork{
+    width: 80%;
+    min-height: 450px;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    background-color: #27334d26;
+    backdrop-filter: blur(5px);
+    border-radius: 15px ;
+    border: 2px solid #717171;
+    margin: 70px auto 0px;
+    text-align: end;
 }
-
-.expalneNetwork>h6 {
+.whatsActiveNetwork >h6{
+    max-width: 100%;
+    padding: 20px;
     font-size: 25px;
-    line-height: 35px;
-    color: rgba(0, 0, 0, 0.76);
-    line-height: 60px;
 }
-
-.liActive {
+.whatsActiveNetwork >h1{
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 45px;
+}
+.rowExplanenetworkColsulting{
+    background-color: rgba(255, 255, 255, 0.299);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.activeDetailsContainer{
     direction: rtl;
-    padding-bottom: 20px;
+    padding: 150px 0px;
+    background-image: url('/public/image/background\ \(4\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activeDetailsContainer>h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.activeDerailsRow{
+    max-width:80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Col */
+#root > div.activeDetailsContainer.container-fluid > div > div{
+    width: 45%;
+    padding: 5px 15px ;
+    margin: 15px 0px ;
+    min-height: 60px;
+    border-radius: 15px;
+    border: 1px solid #ff8000;
+    border-right: 4px solid #ff8000;
+    display: grid;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.618);
 }
 
-.liActive>h1 {
-    margin: 20px 0px 20px 0px;
-}
-
-.liActive>ol {
-    padding-right: 30px;
-}
-
-.liActive>ol>li {
-    margin: 20px 0px;
-}
-
-.liActive>ol>li>h6 {
-    color: rgba(0, 0, 0, 0.742);
-}
-
-/* responsive */
-@media(max-width:1210px) {
-
-    .activeImage {
-        max-width: 100%;
-        object-fit: cover;
-        border-radius: 15px;
-        box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+@media(max-width:1400px){
+    .activeNetworkRow{
+        width: 90%;
     }
-
-    #root>div.olActive.container>div {
-        display: grid;
-        justify-content: center;
-    }
-
-    #root>div.olActive.container>div>div.col-lg-6.order-lg-last.order-first.col,
-    #root>div.olActive.container>div>div.liActive.col-lg-6.order-lg-first.order-last.col {
-        width: 100%;
-    }
-
-    .activeTitle {
+    .activeNetworkparagraph>h1{
         font-size: 35px;
     }
+    .activeNetworkparagraph>ol>li{
+        font-size: 15px;
+    }
 }
+@media(max-width:990px){
 
-@media(max-width:576px) {
-    .activeImage {
-        max-width: 320px;
-        object-fit: cover;
-        border-radius: 15px;
-        box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+    .activeNetworkparagraph{
+        margin-top: 50px;
     }
-
-    .liActive {
-        max-width: 100%;
-        text-align: right;
+    .whatsActiveNetwork>h1{
+        font-size: 30px;
     }
-
-    #root>div.olActive.container>div {
-        text-align: center;
-        max-width: 100%;
-        margin: 0px auto;
-    }
-
-    #root>div.olActive.container>div>div:nth-child(2) {
-        padding: 0px;
-    }
-
-    .expalneNetwork>h1 {
-        font-size: 40px;
-    }
-
-    .expalneNetwork>h6 {
+    .whatsActiveNetwork>h6{
         font-size: 20px;
+    }
+}
+@media(max-width:828px){
+    .whatsActiveNetwork{
+        padding: 10px;
+    }
+    .whatsActiveNetwork>h1{
+        font-size: 35px;
+    }
+    .whatsActiveNetwork>h6{
+        font-size: 20px;
+    }
+}
+@media(max-width:770px){
+    .activeDerailsRow{
+        width:100%;
+        margin: 0px auto;
+        display: grid;
+    }
+    #root > div.activeDetailsContainer.container-fluid > div > div{
+        width: 100%;
+        margin:15px 0px ;
+        padding: 5px 15px ;
+        min-height: auto;
+        display: grid;
+        align-items: center;
+    }
+}
+@media(max-width:550px){
+    .whatsActiveNetwork{
+        padding: 10px;
+    }
+    .whatsActiveNetwork>h1{
+        font-size: 25px;
+    }
+    .whatsActiveNetwork>h6{
+        font-size: 15px;
     }
 }

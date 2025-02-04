@@ -31,7 +31,7 @@ export default function servicePage() {
       </Container>
       {/* <Container className="colorContainer" fluid></Container> */}
       <ServiceTag className="serviceTagaTag"></ServiceTag>
-      <Container className="colorContainer1" fluid></Container>
+
       {/* <Container fluid>
         <Container className="expalneService" fluid>
           <h1 className="headerServicetitle"> نمونه‌هایی از هنر و تخصص ما </h1>

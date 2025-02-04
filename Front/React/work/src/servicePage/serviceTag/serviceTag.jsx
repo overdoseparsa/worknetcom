@@ -19,7 +19,7 @@ export default class serviceTag extends Component {
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است
               </h6>
-              <Link to={"/n"}>
+              <Link to={"/PasiveNetworkService"}>
                 <h6>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default class serviceTag extends Component {
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است
               </h6>
-              <Link to={"/n"}>
+              <Link to={"/ActiveNetworkServices"}>
                 <h6>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +139,7 @@ export default class serviceTag extends Component {
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است
               </h6>
-              <Link to={"/n"}>
+              <Link to={"/NetworkSecurity"}>
                 <h6>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
