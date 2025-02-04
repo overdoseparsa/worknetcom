@@ -1,52 +1,80 @@
+.ColorContainer{
+    height: 100px;
+    background-image: linear-gradient(white,rgba(255, 255, 255, 0) );
+    position: absolute;
+    top: 0;
+}
 .serviceTagContainer{
+    background-image: url('/public//image/bluebackground\ \(3\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
+    padding: 200px 0px 150px 0px;
+    position: relative;
     min-height: 1000px;
 }
+.serviceTagContainer>h1{
+    color: white;
+    text-shadow: rgba(255, 255, 255, 0.8) 1px 0px 40px;
+}
 .rowService{
-    max-width: 1600px;
+    max-width: 1270px;
     margin: 150px auto;
     min-height: auto;
     justify-content: space-around;
 }
 .serviceInfo{
-    max-width: 500px;
+    max-width: 400px;
     min-width: 350px;
-    min-height: 350px;
+    max-height: 350px;
     text-align: right;
     margin: 10px 10px;
     border: rgba(56, 56, 56, 0.436) solid 2px ;
+    background-color: rgba(255, 255, 255, 0.733);
     padding: 20px;
     border-radius: 15px;
+    /* box-shadow: rgb(255, 255, 255 , 0.4) 0px 4px 12px; */
+    backdrop-filter: blur(10px);
 }
 .serviceInfo:hover{
     box-shadow: rgba(255, 136, 0, 0.55) 0px 2px 8px 0px;
 }
  .serviceInfo>h3{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 .serviceInfo>h6{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
     color: rgb(58, 58, 58);
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 .numService{
     font-size: 60px;
     font-weight: 700;
     color: rgba(128, 128, 128, 0.306);
+    margin-bottom: 0px;
+    padding: 0px;
 }
-.buttomService{
+.serviceInfo>a{
     background-color: rgba(240, 248, 255, 0);
     color: rgb(255, 136, 0);
     border-color: rgba(255, 255, 255, 0);
 }
-.buttomService :hover {
-    color: rgb(184, 98, 0);
+.serviceIcon{
+    margin-right: 5px;
+    transition: all 0.5 linear ;
 }
-.buttomService>h6{
+.serviceInfo>a :hover .serviceIcon{
+    transform: translateX(-10px);
+    transition: all 0.5;
+}
+.serviceInfo>a :hover {
+    color: rgb(255, 147, 23);
+}
+.serviceInfo>a>h6{
     font-size: 20px;
 }
 @media(max-width:555px){

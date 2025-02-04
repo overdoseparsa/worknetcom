@@ -1,29 +1,21 @@
-.networkTitleContainer{
-    width: 100%;
-    height: 80vh;
-    background-image: url('../../public/image/group.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(58, 57, 57, 0.646);
-    background-blend-mode: darken;
-    text-align: center;
-    align-items: center;
-    display: grid;
-}
+
 .networkTitle{
     font-size: 100px;
     color: white;
     font-weight: 700;
 }
 .networkParagraphContainer{
+    /* background-image: url('/public/image/orangeeffect\ \(6\).jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 1000px;
     padding-top: 250px;
 }
 .networkRow{
     justify-content: space-between;
     display: flex;
-    width: 60%;
+    width: 70%;
     margin: 0px auto;
 }
 .networkparagraph{
@@ -51,15 +43,24 @@
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
 .networkAccordingContainer{
-
-    margin-top: 250px;
-    padding: 350px 0px 150px 0px;
+    padding: 200px 0px 150px 0px;
+    background-image: url('/public//image/background\ \(4\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .explanenetworkColsulting{
-    background-color: #f3f4f6;
+    background-blend-mode: color-dodge;
+    background-color: #0055ff12;
+    background-image: url('/public/image/wave\ \(2\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: right;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
 }
 .imageNetworkConsulting{
     width: 80%;
@@ -68,18 +69,31 @@
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.whatsNetwork{
-    padding: 90px;
+.whatsNetworkConsulting{
+    width: 80%;
+    padding: 40px;
+    color: black;
+    background-color: #ffffff20;
+    backdrop-filter: blur(2px);
+    border-radius: 15px ;
+    border: 2px solid #888888;
+    margin: 0px auto;
+    text-align: end;
 }
-.whatsNetwork >h6{
-    max-width: 800px;
+.whatsNetworkConsulting >h6{
+    max-width: 100%;
     padding: 20px;
+    font-size: 20px;
 }
-.whatsNetwork >h1{
-    max-width: 800px;
-    margin-bottom: 50px;
+.whatsNetworkConsulting >h1{
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 50px;
 }
 .rowExplanenetworkColsulting{
+    background-color: rgba(255, 255, 255, 0.299);
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }

@@ -139,9 +139,14 @@ a :hover {
 /* /////////////////// aboutContainer */
 
 .aboutContainer {
-    padding: 150px 0px;
+    padding: 200px 200px;
     min-width: 355px;
     justify-content: center;
+    box-shadow: rgb(255, 98, 0) 0px 4px 12px;
+    background-image: url('../../public/image/orangeeffect\ \(6\).jpg');
+    background-position: center;
+    background-size: cover;
+
 }
 
 .aboutRow {
@@ -266,7 +271,7 @@ a :hover {
 
 }
 
-.cotactFormContainer {
+.contactFormContainer {
     padding: 250px 0px;
     background-position: center;
     background-size: cover;
