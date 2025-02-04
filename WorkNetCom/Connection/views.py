@@ -3,8 +3,9 @@ from django.http import JsonResponse  , Http404  ,HttpRequest
 from rest_framework.response import Response
 from rest_framework import status 
 from rest_framework.decorators import api_view, renderer_classes
+import json
 # Create api here # simple api 
-# file upload for pass farda 
+# file upload for pass farda \
 
 # dont use seriaizer 
 
@@ -66,13 +67,15 @@ def create_the_content(request:HttpRequest):
     # for i in request.FILES.get('Appendix'):
     #     print('requests is '  , i)
     data_context  = dict(request.POST)
-    data_context['Appendix'] = upload.create_file_uploaded()
-    print(data_context['Appendix'])
+    if request.FILES : 
+
+        data_context['Appendix'] = upload.create_file_uploaded()
+    print(data_context.get('Appendix'))
     print('request')
     print('the data is ' , data_context)
 
     serializer_content = CONTENTSerializer(
-        data = data_context 
+        data = json.dumps(data_context)
     )
     
     print(serializer_content.is_valid()) 

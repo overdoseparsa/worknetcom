@@ -31,6 +31,7 @@ class FileUploadSimple():
 
     def create_file_uploaded(self)->str:
         self.create_file_upload(self.memory)
+        print('The Staitc url is ',static(self.__str__()))
         return static(self.__str__())
     
 
