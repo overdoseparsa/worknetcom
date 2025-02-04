@@ -10,7 +10,7 @@ class CONTENTSerializer(serializers.ModelSerializer):
         model = ContentConnection
         fields = [ 'id', 'name', 'phone','body_text' ,'email' , 'file' , 'created' , 'answer_time' ]
 
-
+     
     def create(self, validated_data):
     
         return super().create(validated_data)
@@ -18,7 +18,9 @@ class CONTENTSerializer(serializers.ModelSerializer):
     def update(self, instance, validated_data):
         return super().update(instance, validated_data)
 
-
+    def is_valid(self, *, raise_exception=False):
+        return super().is_valid(raise_exception=raise_exception)
+    
 # shayed bar nadar 
 
 

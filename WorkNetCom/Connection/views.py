@@ -11,6 +11,7 @@ import json
 
 from .models import ContentConnection
 from .serializer import CONTENTSerializer
+
 '/get/contentsid={}' # GET # POST __> BADREQUESTS
 @api_view(('GET',)) # TODO class base 
 def get_content(request , ID_):
@@ -21,28 +22,18 @@ def get_content(request , ID_):
         data_model = ContentConnection.objects.get(id = ID_) # this is get here 
     except : 
         raise Http404('this is not exit') # save 
+    
     seriaizer = CONTENTSerializer(data_model)
 
-    # except :
-    #     raise Http404('this is Not Exits')
-    
-     
-    # return JsonResponse(
-    #     {
-    #         'id':data.id , 
-    #         'phone':data.phone , 
-    #         'body':data.body_text , 
-    #         'email' : data.email , 
-    #         'Appendix' : data.Appendix , 
-    #         'time_created':data.created  , 
-    #         'answer_time':data.answer_time , 
 
-    #     }
-    # )
-
+    print('This is seriazler off data ',seriaizer.data ,'The models is file' ,  ContentConnection.objects.get(id = ID_).file)
     return Response(
         seriaizer.data , status=status.HTTP_200_OK
     )
+
+
+from rest_framework.parsers import  FileUploadParser
+
 
 from .serializer import CONTENTSerializerInhertance
 '/content/all' 
@@ -60,7 +51,6 @@ def get_Content_admin_link(request):
 from .FIleManager import FileUploadSimple
 from  .serializer import uploadFileContentserializer
 from django.http import QueryDict
-
 @api_view(('POST' ,))
 def create_the_content(request:HttpRequest):
     upload = FileUploadSimple(request.FILES.get('file'))
@@ -85,10 +75,10 @@ def create_the_content(request:HttpRequest):
     print(serializer_content.is_valid()) 
     print(serializer_content.errors)
     print(serializer_content)
-   
+
     serializer_content.save()
     return Response(
-            serializer_content.data  , status=status.HTTP_200_OK
+            serializer_content.data  ,status=status.HTTP_200_OK , 
         )
     # else : 
     #     return Response(

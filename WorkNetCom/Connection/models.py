@@ -36,7 +36,7 @@ class ContentConnection(
     email  =  models.EmailField(
         validators=[mail_validator]
     )
-    file = models.FileField(null=True , default=...) # connect static 
+    file = models.FileField(null=True) # connect static 
 
 
     created = models.DateTimeField(default=now)

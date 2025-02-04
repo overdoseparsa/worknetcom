@@ -284,3 +284,9 @@ EMAIL_PASSWORD = ...
 MEDIA_URL = 'file/' 
 MEDIA_ROOT = BASE_DIR / 'file/'
 print("This is django static files ",MEDIA_ROOT)
+
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ]
+}

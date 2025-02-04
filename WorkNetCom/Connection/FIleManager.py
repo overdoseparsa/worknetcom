@@ -32,7 +32,7 @@ class FileUploadSimple():
         self.create_file_upload(self.memory)
         print('The Staitc url is ',static(self.__str__()))
         # close memory site when it complete 
-        return 'file/'+self.__str__()
+        return self.__str__()
     
 
     def __str__(self):
