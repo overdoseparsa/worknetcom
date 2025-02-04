@@ -58,29 +58,34 @@ def get_Content_admin_link(request):
 # class save Fiel from server 
 
 from .FIleManager import FileUploadSimple
+from  .serializer import uploadFileContentserializer
+from django.http import QueryDict
 
 @api_view(('POST' ,))
 def create_the_content(request:HttpRequest):
-    upload = FileUploadSimple(request.FILES.get('Appendix'))
+    upload = FileUploadSimple(request.FILES.get('file'))
     print(upload)
-    print('the file is ....////', type(request.FILES.get('Appendix')))
+    print('the file is ....////', type(request.FILES.get('file')))
     # for i in request.FILES.get('Appendix'):
     #     print('requests is '  , i)
-    data_context  = dict(request.POST)
+    data_context  = QueryDict('' , mutable=True) 
+    data_context.update(request.POST)
     if request.FILES : 
-
-        data_context['Appendix'] = upload.create_file_uploaded()
-    print(data_context.get('Appendix'))
-    print('request')
+        #this is get file 
+        data_context.update({'file':upload.create_file_uploaded()})
+        print('data context is ' , data_context)
+        # data_context.pop('Appendix')
+    print(data_context.get('file'))
     print('the data is ' , data_context)
-
-    serializer_content = CONTENTSerializer(
-        data = json.dumps(data_context)
+    print('converting data mager dunmpus' , json.dumps(data_context) )
+    serializer_content = uploadFileContentserializer(
+        data =data_context
     )
     
     print(serializer_content.is_valid()) 
     print(serializer_content.errors)
     print(serializer_content)
+   
     serializer_content.save()
     return Response(
             serializer_content.data  , status=status.HTTP_200_OK

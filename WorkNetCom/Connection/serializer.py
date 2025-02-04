@@ -8,7 +8,7 @@ class CONTENTSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = ContentConnection
-        fields = [ 'id', 'name', 'phone','body_text' ,'email' , 'Appendix' , 'created' , 'answer_time' ]
+        fields = [ 'id', 'name', 'phone','body_text' ,'email' , 'file' , 'created' , 'answer_time' ]
 
 
     def create(self, validated_data):
@@ -20,6 +20,40 @@ class CONTENTSerializer(serializers.ModelSerializer):
 
 
 # shayed bar nadar 
+
+
+class uploadFileContentserializer(serializers.Serializer):
+    
+    name = serializers.CharField()
+    phone = serializers.CharField()
+    body_text = serializers.CharField()
+    email = serializers.EmailField()
+    file = serializers.CharField() # this is fiel get from ststic file 
+    created = serializers.DateTimeField() # this is datetime from database 
+
+    def is_valid(self, *, raise_exception=False):
+        return super().is_valid(raise_exception=raise_exception)
+    
+
+    def upload_file_manger(self):
+        pass
+
+    def create(self, validated_data):
+        print('the calid data is ' , validated_data)
+        return ContentConnection.objects.create(
+            name = validated_data.get('name') ,  
+            phone = validated_data.get('phone') ,  
+            body_text = validated_data.get('body_text') ,  
+            email = validated_data.get('email') ,  
+            file = validated_data.get('file') , 
+            created = validated_data.get('created')  , 
+        ) # create the system side 
+
+
+    def save(self, **kwargs):
+        return super().save(**kwargs)
+    
+
 
 from django.urls import reverse # this is good 
 from .models import ContentConnection 
@@ -40,6 +74,7 @@ class CONTENTSerializerInhertance(CONTENTSerializer):
             if not seilated['link']:
                 print('data is ' , seilated)
                 iFD = seilated['id'] 
+                # here create the link from http file 
                 reverse_data = reverse(
                     viewname = 'content_name' , 
                     kwargs={'ID_':iFD}
