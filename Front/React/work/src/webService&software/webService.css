@@ -3,55 +3,55 @@
     color: white;
     font-weight: 700;
 }
-.networkSecurityParagraphContainer{
+.webServiceParagraphContainer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
     padding-top: 250px;
 }
-.NetworkSecurityRow{
+.webServiceRow{
     justify-content: space-between;
     display: flex;
     width: 70%;
     margin: 0px auto;
 }
-.networkSecurityparagraph{
+.webServiceparagraph{
     direction: rtl;
     height: 500px;
     padding-right: 50px;
 }
-.networkSecurityparagraph >h1{
+.webServiceparagraph >h1{
     margin: 0px -20px 50px 0px;
     font-size: 40px;
 }
 
-.networkSecurityparagraph >ol >li{
+.webServiceparagraph >ol >li{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.676);
     margin-right: 20px;
 }
-.networkSecurityImage{
+.webServiceImage{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.networkSecurityAccordingContainer{
+.webServiceAccordingContainer{
     padding: 200px 0px 150px 0px;
     background-image: url('/public//image/background\ \(4\).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.explaneSecuritynetwork{
+.explanewebService{
     background-blend-mode: color-dodge;
     background-color: #003cb426;
-    background-image: url('/public/image/securitybg\ \(3\).jpg');
-    background-size: cover;
+    background-image: url('/public/image/webService.jpg');
+    background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
     text-align: right;
@@ -68,7 +68,7 @@
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.whatSecurityNetwork{
+.whatwebService{
     width: 80%;
     min-height: 450px;
     padding: 40px;
@@ -77,16 +77,15 @@
     backdrop-filter: blur(5px);
     border-radius: 15px ;
     border: 2px solid #717171;
-    /* /xd/dcf/dsf/sd/fds/f */
     margin: -50px auto 0px;
     text-align: end;
 }
-.whatSecurityNetwork >h6{
+.whatwebService >h6{
     max-width: 100%;
     padding: 20px;
     font-size: 25px;
 }
-.whatSecurityNetwork >h1{
+.whatwebService >h1{
     max-width: 100%;
     margin-bottom: 10px;
     margin-right: 5px;
@@ -98,7 +97,7 @@
     display: flex;
     justify-content: center;
 }
-.securityDetailsContainer{
+.webServiceDetailsContainer{
     direction: rtl;
     padding: 150px 0px;
     background-image: url('/public/image/background\ \(4\).jpg');
@@ -106,18 +105,18 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.securityDetailsContainer>h2{
+.webServiceDetailsContainer>h2{
     text-align: center;
     margin-bottom: 100px;
 }
-.securityDerailsRow{
+.webServiceDerailsRow{
     max-width:80%;
     margin: 0px auto;
     display: flex;
     justify-content: space-evenly;
 }
 /* Col */
-#root > div.securityDetailsContainer.container-fluid > div > div{
+#root > div.webServiceDetailsContainer.container-fluid > div > div{
     width: 45%;
     padding: 5px 15px ;
     margin: 15px 0px ;
@@ -131,53 +130,53 @@
 }
 
 @media(max-width:1400px){
-    .NetworkSecurityRow{
+    .businessRow{
         width: 90%;
     }
-    .whatSecurityNetwork{
+    .whatwebService{
         margin-top: 70px;
     }
-    .networkSecurityparagraph>h1{
+    .webServiceparagraph>h1{
         font-size: 35px;
     }
-    .networkSecurityparagraph>ol>li{
+    .webServiceparagraph>ol>li{
         font-size: 15px;
     }
 }
 @media(max-width:990px){
 
-    .networkSecurityparagraph{
+    .webServiceparagraph{
         margin-top: 50px;
     }
-    .whatSecurityNetwork{
+    .whatwebService{
         margin-top: 70px;
     }
-    .whatSecurityNetwork>h1{
+    .whatwebService>h1{
         font-size: 30px;
     }
-    .whatSecurityNetwork>h6{
+    .whatwebService>h6{
         font-size: 20px;
         
     }
 }
 @media(max-width:828px){
-    .whatSecurityNetwork{
+    .whatwebService{
         padding: 10px;
     }
-    .whatSecurityNetwork>h1{
+    .whatwebService>h1{
         font-size: 35px;
     }
-    .whatSecurityNetwork>h6{
+    .whatwebService>h6{
         font-size: 20px;
     }
 }
 @media(max-width:770px){
-    .securityDerailsRow{
+    .webServiceDerailsRow{
         width:100%;
         margin: 0px auto;
         display: grid;
     }
-    #root > div.securityDetailsContainer.container-fluid > div > div{
+    #root > div.webServiceDetailsContainer.container-fluid > div > div{
         width: 100%;
         margin:15px 0px ;
         padding: 5px 15px ;
@@ -187,13 +186,13 @@
     }
 }
 @media(max-width:550px){
-    .whatSecurityNetwork{
+    .whatwebService{
         padding: 10px;
     }
-    .whatSecurityNetwork>h1{
+    .whatwebService>h1{
         font-size: 25px;
     }
-    .whatSecurityNetwork>h6{
+    .whatwebService>h6{
         font-size: 15px;
     }
 }

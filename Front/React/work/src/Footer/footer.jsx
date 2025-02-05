@@ -113,11 +113,7 @@ export default function Footer() {
 
   return (
     <Container>
-      <ul>
-        {users.map((users) => (
-          <testMount {...users} key={users.id} onRemove={removeHandler} />
-        ))}
-      </ul>
+      <h1>FOOTER</h1>
     </Container>
   );
 }

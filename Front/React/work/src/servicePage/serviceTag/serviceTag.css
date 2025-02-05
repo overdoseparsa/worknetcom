@@ -25,6 +25,7 @@
     margin: 150px auto;
     min-height: auto;
     justify-content: space-around;
+    direction: rtl;
 }
 .serviceInfo{
     max-width: 400px;
@@ -78,6 +79,11 @@
 }
 .serviceInfo>a>h6{
     font-size: 20px;
+}
+@media(max-width:1268px){
+    .rowService{
+        justify-content: space-evenly;
+    }
 }
 @media(max-width:555px){
     .serviceContainer{

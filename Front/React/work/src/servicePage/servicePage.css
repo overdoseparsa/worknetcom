@@ -84,3 +84,24 @@
 /* responsive */
 @media (max-width: 1000px) {
 }
+@media(max-width:500px){
+  .aboutCompanyTitle{
+    font-size: 130px ;
+  }
+  .aboutCompanyLogo{
+    font-size: 40px ;
+    margin-top: -40px;
+    margin-left: -180px;
+  }
+}
+@media(max-width:420px){
+  .aboutCompanyTitle{
+    font-size: 100px ;
+  }
+  .aboutCompanyLogo{
+    font-size: 30px ;
+    margin-top: -30px;
+    margin-left: -150px;
+  }
+}
+

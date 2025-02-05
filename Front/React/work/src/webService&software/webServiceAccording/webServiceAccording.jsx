@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./networkSecurityAccording.css";
+import "./webServiceAccording.css";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap";
-export default class networkSecurityAccording extends Component {
+export default class businessServiceAccording extends Component {
   render() {
     return (
       <>
@@ -13,7 +13,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی IDS و IPS در شبکه</h6>
+              <h6>برنامه نویسی وب سفارش مشتری</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,7 +30,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت سیستم عامل و الیه کاربردی</h6>
+              <h6>برنامه نویسی نرم افزار سفارش مشتری</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -47,7 +47,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>پیکربندی امنیتی و ایمن سازی سرویسهای شبکه</h6>
+              <h6>ارائه خدمات نگهداری وب سایت</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -64,7 +64,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت و پیاده سازی Network Monitoring</h6>
+              <h6>نرم افزار جامع ارزیابی عملکرد</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +81,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی IP SLA Manager</h6>
+              <h6>نرم افزار آرشیو الکترونیکی اسناد</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -98,7 +98,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی سیستم Anti-Virus</h6>
+              <h6>سیستم جامع مدیریت ارتباط با مشتریانISP</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -115,7 +115,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی NetFlow Traffic Analyzer</h6>
+              <h6> سیستم جامع کنترل فروشISP</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -127,15 +127,12 @@ export default class networkSecurityAccording extends Component {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item className="accordingItem" eventKey="7">
+          <Accordion.Item className="accordingItem" eventKey="6">
             <Accordion.Header
               className="accordingHeader
                         "
             >
-              <h6>
-                {" "}
-                طراحی ، نصب و راه اندازی سیستم Bandwidth Management & Caching
-              </h6>
+              <h6> ارائه راهکارهای مبتنی بر شیرپوینت</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

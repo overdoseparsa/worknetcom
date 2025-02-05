@@ -10,11 +10,12 @@ export default class activeNetworkService extends Component {
         <Accordion defaultActiveKey={["0"]}>
           <Accordion.Item className="accordingItem" eventKey="0">
             <Accordion.Header
-              className="accordingHeader"
+              className="accordingHeader
+                        "
             >
-              <h6>تنظیم و کانفیگ روتر های سیسکو، میکروتیک و هواووی</h6>
+              <h6>نصب و پیکر بندی فایروال های سخت افزاری</h6>
             </Accordion.Header>
-            <Accordion.Item className="accordingBody">
+            <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -22,7 +23,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Item>
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="1">
             <Accordion.Header
@@ -39,7 +40,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="2">
             <Accordion.Header
@@ -56,7 +57,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="3">
             <Accordion.Header
@@ -73,7 +74,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="4">
             <Accordion.Header
@@ -90,7 +91,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="5">
             <Accordion.Header
@@ -107,7 +108,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="6">
             <Accordion.Header
@@ -124,7 +125,7 @@ export default class activeNetworkService extends Component {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body >
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="7">
             <Accordion.Header

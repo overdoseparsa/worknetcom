@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./networkSecurityAccording.css";
+import "./businessServiceAccording.css";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap";
-export default class networkSecurityAccording extends Component {
+export default class businessServiceAccording extends Component {
   render() {
     return (
       <>
@@ -13,7 +13,8 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی IDS و IPS در شبکه</h6>
+              <h6>فروش و نصب کلیه تجهیزات برق و UPS ( برندهای Apc - Nexanse ,...)
+              </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,7 +31,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت سیستم عامل و الیه کاربردی</h6>
+              <h6>فروش کلیه تجهیزات شبکه</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -47,7 +48,8 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>پیکربندی امنیتی و ایمن سازی سرویسهای شبکه</h6>
+              <h6>فروش کلیه تجهیزات امنیتی و نظارتی
+              </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -64,7 +66,8 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت و پیاده سازی Network Monitoring</h6>
+              <h6>فروش سیستم های رادیویی
+              </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +84,8 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی IP SLA Manager</h6>
+              <h6>تامین نیروی انسانی تمام وقت در جهت انجام فعالیت های تخصصی درون سازمانی
+              </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -98,7 +102,8 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی سیستم Anti-Virus</h6>
+              <h6>ارائه راهکارهای مدیریتی نیروی انسانی در حوزهIT
+              </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -115,26 +120,7 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی NetFlow Traffic Analyzer</h6>
-            </Accordion.Header>
-            <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item className="accordingItem" eventKey="7">
-            <Accordion.Header
-              className="accordingHeader
-                        "
-            >
-              <h6>
-                {" "}
-                طراحی ، نصب و راه اندازی سیستم Bandwidth Management & Caching
+              <h6> تامین نیروی انسانی پاره وقت متخصص در جهت انجام فعالیت های ...
               </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
