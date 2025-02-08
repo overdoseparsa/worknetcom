@@ -25,13 +25,13 @@ SECRET_KEY = 'django-insecure-g6!v7x-9s&tu4f!zn=ye3oq*w4fcq(6hr_)%@=l@1=#dg7b9f&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.75.96' , '127.0.0.1' , '0.0.0.0' , '192.168.1.10']
 
 
 # Application definition
-
+# add react for api learn from docker 
 INSTALLED_APPS = [
-    'jazzmin' , 
+    # 'jazzmin' , 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
