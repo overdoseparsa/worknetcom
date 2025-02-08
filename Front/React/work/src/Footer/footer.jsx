@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { Table, Container } from "react-bootstrap";
 import testMount from "../testmount/testMount";
+import { Typography } from "@mui/material";
 
 // fetch("https://jsonplaceholder.typicode.com/posts")
 // .then((response)=>{
@@ -113,6 +114,9 @@ export default function Footer() {
 
   return (
     <Container>
+      <Typography >
+        hello world 
+      </Typography>
       <h1>FOOTER</h1>
     </Container>
   );
