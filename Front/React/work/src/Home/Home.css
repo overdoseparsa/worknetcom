@@ -368,6 +368,9 @@ a :hover {
 }
 
 @media (max-width:1048px) {
+    .aboutContainer{
+        padding: 100px 0px;
+    }
     .cubeContainer1 {
         width: 200px;
         height: 200px;
