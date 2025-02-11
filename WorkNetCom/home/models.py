@@ -29,11 +29,3 @@ class Content(models.Model):
 # set DATABASE 
 # it is in ver2 
 
-
-class File(models.Model):
-    title = models.CharField(max_length=220)
-
-    file = models.FileField()
-
-    
-

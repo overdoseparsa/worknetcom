@@ -84,3 +84,35 @@ def create_the_content(request:HttpRequest):
     #     return Response(
     #         {'400':'bad request arggumans'}, status=status.HTTP_400_BAD_REQUEST
     #     )
+
+
+
+# create view set for django inssert off create sub mhetods difreent 
+from rest_framework.viewsets import  ModelViewSet 
+from .serializer import TestViewSetSeriaizler
+# create seriaizer 
+class ContentViewSet(
+    ModelViewSet # adding models view set 
+): 
+    # lookup_field = 'id'
+    serializer_class = TestViewSetSeriaizler
+    
+    queryset = ContentConnection.objects.all() # where 
+
+
+
+    def retrieve(self, request, *args, **kwargs): # GET 
+        return super().retrieve(request, *args, **kwargs) # get 
+    
+
+
+
+
+    def list(self, request, *args, **kwargs): # GET ALL 
+        return super().list(request, *args, **kwargs)
+    def update(self, request, *args, **kwargs): # UPDATE 
+        return super().update(request, *args, **kwargs)
+    def destroy(self, request, *args, **kwargs): # Delete
+        return super().destroy(request, *args, **kwargs)
+    
+

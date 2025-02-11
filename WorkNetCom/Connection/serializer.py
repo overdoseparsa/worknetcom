@@ -22,7 +22,7 @@ class CONTENTSerializer(serializers.ModelSerializer):
         return super().is_valid(raise_exception=raise_exception)
     
 # shayed bar nadar 
-from abc import abstractmethod
+
 
 class uploadFileContentserializer(serializers.Serializer):
     
@@ -31,16 +31,14 @@ class uploadFileContentserializer(serializers.Serializer):
     body_text = serializers.CharField()
     email = serializers.EmailField()
     file = serializers.CharField() # this is fiel get from ststic file 
-    created = serializers.CharField() # this is datetime from database 
-    # 2004-06-08 13:03:06
+    created = serializers.DateTimeField() # this is datetime from database 
 
     def is_valid(self, *, raise_exception=False):
         return super().is_valid(raise_exception=raise_exception)
     
-    @abstractmethod
-    def create_datatime(values):
-        pass
 
+    def upload_file_manger(self):
+        pass
 
     def create(self, validated_data):
         print('the calid data is ' , validated_data)
@@ -53,7 +51,7 @@ class uploadFileContentserializer(serializers.Serializer):
             created = validated_data.get('created')  , 
         ) # create the system side 
 
-# YY-MM-DD H:M:S
+
     def save(self, **kwargs):
         return super().save(**kwargs)
     
@@ -97,3 +95,8 @@ class CONTENTSerializerInhertance(CONTENTSerializer):
     # def create(self, validated_data): # this is create 
     #     return super().create(validated_data)
     
+
+
+
+class TestViewSetSeriaizler(CONTENTSerializer):
+    pass

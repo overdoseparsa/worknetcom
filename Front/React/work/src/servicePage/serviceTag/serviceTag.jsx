@@ -12,8 +12,7 @@ export default class serviceTag extends Component {
           <h1>خدماتی که تفاوت ایجاد می‌کنند</h1>
           <Row className="rowService">
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService "
-              style={{color:'#b4b6c0'}}>01</h1>
+              <h1 className="numService ">01</h1>
               <h3>مشاوره شبکه</h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -37,8 +36,7 @@ export default class serviceTag extends Component {
               </Link>
             </Col>
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService "
-              style={{color:'#969aa9'}}>02</h1>
+              <h1 className="numService ">02</h1>
               <h3 className="">خدمات اکتیو شبکه</h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -62,8 +60,7 @@ export default class serviceTag extends Component {
               </Link>
             </Col>
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService"
-              style={{color:'#777c90'}}>03</h1>
+              <h1 className="numService">03</h1>
               <h3>خدمات پسیو شبکه </h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -87,8 +84,7 @@ export default class serviceTag extends Component {
               </Link>
             </Col>
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService "
-              style={{color :'#979aa9'}}>04</h1>
+              <h1 className="numService ">04</h1>
               <h3 className="">امنیت شبکه</h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -112,8 +108,7 @@ export default class serviceTag extends Component {
               </Link>
             </Col>
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService "
-              style={{color:'#797d92'}}>05</h1>
+              <h1 className="numService ">05</h1>
               <h3 className=""> خدمات بازرگانی </h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -137,8 +132,7 @@ export default class serviceTag extends Component {
               </Link>
             </Col>
             <Col className="serviceInfo" sm={6}>
-              <h1 className="numService "
-              style={{color:'#5b607a'}}>06</h1>
+              <h1 className="numService ">06</h1>
               <h3 className=" "> نرم افزار ،خدمات وب</h3>
               <h6>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
