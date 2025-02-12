@@ -48,42 +48,65 @@ def get_Content_admin_link(request):
 # update 
 # class save Fiel from server 
 
+
 from .FIleManager import FileUploadSimple
 from  .serializer import uploadFileContentserializer
 from django.http import QueryDict
+
+from django.http import HttpResponseBadRequest
+
+
 @api_view(('POST' ,))
 def create_the_content(request:HttpRequest):
-    upload = FileUploadSimple(request.FILES.get('file'))
-    print(upload)
-    print('the file is ....////', type(request.FILES.get('file')))
-    # for i in request.FILES.get('Appendix'):
-    #     print('requests is '  , i)
-    data_context  = QueryDict('' , mutable=True) 
-    data_context.update(request.POST)
-    if request.FILES : 
-        #this is get file 
-        data_context.update({'file':upload.create_file_uploaded()})
-        print('data context is ' , data_context)
-        # data_context.pop('Appendix')
-    print(data_context.get('file'))
-    print('the data is ' , data_context)
-    print('converting data mager dunmpus' , json.dumps(data_context) )
-    serializer_content = uploadFileContentserializer(
-        data =data_context
-    )
-    
-    print(serializer_content.is_valid()) 
-    print(serializer_content.errors)
-    print(serializer_content)
+    if not request.POST :
+        raise BaseException('dont have any pyload')
+    else : 
+        print('the post data is ...>' , request.POST)
+        upload = FileUploadSimple(request.FILES.get('file'))
+        print(upload)
+        print('the file is ....////', type(request.FILES.get('file')))
+        # for i in request.FILES.get('Appendix'):
+        #     print('requests is '  , i)
 
-    serializer_content.save()
-    return Response(
-            serializer_content.data  ,status=status.HTTP_200_OK , 
+        data_context  = QueryDict('' , mutable=True) 
+        data_context.update(request.POST)
+        
+        print(
+
+            f"""
+            the data context is  {data_context}
+            
+            """ 
         )
-    # else : 
-    #     return Response(
-    #         {'400':'bad request arggumans'}, status=status.HTTP_400_BAD_REQUEST
-    #     )
+
+        if request.FILES : 
+            #this is get file 
+            data_context.update({'file':upload.create_file_uploaded()})
+            print('data context is ' , data_context)
+            # data_context.pop('Appendix')
+
+
+
+            
+        print(data_context.get('file'))
+        print('the data is ' , data_context)
+        print('converting data mager dunmpus' , json.dumps(data_context) )
+        serializer_content = uploadFileContentserializer(
+            data =data_context
+        )
+        
+        print(serializer_content.is_valid()) 
+        print(serializer_content.errors)
+        print(serializer_content)
+
+        serializer_content.save()
+        return Response(
+                serializer_content.data  ,status=status.HTTP_200_OK , 
+            )
+        # else : 
+        #     return Response(
+        #         {'400':'bad request arggumans'}, status=status.HTTP_400_BAD_REQUEST
+        #     )
 
 
 

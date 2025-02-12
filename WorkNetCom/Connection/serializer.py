@@ -30,7 +30,9 @@ class uploadFileContentserializer(serializers.Serializer):
     phone = serializers.CharField()
     body_text = serializers.CharField()
     email = serializers.EmailField()
-    file = serializers.CharField() # this is fiel get from ststic file 
+    file = serializers.CharField(
+    required = False
+    ) # this is fiel get from ststic file 
     created = serializers.DateTimeField() # this is datetime from database 
 
     def is_valid(self, *, raise_exception=False):

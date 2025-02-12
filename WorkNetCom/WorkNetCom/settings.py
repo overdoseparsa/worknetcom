@@ -25,13 +25,15 @@ SECRET_KEY = 'django-insecure-g6!v7x-9s&tu4f!zn=ye3oq*w4fcq(6hr_)%@=l@1=#dg7b9f&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.75.96'
+]
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin' , 
+    'jazzmin' , # this is panel admin 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -119,8 +121,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = 'static/' # this is 
+# STATIC_URL = '/static/'
+# STATIC_ROOT = '/static/' # this is 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
@@ -284,9 +286,17 @@ EMAIL_PASSWORD = ...
 MEDIA_URL = 'file/' 
 MEDIA_ROOT = BASE_DIR / 'file/'
 print("This is django static files ",MEDIA_ROOT)
+STATIC_ROOT = BASE_DIR / 'static/'
+STATIC_URL  = '/static/'
 
 REST_FRAMEWORK = {
-    'DEFAULT_PARSER_CLASSES': [
-        'rest_framework.parsers.JSONParser',
-    ]
+    'DEFAULT_PARSER_CLASSES': (
+        'rest_framework.parsers.FormParser',
+        'rest_framework.parsers.MultiPartParser'
+     )
 }
+
+
+# REST_FRAMEWORK = {
+
+#  }
