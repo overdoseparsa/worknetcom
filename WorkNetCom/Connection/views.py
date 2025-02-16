@@ -12,8 +12,8 @@ import json
 from .models import ContentConnection
 from .serializer import CONTENTSerializer
 
-'/get/contentsid={}' # GET # POST __> BADREQUESTS
-@api_view(('GET',)) # TODO class base 
+'/get/contentsid={}' # GET # POST __> BADREQUESTS --> /# this is leanr 
+@api_view(('GET',)) # TODO class base a
 def get_content(request , ID_):
     # try : 
     #seriaizer = CONTENTSerializer
