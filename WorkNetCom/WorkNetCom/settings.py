@@ -26,8 +26,9 @@ SECRET_KEY = 'django-insecure-g6!v7x-9s&tu4f!zn=ye3oq*w4fcq(6hr_)%@=l@1=#dg7b9f&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '192.168.75.96' , '127.0.0.1' , '192.168.1.10'
+    '192.168.75.96' , '127.0.0.1' , '192.168.1.10' , '0.0.0.0'
 ]
+
 
 
 # Application definition
@@ -35,9 +36,9 @@ ALLOWED_HOSTS = [
 INSTALLED_APPS = [
     'jazzmin' , # this is panel admin 
     'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.auth', 
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions', # this
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home.apps.HomeConfig' , # add home config  
