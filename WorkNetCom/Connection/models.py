@@ -24,6 +24,8 @@ from django.utils.timezone import now
 class ContentConnection(
     models.Model
 ):
+
+
     name = models.CharField(
         max_length=125 ,  # this is name from server 
 
@@ -36,15 +38,17 @@ class ContentConnection(
     email  =  models.EmailField(
         validators=[mail_validator]
     )
-    file = models.FileField(null=True) # connect static 
+    file = models.FileField(null=True , blank=True) # connect static 
 
 
     created = models.DateTimeField(default=now)
-
+    # created
     answer_time = models.DateTimeField(
         null= True , blank=True 
     )
     link = models.CharField(null=True , max_length=122 , blank=True) # dont mater when it is create 
+
+
 
     def __str__(self):
         return f'id--{self.id}--{self.name}'

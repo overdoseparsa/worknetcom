@@ -31,9 +31,10 @@ ALLOWED_HOSTS = [
 
 
 
-# Application definition
+# Application definitionsdadas
 
 INSTALLED_APPS = [
+    
     'jazzmin' , # this is panel admin 
     'django.contrib.admin',
     'django.contrib.auth', 
@@ -111,7 +112,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
@@ -194,7 +194,7 @@ JAZZMIN_SETTINGS = {
 
     # Additional links to include in the user menu on the top right ("app" url type is not allowed)
     "usermenu_links": [
-        {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
+        # {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
         {"model": "auth.user"}
     ],
 
@@ -203,7 +203,7 @@ JAZZMIN_SETTINGS = {
     #############
 
     # Whether to display the side menu
-    "show_sidebar": True,
+    "show_sidebar": False,
 
     # Whether to aut expand the menu
     "navigation_expanded": True,
@@ -268,7 +268,7 @@ JAZZMIN_SETTINGS = {
     # override change forms on a per modeladmin basis
     "changeform_format_overrides": {"auth.user": "collapsible", "auth.group": "vertical_tabs"},
     # Add a language dropdown into the admin
-    "language_chooser": True,
+    "language_chooser": False,
 }
 TOKEN_FROM_PASSWORD = ... 
 TOKEN_FROM_MAIL = ... 
@@ -301,3 +301,12 @@ REST_FRAMEWORK = {
 # REST_FRAMEWORK = {
 
 #  }
+
+
+LANGUAGE_CODE = 'fa-ir'
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_TZ = True

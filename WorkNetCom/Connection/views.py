@@ -44,6 +44,8 @@ def get_Content_admin_link(request):
     CONTENTSerializerInhertance.create_with_link(serializer_content_All)
     return Response(serializer_content_All.data , status=status.HTTP_200_OK)
 
+
+#DONE 
 # create 
 # update 
 # class save Fiel from server 
@@ -56,11 +58,24 @@ from django.http import QueryDict
 from django.http import HttpResponseBadRequest
 
 
+class HttpBadRequestExpection(BaseException):
+    pass
+
+
+
+
 @api_view(('POST' ,))
 def create_the_content(request:HttpRequest):
     if not request.POST :
-        raise BaseException('dont have any pyload')
+        return HttpResponseBadRequest('dont have any pyload')
     else : 
+        #check here is valid or not cvalid 
+        #serializer_content.is_valid()
+
+
+    
+        
+
         print('the post data is ...>' , request.POST)
         upload = FileUploadSimple(request.FILES.get('file'))
         print(upload)
@@ -84,6 +99,7 @@ def create_the_content(request:HttpRequest):
             data_context.update({'file':upload.create_file_uploaded()})
             print('data context is ' , data_context)
             # data_context.pop('Appendix')
+            # from tkinter import * 
 
 
 
@@ -94,7 +110,10 @@ def create_the_content(request:HttpRequest):
         serializer_content = uploadFileContentserializer(
             data =data_context
         )
-        
+
+        # assert serializer_content.is_valid()  , HttpResponseBadRequest(f'bad pyload is {data_context} .... request.posts  .... {request.POST}') # plesase cash this 
+        if not serializer_content.is_valid() : return HttpResponseBadRequest(f'bad pyload is {data_context} , and the /n error is {serializer_content.errors}')
+
         print(serializer_content.is_valid()) 
         print(serializer_content.errors)
         print(serializer_content)
@@ -126,11 +145,6 @@ class ContentViewSet(
 
     def retrieve(self, request, *args, **kwargs): # GET 
         return super().retrieve(request, *args, **kwargs) # get 
-    
-
-
-
-
     def list(self, request, *args, **kwargs): # GET ALL 
         return super().list(request, *args, **kwargs)
     def update(self, request, *args, **kwargs): # UPDATE 
