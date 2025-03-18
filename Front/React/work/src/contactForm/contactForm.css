@@ -1,0 +1,98 @@
+.ContactFormContainer {
+  padding: 120px;
+  background-image: url("/public/image/networkFrombg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  z-index: 1100;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+.Opacity{
+  opacity: 1;
+}
+.formContainer {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border: 2px solid #f9f9fa;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 0px auto;
+  min-height: 700px;
+  z-index: 1100;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+#root > div.ContactFormContainer.container-fluid > form > div > label {
+  font-weight: 600;
+}
+/* label */
+#root > div.ContactFormContainer.container-fluid > div > form > div> label{
+    color: black;
+}
+.colorFace {
+  position: absolute;
+  width: 100%;
+  min-height: 103vh;
+  opacity: 1;
+  background: rgb(228, 101, 30);
+  background: linear-gradient(
+    20deg,
+    #f1862a 10%,
+    #f4dacd 90%
+  );
+  z-index: 1000;
+  display: grid;
+  align-items: center;
+  transition: opacity 2s ease-in;
+  padding: 50px;
+  direction: rtl;
+  text-align: center;
+}
+.containerFaceP{
+  padding: 50px;
+  border: 2px solid #f9f9fa;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 0px auto;
+  min-height: 600px;
+  z-index: 1100;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);}
+.colorFace.click {
+  opacity: 0;
+}
+.zIndex{
+  animation: zIndex 1s linear 2s forwards ;
+}
+@keyframes zIndex{
+  form {
+    z-index: 1;
+  }
+  to{
+    z-index: -100;
+  }
+}
+.FaceP{
+font-size: 20px;
+}
+.FaceButton {
+  display: block;
+  width: 200px;
+  background-color: #00000000;
+  border: 2px solid #f2d3be;
+  color: #142448;
+  font-weight: 600;
+  margin: 0px auto;
+}
+.FaceButton:hover {
+  background-color: #f2d3be;
+  color: #142448;
+  font-weight: 600;
+  border: 2px solid white;
+}
+@media (max-width: 840px) {
+  .ContactFormContainer {
+    padding: 100px 0px;
+  }
+}

@@ -1,61 +1,82 @@
-import React, { Component } from 'react'
-import { Carousel } from 'react-bootstrap'
-import './slides.css'
+import React, { Component } from "react";
+import { Carousel } from "react-bootstrap";
+import "./slides.css";
 
-export default class slides extends Component {
-    render() {
-        return (
-            <>
-
-                <h2><span className='Text'>از</span> ایده <span className='Text'>تا</span> اجرا</h2>
-                <h4>همراه با <span className='orangText'>ورک‌نت</span> در مسیر پروژه‌های شرکتی</h4 >
-                <Carousel data-bs-theme="light" className='Carousel'>
-                    <Carousel.Item>
-                        <img
-                            className="slideImage d-block w-100"
-                            src="image/wave (4).jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className='slidelItem'>
-                            <h3>First slide label</h3>
-                            <p className='carousel-p'>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="slideImage d-block w-100"
-                            src="image/bigBulding.jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className='slidelItem'>
-                            <h3 >Second slide label</h3>
-                            <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="slideImage d-block w-100"
-                            src="image/bigBulding.jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className='slidelItem'>
-                            <h3 >Second slide label</h3>
-                            <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="slideImage d-block w-100"
-                            src="image/bigBulding.jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className='slidelItem'>
-                            <h3 >Second slide label</h3>
-                            <p className='carousel-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </>
-        )
-    }
+export default function Slides() {
+  return (
+    <>
+      <h2>
+        <span className="Text">از</span> ایده <span className="Text">تا</span>
+        اجرا
+      </h2>
+      <h4>
+        همراه با <span className="orangText">ورک‌نت</span> در مسیر پروژه‌های
+        شرکتی
+      </h4>
+      <Carousel data-bs-theme="light" className="Carousel">
+        <Carousel.Item>
+          <img
+            className="slideImage d-block w-100"
+            src="image/Isfahan subway.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption className="slidelItem">
+            <h3>شرکت متروی اصفهان</h3>
+            <p className="carousel-p">
+              شرکت ما اجرای فیبر نوری برای دوربین‌های مداربسته را بر عهده داشته
+              است. این پروژه با هدف تقویت زیرساخت‌های نظارتی و افزایش امنیت
+              ایستگاه‌ها و خطوط مترو انجام شده است
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slideImage d-block w-100"
+            src="image/social security.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption className="slidelItem">
+            <h3>تامین اجتماعی</h3>
+            <p className="carousel-p">
+              پروژه‌های تأمین اجتماعی مسئولیت اجرای زیرساخت‌های شبکه و سرور را
+              بر عهده داشته است. این پروژه‌ها با هدف بهبود ارتباطات، افزایش
+              امنیت داده‌ها و ارتقای کارایی سیستم‌های فناوری اطلاعات انجام
+              شده‌اند
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slideImage d-block w-100"
+            src="image/isfahan refinery.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption className="slidelItem">
+            <h3>پالایشگاه اصفهان</h3>
+            <p className="carousel-p">
+              در پالایشگاه اصفهان اجرای زیرساخت‌های شبکه، دوربین‌های امنیتی و
+              دیتا سنتر را بر عهده داشته است. این پروژه با هدف بهبود امنیت،
+              افزایش پایداری ارتباطات و ارتقای مدیریت داده‌ها اجرا شده است.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="slideImage d-block w-100"
+            src="image/MEE.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption className="slidelItem">
+            <h3>شرکت MME</h3>
+            <p className="carousel-p">
+              شرکت ما در همکاری با شرکت مهندسی معادن و فلزات، اجرای شبکه‌های
+              صنعتی پروفی‌نت و پروفی‌باس را بر عهده داشته است. این پروژه با هدف
+              بهینه‌سازی ارتباطات صنعتی، افزایش بهره‌وری و بهبود عملکرد
+              سیستم‌های اتوماسیون انجام شده است.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </>
+  );
 }

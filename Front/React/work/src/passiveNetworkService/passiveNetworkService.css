@@ -1,0 +1,217 @@
+.networkTitle {
+  font-size: 100px;
+  color: white;
+  font-weight: 700;
+}
+.passiveNetworkParagraphContainer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  padding-top: 250px;
+}
+.passiveNetworkRow {
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
+}
+.passiveNetworkparagraph {
+  direction: rtl;
+  height: 500px;
+  padding-right: 50px;
+}
+.passiveNetworkparagraph > h1 {
+  margin: 0px -20px 50px 0px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #374460;
+}
+
+.passiveNetworkparagraph > ol > li {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.676);
+  margin-right: 20px;
+}
+.passiveNetworkSpecialist {
+  position: absolute;
+  width: 100%;
+  max-height: 400px;
+  bottom: 0;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 20px 0px 0px 0px;
+  transform: translateX(-50%);
+}
+.passiveNetworkSpecialistRow {
+  margin: 0px auto;
+}
+.passiveImageRow {
+  position: relative;
+  min-height: 400px;
+}
+.passiveNetworkImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+}
+.passiveNetworkAccordingContainer {
+  padding: 200px 0px 150px 0px;
+  background-image: url("/public//image/background\ \(4\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.explanePassivenetwork {
+  background-blend-mode: color-dodge;
+  background-color: #003cb426;
+  background-image: url("/public/image/services/passivenetworkMainImage.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 100px 0px 50px 0px;
+}
+.imageNetworkConsulting {
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+}
+.whatspassiveNetwork {
+  width: 80%;
+  min-height: 450px;
+  padding: 40px;
+  color: rgb(0, 0, 0);
+  background-color: #27334d26;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 2px solid #717171;
+  margin: 70px auto 0px;
+  text-align: end;
+}
+.whatspassiveNetwork > h6 {
+  color: white;
+  max-width: 100%;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 40px;
+  direction: rtl;
+  text-align: start;
+}
+.whatspassiveNetwork > h1 {
+  color: white;
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.rowExplanenetworkColsulting {
+  background-color: rgba(255, 255, 255, 0.299);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.passiveDetailsContainer {
+  direction: rtl;
+  padding: 150px 0px;
+  background-image: url("/public/image/background\ \(4\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.passiveDetailsContainer > h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.passiveDerailsRow {
+  max-width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Col */
+#root > div.passiveDetailsContainer.container-fluid > div > div {
+  width: 45%;
+  padding: 5px 15px;
+  margin: 15px 0px;
+  min-height: 60px;
+  border-radius: 15px;
+  border: 1px solid #ff8000;
+  border-right: 4px solid #ff8000;
+  display: grid;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.618);
+}
+
+@media (max-width: 1400px) {
+  .passiveNetworkRow {
+    width: 90%;
+  }
+  .passiveNetworkparagraph > h1 {
+    font-size: 35px;
+  }
+  .passiveNetworkparagraph > ol > li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 990px) {
+  .passiveNetworkparagraph {
+    margin-top: 50px;
+  }
+  .whatspassiveNetwork > h1 {
+    font-size: 30px;
+  }
+  .whatspassiveNetwork > h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 828px) {
+  .whatspassiveNetwork {
+    padding: 10px;
+  }
+  .whatspassiveNetwork > h1 {
+    font-size: 35px;
+  }
+  .whatspassiveNetwork > h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 770px) {
+  .passiveDerailsRow {
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+  }
+  #root > div.passiveDetailsContainer.container-fluid > div > div {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 5px 15px;
+    min-height: auto;
+    display: grid;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .whatspassiveNetwork {
+    padding: 10px;
+  }
+  .whatspassiveNetwork > h1 {
+    font-size: 25px;
+  }
+  .whatspassiveNetwork > h6 {
+    font-size: 15px;
+  }
+}

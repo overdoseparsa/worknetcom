@@ -13,17 +13,23 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>فروش و نصب کلیه تجهیزات برق و UPS ( برندهای Apc - Nexanse ,...)
+              <h6 style={{textAlign:'start'}}>
+                فروش و نصب کلیه تجهیزات برق و UPS ( برندهای Apc - Nexanse ,...)
               </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات فروش و نصب کلیه تجهیزات برق و UPS
+              (Uninterruptible Power Supply) از برندهای معتبر مانند APC و Nexans
+              را برای تأمین انرژی پایدار و حفاظت از تجهیزات شبکه و سرورها ارائه
+              می‌دهد. این خدمات شامل مشاوره در انتخاب مناسب‌ترین سیستم UPS برای
+              نیازهای سازمان، نصب و راه‌اندازی تجهیزات برق و UPS، و پیکربندی
+              صحیح به‌منظور حفظ پایداری انرژی در برابر نوسانات برق و قطعی‌های
+              احتمالی است. تجهیزات UPS به‌عنوان منبع تغذیه بدون وقفه، از
+              سیستم‌ها و سرورهای حیاتی در برابر قطع برق و نوسانات آن محافظت
+              می‌کنند. برندهایی مانند APC و Nexans از شناخته‌شده‌ترین و
+              معتبرترین برندها در زمینه تجهیزات برق و UPS هستند که به‌خاطر کیفیت
+              و قابلیت اطمینان بالا در پروژه‌های مختلف مورد استفاده قرار
+              می‌گیرند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="1">
@@ -31,34 +37,18 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>فروش کلیه تجهیزات شبکه</h6>
+              <h6 style={{textAlign:'start'}}>فروش کلیه تجهیزات شبکه</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item className="accordingItem" eventKey="2">
-            <Accordion.Header
-              className="accordingHeader
-                        "
-            >
-              <h6>فروش کلیه تجهیزات امنیتی و نظارتی
-              </h6>
-            </Accordion.Header>
-            <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet با ارائه خدمات فروش کلیه تجهیزات شبکه از برندهای
+              معتبر و شناخته‌شده، مجموعه‌ای کامل از محصولات مورد نیاز برای ساخت
+              و مدیریت شبکه‌های سازمانی را به مشتریان خود ارائه می‌دهد. این
+              تجهیزات شامل سوئیچ‌ها، روترها، فایروال‌ها، اکسس پوینت‌ها، کابل‌ها
+              و کانکتورها، رک‌ها و تجهیزات رک، و همچنین تجهیزات ذخیره‌سازی و
+              سرورها است. تیم فنی Worknet با مشاوره دقیق در انتخاب بهترین
+              تجهیزات متناسب با نیازهای شبکه شما و نصب و راه‌اندازی آن‌ها
+              به‌صورت استاندارد، اطمینان حاصل می‌کند که شبکه شما از عملکرد
+              بهینه، امنیت بالا و مقیاس‌پذیری لازم برخوردار باشد.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="3">
@@ -66,17 +56,21 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>فروش سیستم های رادیویی
-              </h6>
+              <h6 style={{textAlign:'start'}}>فروش سیستم های رادیویی</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات فروش سیستم‌های رادیویی را برای ایجاد ارتباطات
+              بی‌سیم پایدار و با کیفیت در شبکه‌های مختلف ارائه می‌دهد. این
+              سیستم‌ها شامل تجهیزات رادیویی پیشرفته برای انتقال داده‌ها، ایجاد
+              ارتباطات نقطه به نقطه (Point-to-Point) و نقطه به چند نقطه
+              (Point-to-Multipoint)، و همچنین سیستم‌های وایرلس برای پوشش‌دهی
+              شبکه‌های وسیع در فواصل دور است. سیستم‌های رادیویی از برندهای
+              معتبر، با قابلیت‌هایی نظیر انتقال داده‌های پرسرعت، امنیت بالا و
+              سازگاری با انواع شبکه‌ها، به‌طور ویژه برای سازمان‌ها و شرکت‌هایی
+              که نیاز به راه‌حل‌های ارتباطی بدون سیم و انعطاف‌پذیر دارند، طراحی
+              شده‌اند. تیم فنی Worknet با مشاوره تخصصی در انتخاب بهترین
+              سیستم‌های رادیویی و نصب آن‌ها، اطمینان می‌دهد که ارتباطات بی‌سیم
+              شما به‌صورت پایدار و با کیفیت بالا برقرار باشد.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="4">
@@ -84,17 +78,23 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>تامین نیروی انسانی تمام وقت در جهت انجام فعالیت های تخصصی درون سازمانی
+              <h6 style={{textAlign:'start'}}>
+                تامین نیروی انسانی تمام وقت در جهت انجام فعالیت های تخصصی درون
+                سازمانی
               </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات تامین نیروی انسانی تمام‌وقت برای انجام
+              فعالیت‌های تخصصی درون‌سازمانی را ارائه می‌دهد. این خدمات شامل
+              ارائه کارشناسان و متخصصین مجرب در زمینه‌های مختلف فناوری اطلاعات،
+              شبکه، امنیت، و مدیریت سیستم‌ها است. تیم‌های فنی Worknet به‌صورت
+              تمام‌وقت در محل سازمان شما مستقر می‌شوند تا نیازهای تخصصی شبکه،
+              پشتیبانی فنی، نصب و راه‌اندازی تجهیزات، و بهینه‌سازی زیرساخت‌ها را
+              به‌طور مؤثر و به‌صورت مداوم انجام دهند. این رویکرد به سازمان‌ها
+              این امکان را می‌دهد که از دانش و تخصص نیروی انسانی خود به بهترین
+              شکل ممکن بهره‌برداری کنند، بدون نیاز به استخدام و مدیریت مستقل.
+              خدمات ما به شما کمک می‌کند تا فرآیندهای درون‌سازمانی به‌صورت
+              کارآمد و با بالاترین سطح تخصص انجام شود.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="5">
@@ -102,17 +102,21 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>ارائه راهکارهای مدیریتی نیروی انسانی در حوزهIT
-              </h6>
+              <h6 style={{textAlign:'start'}}>ارائه راهکارهای مدیریتی نیروی انسانی در حوزهIT</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات ارائه راهنمایی‌های مدیریتی نیروی انسانی در حوزه
+              IT را به‌منظور بهینه‌سازی فرآیندها و ارتقاء بهره‌وری تیم‌های
+              فناوری اطلاعات (IT) در سازمان‌ها ارائه می‌دهد. این خدمات شامل
+              مشاوره در زمینه‌های مختلف مدیریتی مانند توسعه استراتژی‌های منابع
+              انسانی در بخش IT، آموزش و توسعه نیروی انسانی، برنامه‌ریزی برای
+              استخدام و جذب متخصصین IT با مهارت‌های مورد نیاز، و همچنین ارزیابی
+              عملکرد تیم‌های فنی است. علاوه بر این، Worknet به سازمان‌ها کمک
+              می‌کند تا فرآیندهای بهینه‌سازی منابع انسانی را در بخش‌های مختلف IT
+              از جمله شبکه، امنیت، برنامه‌نویسی و پشتیبانی فنی پیاده‌سازی کنند.
+              این راهکارها به سازمان‌ها کمک می‌کنند تا نیروی انسانی خود را
+              به‌طور مؤثر مدیریت کنند، هزینه‌ها را کاهش دهند و بهره‌وری تیم‌های
+              IT را به حداکثر برسانند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="6">
@@ -120,17 +124,22 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6> تامین نیروی انسانی پاره وقت متخصص در جهت انجام فعالیت های ...
+              <h6 style={{textAlign:'start'}}>
+                تامین نیروی انسانی پاره وقت متخصص در جهت انجام فعالیت های ...
               </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات تامین نیروی انسانی پاره‌وقت متخصص در جهت انجام
+              فعالیت‌های تخصصی در حوزه‌های مختلف فناوری اطلاعات (IT) را ارائه
+              می‌دهد. این خدمات شامل فراهم کردن کارشناسان و متخصصین با تجربه
+              برای انجام پروژه‌های خاص و نیازهای موقتی سازمان‌ها است. تیم‌های
+              فنی Worknet به‌صورت پاره‌وقت در زمینه‌های مختلف مانند پشتیبانی
+              فنی، امنیت شبکه، توسعه نرم‌افزار، مدیریت سیستم‌ها، نصب و
+              راه‌اندازی تجهیزات شبکه، و بهینه‌سازی زیرساخت‌ها در سازمان شما
+              مستقر می‌شوند. این مدل از تأمین نیروی انسانی به سازمان‌ها این
+              امکان را می‌دهد که بدون نیاز به استخدام تمام‌وقت، از تخصص‌های لازم
+              در پروژه‌های کوتاه‌مدت یا نیازهای خاص بهره‌برداری کنند و به‌طور
+              مؤثری منابع خود را مدیریت نمایند.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

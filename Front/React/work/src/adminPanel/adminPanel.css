@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.mainAdminContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+.usersMassage {
+  height: 100%;
+  overflow-y: visible;
+  width: 24%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(251, 255, 255);
+  overflow-y: scroll;
+}
+.OffcanvasContainer {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  direction: rtl;
+  padding: 10px;
+  background-color: rgba(241, 241, 242, 0.413);
+}
+.massageContainer {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 76%;
+  height: 88vh;
+  float: left;
+  position: relative;
+  overflow-y: scroll;
+}
+.massageText {
+  max-width: 51%;
+  margin-bottom: 50px;
+  width: auto;
+  float: left;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.326);
+  border-radius: 20px 20px 20px 0px;
+  margin-left: 50px;
+  direction: rtl;
+}
+.massageList{
+  list-style: none;
+}
+.answerArea {
+  width: 100%;
+  height: 100px;
+  background-color: #fbffff;
+  position: absolute;
+  bottom: 0;
+}
+.answerText {
+  margin: 0px;
+  margin-right: 20px;
+  margin-top: 10px;
+  direction: rtl;
+  max-width: 51%;
+  width: auto;
+  background-color: rgba(0, 170, 255, 0.521);
+  border-radius: 20px 20px 0px 20px;
+}
+@media (max-width: 1200px) {
+  .massageContainer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .massageText > p {
+    font-size: 15px;
+  }
+  .answerText > p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 812px) {
+  .massageContainer {
+    padding-bottom: 120px;
+    width: 70%;
+  }
+  .usersMassage {
+    width: 30%;
+  }
+}
+@media (max-width: 680px) {
+  .massageContainer {
+    width: 100%;
+    padding-top: 110px;
+  }
+  .massageText {
+    max-width: 80%;
+  }
+  .answerText {
+    max-width: 80%;
+  }
+  .usersMassage , .buttomCol {
+    display: none;
+  }
+  .OffcanvasContainer {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .massageText {
+    margin-left: 10px;
+  }
+}

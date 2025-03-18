@@ -1,0 +1,25 @@
+.userMassage{
+    background-color: rgb(251, 255, 255);
+    height: 90px;
+    width: 100% ;
+    direction: rtl;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    border-bottom: 2px solid rgb(255, 131, 36);
+}
+.textTime{
+    color: #6e6e6e;
+}
+.textRow{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #6e6e6e;
+}
+@media (max-width:992px){
+    /* date time */
+    #root > div > div.usersMassage.p-0.container-fluid > div > div.p-0.row > div.textTime.col-4.p-0.m-0.col{
+        font-size: 15px;
+    }
+}

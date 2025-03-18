@@ -4,19 +4,21 @@
   align-items: center;
   display: grid;
   text-align: center;
-  background-image: url("/public/image/building.jpg");
+  background-image: url("/public/image/services/MainImageService.jpg");
   background-color: rgb(0, 0, 0 , 0.4);
   background-blend-mode: darken;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .aboutCompanyLogoContainer {
   min-height: 250px;
 }
 .aboutCompanyTitle {
   font-size: 150px;
-  color: rgba(255, 136, 0, 0.721);
+  font-weight: 600;
+  color: rgba(255, 136, 0, 0.587);
 }
 .aboutCompanyLogo {
   margin-top: -100px;
@@ -27,13 +29,22 @@
 .aboutCompanyExplane {
   direction: rtl;
   text-align: start;
+  margin-top: -50px;
+  width: 80%;
+  padding: 20px ;
+  /* border-radius: 15px ; */
+  border-right: 5px solid #d0d0d0;
+  background-color: rgba(0, 0, 0, 0.103);
+  backdrop-filter: blur(3px);
 }
 .aboutCompanyExplane > h1 {
-  font-weight: 700;
+  font-weight: 600;
   color: white;
+  font-size: 40px;
 }
 .aboutCompanyExplane > p {
   color: white;
+  font-size: 20px;
 }
 .colorContainer1 {
   height: 100px;

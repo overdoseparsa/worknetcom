@@ -3,22 +3,26 @@ import Service from "./servicePage/servicePage";
 import NetworkConsulting from "./networkConsulting/networkConsulting";
 import ActiveNetworkServices from "./activeNetworkServices/activeNetworkServices";
 import ServicePage from "./servicePage/servicePage";
-import PasiveNetworkService from "./pasiveNetworkService/pasiveNetworkService";
+import PassiveNetworkService from "./passiveNetworkService/passiveNetworkService";
 import NetworkSecurity from "./networkSecurity/networkSecurity";
 import BusinessService from "./businessService/businessService";
 import ProductPage from "./productPage/productPage";
 import WebService from "./webService&software/webService";
+import ContactForm from "./contactForm/contactForm";
+import AdminPanel from "./adminPanel/adminPanel";
 
 let routes = [
   { path: "/", element: <Home /> },
-  { path: "/Service", element: <Service /> },
-  { path: "/networkConsulting", element: <NetworkConsulting /> },
+  { path: "/Services", element: <Service /> },
+  { path: "/NetworkConsulting", element: <NetworkConsulting /> },
   { path: "/ServicePage", element: <ServicePage /> },
   { path: "/ActiveNetworkServices", element: <ActiveNetworkServices /> },
-  { path: "/PasiveNetworkService", element: <PasiveNetworkService /> },
+  { path: "/PassiveNetworkService", element: <PassiveNetworkService /> },
   { path: "/NetworkSecurity", element: <NetworkSecurity /> },
   { path: "/businessService", element: <BusinessService /> },
-  { path: "/webService", element: <WebService /> },
+  { path: "/WebService", element: <WebService /> },
   { path: "/ProductPage", element: <ProductPage /> },
+  { path:"/ContactForm", element:< ContactForm/>},
+  { path:"/AdminPanel", element:< AdminPanel/>}
 ];
 export default routes

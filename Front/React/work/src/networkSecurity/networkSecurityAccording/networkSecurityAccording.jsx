@@ -13,16 +13,20 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی IDS و IPS در شبکه</h6>
+              <h6 style={{textAlign:'start'}}>نصب و راه اندازی IDS و IPS در شبکه</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات نصب و راه‌اندازی سیستم‌های IDS (سیستم تشخیص
+              نفوذ) و IPS (سیستم پیشگیری از نفوذ) را برای حفاظت از شبکه‌ها در
+              برابر تهدیدات امنیتی ارائه می‌دهد. نصب IDS به شناسایی و
+              اطلاع‌رسانی در مورد حملات و فعالیت‌های مشکوک در شبکه کمک می‌کند،
+              در حالی که IPS علاوه بر شناسایی، می‌تواند به‌طور فعال از نفوذ و
+              حملات جلوگیری کند. تیم فنی Worknet با ارزیابی نیازهای امنیتی شبکه،
+              سیستم‌های IDS و IPS را نصب، پیکربندی و به‌طور مؤثر راه‌اندازی
+              می‌کند تا امنیت شبکه‌ها در برابر تهدیدات داخلی و خارجی تقویت شود.
+              این خدمات به سازمان‌ها کمک می‌کند تا حملات احتمالی را شناسایی کرده
+              و از وقوع آن‌ها پیشگیری کنند، در نتیجه امنیت داده‌ها و اطلاعات
+              حساس حفظ می‌شود.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="1">
@@ -30,16 +34,21 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت سیستم عامل و الیه کاربردی</h6>
+              <h6 style={{textAlign:'start'}}>امنیت سیستم عامل و الیه کاربردی</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات امنیت سیستم‌عامل و لایه کاربردی را برای محافظت
+              از زیرساخت‌های نرم‌افزاری و جلوگیری از دسترسی‌های غیرمجاز به
+              داده‌ها و اطلاعات حساس ارائه می‌دهد. این خدمات شامل پیکربندی و
+              تقویت امنیت سیستم‌عامل‌ها (مانند ویندوز، لینوکس و سایر
+              سیستم‌عامل‌ها) برای جلوگیری از تهدیدات احتمالی نظیر ویروس‌ها،
+              بدافزارها، و حملات خارجی است. همچنین، در لایه کاربردی، تیم فنی
+              Worknet با انجام تست‌های نفوذ و بررسی آسیب‌پذیری‌ها، امنیت
+              نرم‌افزارهای کاربردی و برنامه‌های تحت وب را تقویت کرده و با اعمال
+              سیاست‌های امنیتی مناسب، از بروز مشکلاتی نظیر نفوذ به دیتابیس‌ها و
+              اطلاعات حساس جلوگیری می‌کند. با این خدمات، سازمان‌ها می‌توانند از
+              امنیت بالاتر سیستم‌های خود اطمینان حاصل کرده و تهدیدات نرم‌افزاری
+              و حملات سایبری را به حداقل برسانند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="2">
@@ -47,16 +56,23 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>پیکربندی امنیتی و ایمن سازی سرویسهای شبکه</h6>
+              <h6 style={{textAlign:'start'}}>پیکربندی امنیتی و ایمن سازی سرویسهای شبکه</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات پیکربندی امنیتی و ایمن‌سازی سرویس‌های شبکه را
+              به‌منظور حفاظت از زیرساخت‌های شبکه در برابر تهدیدات خارجی و داخلی
+              ارائه می‌دهد. این خدمات شامل پیکربندی دقیق و اصولی سرویس‌های مختلف
+              شبکه مانند DNS، DHCP، HTTP، FTP، و سایر پروتکل‌های شبکه به‌گونه‌ای
+              است که از آسیب‌پذیری‌ها و نقاط ضعف احتمالی جلوگیری شود. تیم فنی
+              Worknet با اعمال سیاست‌های امنیتی، از جمله استفاده از فایروال‌ها،
+              رمزنگاری داده‌ها، تنظیمات دسترسی بر اساس نیاز، و اعمال احراز هویت
+              چندعاملی (MFA)، اطمینان حاصل می‌کند که تمامی سرویس‌های شبکه
+              به‌صورت ایمن و مقاوم در برابر حملات سایبری و دسترسی‌های غیرمجاز
+              عمل کنند. همچنین، با استفاده از ابزارهای نظارتی و آنالیز ترافیک،
+              وضعیت امنیتی شبکه به‌طور مداوم تحت بررسی قرار می‌گیرد تا تهدیدات
+              شناسایی و مدیریت شوند. این خدمات باعث می‌شود تا سازمان‌ها از
+              شبکه‌ای امن و پایدار برخوردار شده و اطلاعات حساس خود را در برابر
+              خطرات محافظت کنند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="3">
@@ -64,16 +80,19 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>امنیت و پیاده سازی Network Monitoring</h6>
+              <h6 style={{textAlign:'start'}}>امنیت و پیاده سازی Network Monitoring</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات امنیت و پیاده‌سازی سیستم‌های Network Monitoring
+              (نظارت بر شبکه) را به‌منظور شناسایی و مدیریت تهدیدات امنیتی،
+              بهینه‌سازی عملکرد شبکه و پیشگیری از مشکلات بالقوه در زیرساخت‌های
+              شبکه ارائه می‌دهد. این خدمات شامل نصب و پیکربندی ابزارهای پیشرفته
+              نظارت بر شبکه است که به‌طور مداوم وضعیت عملکرد شبکه، ترافیک
+              داده‌ها، و سلامت تجهیزات را مورد بررسی قرار می‌دهند. همچنین، با
+              پیاده‌سازی سیستم‌های امنیتی مانند تشخیص و پیشگیری از نفوذ
+              (IDS/IPS)، نظارت بر شبکه می‌تواند به‌طور همزمان به شناسایی تهدیدات
+              امنیتی و جلوگیری از حملات سایبری پرداخته و در صورت بروز مشکل،
+              هشدارهای فوری ارسال کند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="4">
@@ -81,16 +100,16 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی IP SLA Manager</h6>
+              <h6 style={{textAlign:'start'}}>نصب و پیاده سازی IP SLA Manager</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات نصب و پیاده‌سازی IP SLA Manager را به‌منظور
+              نظارت و بهینه‌سازی عملکرد شبکه‌های سازمانی ارائه می‌دهد. IP SLA
+              (IP Service Level Agreement) یک ابزار پیشرفته است که برای سنجش و
+              نظارت بر کیفیت سرویس‌های شبکه، از جمله تأخیر، از دست دادن بسته‌ها،
+              و پهنای باند استفاده می‌شود. با استفاده از این ابزار، مدیران شبکه
+              می‌توانند عملکرد شبکه را در زمان واقعی پایش کنند و در صورت وجود
+              مشکلات یا کاهش کیفیت خدمات، سریعاً واکنش نشان دهند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="5">
@@ -98,16 +117,23 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و راه اندازی سیستم Anti-Virus</h6>
+              <h6 style={{textAlign:'start'}}>نصب و راه اندازی سیستم Anti-Virus</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات نصب و راه‌اندازی سیستم‌های Anti-Virus را
+              به‌منظور حفاظت از شبکه‌ها و سیستم‌های سازمان‌ها در برابر تهدیدات
+              نرم‌افزاری، ویروس‌ها و بدافزارها ارائه می‌دهد. این خدمات شامل
+              انتخاب و نصب نرم‌افزار آنتی‌ویروس متناسب با نیازهای خاص سازمان،
+              پیکربندی تنظیمات امنیتی برای اسکن و شناسایی تهدیدات، و اعمال
+              سیاست‌های به‌روز برای پیشگیری از حملات ویروسی است. تیم فنی Worknet
+              پس از نصب آنتی‌ویروس، آن را به‌طور کامل پیکربندی کرده و اطمینان
+              حاصل می‌کند که سیستم‌ها به‌صورت مداوم و خودکار از نظر تهدیدات
+              مختلف نظارت و اسکن می‌شوند. همچنین، به‌روزرسانی‌های منظم
+              ویروس‌بانک و قواعد امنیتی به‌صورت خودکار انجام می‌شود تا شبکه در
+              برابر جدیدترین تهدیدات محافظت شود. این سیستم به سازمان‌ها کمک
+              می‌کند تا از اطلاعات و داده‌های خود در برابر حملات ویروسی،
+              جاسوس‌افزارها و بدافزارهای دیگر محافظت کنند و به‌طور کلی امنیت
+              سیستم‌های داخلی خود را ارتقا دهند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="6">
@@ -115,16 +141,25 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>نصب و پیاده سازی NetFlow Traffic Analyzer</h6>
+              <h6 style={{textAlign:'start'}}>نصب و پیاده سازی NetFlow Traffic Analyzer</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات نصب و پیاده‌سازی NetFlow Traffic Analyzer را
+              برای نظارت و تحلیل دقیق ترافیک شبکه و عملکرد آن ارائه می‌دهد.
+              NetFlow یک پروتکل نظارتی است که اطلاعات جامع و دقیقی از ترافیک
+              شبکه، مسیرهای انتقال داده، پهنای باند مصرفی و الگوهای مصرف شبکه را
+              جمع‌آوری می‌کند. با نصب و پیکربندی NetFlow Traffic Analyzer، تیم
+              فنی Worknet قادر خواهد بود تا داده‌های ترافیک شبکه را به‌صورت
+              لحظه‌ای جمع‌آوری کرده و تجزیه و تحلیل کند. این ابزار به‌مدیران
+              شبکه کمک می‌کند تا الگوهای ترافیکی، منابع مصرف شده، و حتی مشکلات
+              یا گلوگاه‌های شبکه را شناسایی کرده و با استفاده از گزارشات دقیق،
+              اقدام‌های بهینه‌سازی انجام دهند. این سیستم می‌تواند به‌طور مؤثری
+              در شناسایی ترافیک غیرمجاز، بررسی کارایی شبکه، تجزیه و تحلیل مصرف
+              پهنای باند، و شناسایی مشکلات بالقوه در شبکه‌ها کمک کند. همچنین،
+              این ابزار برای شبیه‌سازی و پیش‌بینی عملکرد شبکه در شرایط مختلف
+              بسیار مفید است. با پیاده‌سازی این سیستم، سازمان‌ها می‌توانند
+              دیدگاه دقیق‌تری نسبت به عملکرد شبکه خود داشته و به‌سرعت به مسائل و
+              مشکلات شبکه واکنش نشان دهند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="7">
@@ -132,19 +167,22 @@ export default class networkSecurityAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>
-                {" "}
+              <h6 style={{textAlign:'start'}}>
                 طراحی ، نصب و راه اندازی سیستم Bandwidth Management & Caching
               </h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات طراحی، نصب و راه‌اندازی سیستم‌های مدیریت پهنای
+              باند (Bandwidth Management) و کشینگ (Caching) را به‌منظور
+              بهینه‌سازی استفاده از منابع شبکه و افزایش کارایی ارائه می‌دهد.
+              مدیریت پهنای باند به سازمان‌ها این امکان را می‌دهد که ترافیک شبکه
+              را به‌طور مؤثر تقسیم و کنترل کنند، از congested شدن شبکه جلوگیری
+              کرده و اطمینان حاصل کنند که منابع به‌صورت عادلانه و بر اساس
+              اولویت‌ها تخصیص می‌یابند. با پیاده‌سازی این سیستم، مدیران شبکه
+              می‌توانند پهنای باند را بر اساس نیازهای مختلف تنظیم کنند، از
+              استفاده بهینه از پهنای باند اطمینان حاصل کنند و از کاهش عملکرد
+              شبکه به دلیل مصرف زیاد ترافیک توسط کاربران یا اپلیکیشن‌ها جلوگیری
+              نمایند
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

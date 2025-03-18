@@ -3,28 +3,58 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 .customNavbar {
-    transition: all 0.3s ease;
+    transition: all .3s ease;
     height: 120px;
-    backdrop-filter: 9px;
-    background-color: #03417700;
     backdrop-filter: blur(5px);
+    background-color: #ffffff2b;
     padding: 0px 50px;
+    opacity: 0;
+    direction: rtl;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    animation: Fade-In-Top 1.5s ease forwards;
+    animation-delay: 3s;
 }
+
+@keyframes Fade-In-Top {
+    from {
+        opacity: 0;
+        transform: translateY(-240px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ 
+#responsive-navbar-nav\  > div.me-auto.ms-3.me-0.navbar-nav{
+    margin: 0px;
+}
+#responsive-navbar-nav\ {
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
 
 .customNavbar.scrolled {
     width: 95vw;
     margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
     border: 1px solid rgba(230, 107, 0, 0.681);
-    background-color: #0341778f;
+    background-color: #ffffff8f;
     backdrop-filter: blur(5px);
+    direction: rtl;
 }
 
+
+.scrolledDiv{
+    width: 95vw;
+    margin: 0 auto;
+}
 .navTitle {
     font-size: 30px;
 }
@@ -41,12 +71,19 @@
 .navbar-collapse {
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbarLink {
     font-size: 20px;
 }
-
+.worknetLogo{
+    width: 150px;
+}
+.navLink{
+    margin-right: -50px;
+}
 .searchForm:focus {
     border: 3px solid rgb(255, 136, 0);
 }
@@ -58,6 +95,10 @@
 #responsive-navbar-nav\ >div:nth-child(2)>a {
     font-size: 23px;
 
+}
+/* all link in navbar */
+#responsive-navbar-nav\  > div.text-start.navbar-nav > a , #responsive-navbar-nav\  > div:nth-child(2) > a{
+    font-size: 20px;
 }
 
 #collapsible-nav-dropdown {
@@ -98,8 +139,38 @@
 #root>nav>button>span {
     font-size: 40px;
 }
+.links{
+    position: absolute;
+    width: 240px;
+    min-height: 0px ;
+    padding: 10px;
+    background-color: #d3d3d3;
+    top: 80px;
+    border-radius: 15px;
+    border: 2px solid #fefefe;
+}
+.linksUL{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.linksUL>li{
+    width: 100%;
+    height: 40px;
+    background-color: #ededed;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
 
 /* responsive */
+@media (max-width:1249px){
+    #responsive-navbar-nav\  > div.text-start.navbar-nav > a , #responsive-navbar-nav\  > div:nth-child(2) > a{
+        font-size: 16px;
+        text-align: start;
+    }
+}
 @media (max-width:1200px) {
     #root>nav {
         padding: 18px 10px 9px 10px;
@@ -109,7 +180,30 @@
         margin-left: 30px;
     }
 }
-
+@media(max-width:991px){
+    .navbar-collapse{
+        display: grid;
+        text-align: start;
+        padding: 20px;
+    }
+    #root > nav{
+        padding-top: 0px;
+    }
+    .navLink{
+        margin-right: 0px;
+    }
+    #responsive-navbar-nav > div.text-start.navbar-nav > a{
+        text-align: start;
+    }
+    #responsive-navbar-nav{
+        background-color: #ffffffb5;
+        backdrop-filter: blur(5px);
+    }
+    /* this is for wrong main page link */
+    #responsive-navbar-nav > div.text-start.navbar-nav > a:nth-child(1){
+        display: none;
+    }
+}
 @media (max-width:435px) {
     #root>nav {
         padding: 18px 10px 10px 9px;

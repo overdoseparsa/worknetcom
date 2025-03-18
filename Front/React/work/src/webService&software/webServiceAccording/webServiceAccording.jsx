@@ -16,30 +16,43 @@ export default class businessServiceAccording extends Component {
               <h6>برنامه نویسی وب سفارش مشتری</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات برنامه‌نویسی وب سفارشی را به‌منظور ایجاد
+              وب‌سایت‌ها و اپلیکیشن‌های تحت وب بر اساس نیازهای خاص مشتریان ارائه
+              می‌دهد. تیم فنی ما با استفاده از فناوری‌ها و زبان‌های برنامه‌نویسی
+              روز مانند HTML, CSS, JavaScript, PHP, Python، و فریم‌ورک‌های
+              پیشرفته مانند React, Angular, و Laravel، وب‌سایت‌ها و پلتفرم‌های
+              آنلاین منطبق با نیازهای خاص کسب‌وکارها طراحی و توسعه می‌دهند. این
+              خدمات شامل تحلیل نیازهای مشتری، طراحی رابط کاربری (UI) و تجربه
+              کاربری (UX)، توسعه عملکردهای خاص، یکپارچگی با سیستم‌های دیگر،
+              بهینه‌سازی برای موتورهای جستجو (SEO)، و همچنین تست و پشتیبانی پس
+              از تحویل پروژه است. با برنامه‌نویسی وب سفارشی، مشتریان می‌توانند
+              وب‌سایت‌هایی با قابلیت‌های ویژه و کاملاً متناسب با اهداف تجاری خود
+              داشته باشند که به‌طور مؤثر و کارآمد نیازهای کاربران را برطرف کنند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="1">
             <Accordion.Header
-              className="accordingHeader
-                        "
+              className="accordingHeader"
             >
-              <h6>برنامه نویسی نرم افزار سفارش مشتری</h6>
+              <h6 style={{textAlign:'start'}}>برنامه نویسی نرم افزار سفارش مشتری</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات برنامه‌نویسی نرم‌افزار سفارشی را برای توسعه
+              نرم‌افزارهای متناسب با نیازهای خاص مشتریان در حوزه‌های مختلف ارائه
+              می‌دهد. این خدمات شامل طراحی و توسعه نرم‌افزارهای کاربردی،
+              سیستم‌های مدیریت منابع، نرم‌افزارهای ویژه برای کسب‌وکارهای خاص، و
+              سایر راه‌حل‌های نرم‌افزاری با توجه به نیازهای دقیق مشتری است. تیم
+              فنی Worknet با استفاده از زبان‌های برنامه‌نویسی متنوع مانند Java,
+              C#, Python, و PHP و همچنین فریم‌ورک‌های پیشرفته، نرم‌افزارهایی با
+              رابط کاربری آسان و عملکرد قوی ایجاد می‌کند. این نرم‌افزارها
+              می‌توانند به‌طور کامل با سیستم‌های موجود یکپارچه شوند و قابلیت
+              سفارشی‌سازی برای رفع نیازهای ویژه مشتری را داشته باشند. خدمات
+              برنامه‌نویسی نرم‌افزار شامل مراحل مختلف از جمله تحلیل نیازهای
+              کسب‌وکار، طراحی نرم‌افزار، پیاده‌سازی، تست، و پشتیبانی پس از تحویل
+              می‌شود تا اطمینان حاصل شود که نرم‌افزار به‌طور مؤثر و مطابق با
+              اهداف تجاری مشتری عمل می‌کند. این راه‌حل‌ها به مشتریان کمک می‌کند
+              تا فرآیندهای کسب‌وکار خود را بهبود بخشند، کارایی را افزایش دهند و
+              تجربه کاربری بهتری را ارائه دهند.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="2">
@@ -50,13 +63,19 @@ export default class businessServiceAccording extends Component {
               <h6>ارائه خدمات نگهداری وب سایت</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات نگهداری وب‌سایت را برای اطمینان از عملکرد
+              پایدار، امنیت بالا، و به‌روزرسانی مداوم وب‌سایت‌ها ارائه می‌دهد.
+              این خدمات شامل نظارت مستمر بر عملکرد سایت، به‌روزرسانی محتوای
+              سایت، بهینه‌سازی سرعت بارگذاری، پشتیبان‌گیری منظم از داده‌ها، و
+              رفع اشکالات فنی به‌صورت فوری می‌شود. تیم فنی Worknet با انجام
+              بروزرسانی‌های امنیتی، نصب پچ‌های امنیتی و افزونه‌ها، و مدیریت
+              به‌روزرسانی‌های سیستم، اطمینان حاصل می‌کند که وب‌سایت شما همیشه
+              ایمن، به‌روز و در دسترس باشد. علاوه بر این، ما برای بهبود تجربه
+              کاربری و سئو (SEO)، بهینه‌سازی‌های لازم را انجام می‌دهیم تا سایت
+              شما همواره عملکرد مطلوبی داشته باشد. خدمات نگهداری وب‌سایت شامل
+              پاسخ‌گویی به نیازهای خاص شما، مدیریت عملکرد سایت، و اطمینان از رفع
+              مشکلات به‌طور سریع و کارآمد است تا شما بتوانید بدون نگرانی از
+              جنبه‌های فنی، به توسعه کسب‌وکار خود بپردازید.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="3">
@@ -67,13 +86,21 @@ export default class businessServiceAccording extends Component {
               <h6>نرم افزار جامع ارزیابی عملکرد</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات توسعه نرم‌افزار جامع ارزیابی عملکرد را برای کمک
+              به سازمان‌ها در ارزیابی و بهبود عملکرد کارکنان و تیم‌ها ارائه
+              می‌دهد. این نرم‌افزار به‌صورت سفارشی طراحی شده و قابلیت‌هایی نظیر
+              تنظیم اهداف فردی و گروهی، ارزیابی عملکرد بر اساس معیارهای مشخص،
+              ثبت و تحلیل بازخوردها، و گزارش‌دهی دقیق را فراهم می‌کند. نرم‌افزار
+              ارزیابی عملکرد Worknet به مدیران این امکان را می‌دهد تا به‌طور
+              مؤثر عملکرد کارکنان را پیگیری کنند، نقاط قوت و ضعف هر فرد را
+              شناسایی کنند و برای بهبود مستمر برنامه‌ریزی کنند. همچنین، این
+              نرم‌افزار با استفاده از معیارهای قابل تنظیم، به سازمان‌ها این
+              امکان را می‌دهد که فرآیند ارزیابی را با توجه به نیازهای خاص خود
+              شخصی‌سازی کنند. این راه‌حل‌ها به سازمان‌ها کمک می‌کند تا بهره‌وری
+              کارکنان را افزایش دهند، شفافیت در ارزیابی‌ها را تقویت کنند و به
+              تصمیم‌گیری‌های مدیریتی به‌صورت مبتنی بر داده کمک کنند. سیستم‌های
+              گزارش‌دهی و تجزیه و تحلیل داده‌ها در نرم‌افزار امکان پایش دقیق
+              پیشرفت‌ها و ارائه بازخوردهای مفید را فراهم می‌آورد.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="4">
@@ -84,13 +111,24 @@ export default class businessServiceAccording extends Component {
               <h6>نرم افزار آرشیو الکترونیکی اسناد</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات توسعه نرم‌افزار آرشیو الکترونیکی اسناد را برای
+              سازمان‌ها و شرکت‌ها ارائه می‌دهد تا بتوانند اسناد و مدارک خود را
+              به‌صورت دیجیتال و امن ذخیره، مدیریت و جستجو کنند. این نرم‌افزار به
+              سازمان‌ها کمک می‌کند تا فرآیندهای بایگانی و مدیریت اسناد خود را
+              بهینه کرده و از مزایای مدیریت اسناد دیجیتال بهره‌مند شوند.
+              نرم‌افزار آرشیو الکترونیکی اسناد Worknet قابلیت‌هایی مانند
+              ذخیره‌سازی اسناد با فرمت‌های مختلف (PDF، تصاویر اسکن‌شده، و غیره)،
+              جستجوی پیشرفته اسناد بر اساس متادیتا و کلمات کلیدی، مدیریت دسترسی
+              به اسناد و کاربران، و امکان بایگانی امن را فراهم می‌کند. همچنین،
+              این نرم‌افزار می‌تواند اسناد را با استفاده از تکنولوژی OCR (تشخیص
+              نویسه نوری) برای استخراج متن از تصاویر اسکن‌شده و تبدیل آن‌ها به
+              فرمت‌های قابل جستجو، به‌طور خودکار پردازش کند. این سیستم به
+              سازمان‌ها این امکان را می‌دهد که به‌راحتی و با سرعت بیشتری به
+              اسناد دسترسی پیدا کنند، حجم انبوهی از اطلاعات را به‌طور مؤثر
+              مدیریت کنند، و امنیت اسناد حساس را افزایش دهند. از دیگر مزایای این
+              نرم‌افزار می‌توان به کاهش هزینه‌های ذخیره‌سازی فیزیکی، افزایش
+              کارایی در فرآیندهای تجاری، و دسترسی سریع به اسناد از هر مکان و در
+              هر زمان اشاره کرد.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="5">
@@ -98,16 +136,20 @@ export default class businessServiceAccording extends Component {
               className="accordingHeader
                         "
             >
-              <h6>سیستم جامع مدیریت ارتباط با مشتریانISP</h6>
+              <h6 style={{textAlign:'start'}}>سیستم جامع مدیریت ارتباط با مشتریانISP</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات توسعه سیستم جامع مدیریت ارتباط با مشتریان (CRM)
+              مختص ISP (Internet Service Provider) را برای شرکت‌های ارائه‌دهنده
+              خدمات اینترنتی طراحی و پیاده‌سازی می‌کند. این سیستم شامل
+              قابلیت‌هایی همچون مدیریت اطلاعات مشتریان، پشتیبانی سریع و مؤثر،
+              نظارت بر اشتراک‌ها و خدمات ارائه‌شده، مدیریت صورتحساب‌ها و
+              پرداخت‌ها، تولید گزارش‌های دقیق برای تحلیل عملکرد، اتوماتیک‌سازی
+              فرآیندهای ارتباطی، و مدیریت تجهیزات مشتریان مانند مودم‌ها و روترها
+              است. با استفاده از این سیستم، شرکت‌های ISP می‌توانند ارتباطات
+              مؤثری با مشتریان برقرار کرده، کیفیت خدمات را بهبود بخشیده و تجربه
+              مشتری را ارتقا دهند. همچنین این سیستم باعث بهینه‌سازی فرآیندهای
+              مدیریتی و تصمیم‌گیری‌های دقیق‌تر بر اساس داده‌های به‌روز می‌شود.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className="accordingItem" eventKey="6">
@@ -118,16 +160,26 @@ export default class businessServiceAccording extends Component {
               <h6> سیستم جامع کنترل فروشISP</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات توسعه سیستم جامع کنترل فروش ISP را برای
+              شرکت‌های ارائه‌دهنده خدمات اینترنتی طراحی و پیاده‌سازی می‌کند. این
+              سیستم به سازمان‌ها کمک می‌کند تا فرآیندهای فروش خود را به‌طور مؤثر
+              مدیریت کرده و بهینه‌سازی کنند. سیستم کنترل فروش ISP شامل
+              قابلیت‌هایی مانند مدیریت مشتریان، پیگیری درخواست‌ها و سفارشات،
+              مدیریت اشتراک‌ها و طرح‌های اینترنتی، و مدیریت صورت‌حساب‌ها و
+              پرداخت‌ها است. این سیستم به مدیران و تیم‌های فروش امکان می‌دهد تا
+              اطلاعات دقیق و به‌روز از وضعیت فروش، قراردادها، و پیشرفت‌های
+              مشتریان را در دسترس داشته باشند. علاوه بر این، امکان گزارش‌دهی و
+              تحلیل عملکرد فروش، مدیریت تخفیف‌ها و پیشنهادات ویژه، و یکپارچگی با
+              سیستم‌های مالی و حسابداری برای نظارت بهتر بر روی درآمدها و
+              هزینه‌ها فراهم می‌شود. با استفاده از سیستم جامع کنترل فروش ISP،
+              شرکت‌ها قادر خواهند بود کارایی فرآیندهای فروش را افزایش دهند،
+              خدمات و محصولات اینترنتی را به‌طور مؤثرتر به مشتریان عرضه کنند، و
+              تجربه بهتری برای مشتریان خود فراهم آورند. این سیستم همچنین به
+              بهبود تصمیم‌گیری‌های استراتژیک و افزایش درآمدها از طریق مدیریت
+              بهینه فروش کمک می‌کند.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item className="accordingItem" eventKey="6">
+          <Accordion.Item className="accordingItem" eventKey="7">
             <Accordion.Header
               className="accordingHeader
                         "
@@ -135,13 +187,23 @@ export default class businessServiceAccording extends Component {
               <h6> ارائه راهکارهای مبتنی بر شیرپوینت</h6>
             </Accordion.Header>
             <Accordion.Body className="accordingBody">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              شرکت Worknet خدمات ارائه راهکارهای مبتنی بر شیرپوینت (SharePoint)
+              را برای سازمان‌ها به‌منظور بهبود مدیریت محتوا، همکاری تیمی، و
+              بهینه‌سازی فرآیندهای داخلی ارائه می‌دهد. شیرپوینت یک پلتفرم
+              قدرتمند است که امکان ایجاد، مدیریت و اشتراک‌گذاری اسناد، اطلاعات و
+              محتوا را در محیط‌های سازمانی فراهم می‌کند. خدمات ما شامل طراحی و
+              پیاده‌سازی پورتال‌های همکاری، سیستم‌های مدیریت مستندات، مدیریت
+              پروژه‌ها، و اتوماسیون فرآیندهای کسب‌وکار با استفاده از شیرپوینت
+              است. تیم فنی Worknet راهکارهای سفارشی و مقیاس‌پذیر مبتنی بر
+              شیرپوینت را توسعه می‌دهد که به سازمان‌ها کمک می‌کند تا ارتباطات
+              داخلی را بهبود بخشند، اطلاعات را به‌طور مؤثر ذخیره و مدیریت کنند،
+              و فرآیندهای تجاری خود را خودکارسازی نمایند. این راهکارها شامل
+              ایجاد و مدیریت مستندات، سیستم‌های گردش کار (Workflow) برای تسهیل
+              فرآیندهای سازمانی، و پورتال‌های داخلی برای اشتراک‌گذاری اطلاعات و
+              همکاری در زمان واقعی است. با استفاده از شیرپوینت، سازمان‌ها
+              می‌توانند بهره‌وری تیم‌ها را افزایش دهند، دسترسی به اطلاعات را
+              سریع‌تر و آسان‌تر کنند و امنیت و کنترل بهتری بر روی داده‌ها داشته
+              باشند.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

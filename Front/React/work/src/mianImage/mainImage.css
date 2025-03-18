@@ -1,240 +1,260 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .mainContainer {
-    padding: 0;
-    position: relative;
-    height:650px;
-    display: grid;
-    align-items: center;
-    background-image: url("/public/image/intro-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    direction: rtl;
-    border-radius: 10% 30%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 100%;
+  padding: 0;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  position: relative;
+  min-height: 100vh;
+  direction: rtl;
 }
 
-.mainText {
-    padding-right: 150px;
-    padding-top: 50px;
+.motionDiv {
+  width: 50%;
 }
 
-.mainText>h1 {
-    font-size: 40px;
-    color: rgb(255, 159, 49);
+.mainImageText {
+  padding-right: 50px;
+  padding-top: 130px;
+  display: grid;
+  align-items: center;
+}
+.mainImageText > h1 {
+  font-size: 30px;
+  color: rgb(255, 159, 49);
+  display: inline-block;
 }
 
-.mainText>h2 {
-    font-size: 35px;
-    line-height: 50px;
-    margin-right: 20px;
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
+.mainImageText > h2 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-right: 20px;
+  margin-top: 25px;
+  color: rgb(95, 95, 95);
+  display: inline-block;
 }
 
-.mainText>h3 {
-    direction: rtl;
-    font-size: 20px;
-    line-height: 50px;
-    margin-right: 20px;
-    color: rgb(230, 230, 230);
-    text-align: start;
-    max-width: 700px;
+.mainImageText > h3 {
+  direction: rtl;
+  font-size: 20px;
+  line-height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;
+  color: rgb(48, 48, 48);
+  text-align: start;
+  display: inline-block;
 }
 
-/* span */
-#root>div.mainContainer.container-fluid>div>h1>span {
-    color: rgb(255, 159, 49);
-    font-size: 45px;
+.mainImageSpan {
+  color: rgb(255, 159, 49);
+  font-size: 40px;
+  font-weight: 600;
 }
-
 .botton1,
 .botton2 {
-    margin: 10px;
-    float: right;
-    background-color:
-        rgba(255, 136, 0, 0.954);
-    border-radius: 10px;
-    padding: 7px 12px;
-    border-color: rgb(255, 136, 0);
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    transition: all 0.5s;
-    border: 2px solid #00000000;
+  width: 110px;
+  height: 45px;
+  margin: 10px;
+  float: right;
+  background-color: rgba(255, 136, 0, 0.954);
+  border-radius: 10px;
+  padding: 7px 7px;
+  border-color: rgb(255, 136, 0);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.5s;
+  border: 2px solid #00000000;
+}
+.mainImageLink {
+  font-size: 15px;
+  color: #000000;
 }
 
 .botton1 {
-    margin-right: 50px;
+  margin-right: 70px;
 }
 
 .botton2 {
-    background-color: #00000000;
-    border: 2px solid;
+  background-color: #00000000;
+  border: 2px solid black;
 }
 
 .button1:hover {
-    background-color: rgb(255, 136, 0);
-    border: 2px solid rgb(255, 136, 0);
+  background-color: rgb(255, 136, 0);
+  border: 2px solid rgb(255, 136, 0);
 }
 
 .button2:hover {
-    background-color: rgba(0, 0, 0, 0);
-    border: 3px solid;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid;
 }
 
+.mainImageImage {
+  display: grid;
+  align-items: center;
+}
+.Image {
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 40px 10px 40px 10px;
+  margin-top: 50px;
+}
+.mainImageContainer {
+  background-color: #f4f5f7;
+  background-image: url("/public/image/mainImage\ \(3\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* responsive */
-@media (max-width:1496px) {
-    .mainText {
-        margin-top: 120px;
-        padding-right: 50px;
-        padding-top: 0px;
-        top: 30%;
-        left: 50%;
-        min-width: auto;
-        text-align: start;
-    }
+@media (max-width: 1496px) {
+  .mainImageText {
+    margin-top: 120px;
+    padding-right: 50px;
+    padding-top: 0px;
+    top: 30%;
+    left: 50%;
+    text-align: start;
+  }
 
-    .mainText>h1 {
-        font-size: 30px;
-        color: rgb(255, 159, 49);
-        text-align: start;
-    }
+  .mainImageText > h1 {
+    font-size: 25px;
+    color: rgb(255, 159, 49);
+    text-align: start;
+  }
 
-    #root>div.mainContainer.container-fluid>div>h1>span {
-        color: rgb(255, 136, 0);
-        font-size: 30px;
-    }
+  .mainImageSpan {
+    color: rgb(255, 136, 0);
+    font-size: 30px;
+  }
 
-    .mainText>h2 {
-        font-size: 25px;
-        line-height: 30px;
-        margin-right: 0px;
-        margin-top: 20px;
-        color: rgb(255, 255, 255);
-    }
+  .mainImageText > h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
 
-    .mainText>h3 {
-        direction: rtl;
-        font-size: 20px;
-        line-height: 50px;
-        margin-right: 20px;
-        color: rgb(230, 230, 230);
-        text-align: start;
-        max-width: 700px;
-    }
+  .mainImageText > h3 {
+    direction: rtl;
+    font-size: 20px;
+    line-height: 50px;
+    margin-right: 0px;
+    text-align: start;
+  }
 
-    .button {
-        font-size: 30px;
-    }
+  .button {
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 768px) {
-    .mainContainer {
-        min-height: 85vh;
-        max-height: fit-content;
-    }
+@media (max-width: 1160px) {
+  .mainImageText > h1 {
+    font-size: 20px;
+  }
 
-    .mainText {
-        margin-top: 120px;
-        min-width: auto;
-        text-align: end;
-        padding: 0px;
-    }
+  .mainImageSpan {
+    font-size: 25px;
+  }
 
-    .mainText>h1 {
-        font-size: 20px;
-        color: rgb(255, 159, 49);
-        text-align: start;
-        margin-right: 20px;
-    }
+  .mainImageText > h2 {
+    font-size: 15px;
+  }
 
-    #root>div.mainContainer.container-fluid>div>h1>span {
-        color: rgb(255, 136, 0);
-        font-size: 20px;
-    }
-
-    .mainText>h2 {
-        font-size: 25px;
-        line-height: 30px;
-        margin-right: 20px;
-        margin-top: 20px;
-        color: rgb(255, 255, 255);
-        text-align: start;
-        margin-right: 20px;
-    }
-
-    .mainText>h3 {
-        direction: rtl;
-        font-size: 20px;
-        line-height: 50px;
-        margin-right: 20px;
-        color: rgb(230, 230, 230);
-        text-align: start;
-        max-width: 700px;
-    }
+  .mainImageText > h3 {
+    font-size: 15px;
+  }
 }
 
-@media(max-width:576px) {
-    .mainContainer {
-        background-color: rgba(0, 0, 0, 0.219);
-        background-blend-mode: darken;
-    }
+@media (max-width: 1000px) {
+  .mainContainer {
+    display: grid;
+  }
+  .mainImageImage {
+    display: none;
+  }
+  .motionDiv {
+    width: 98%;
+  }
+  .mainImageText > h1 {
+    font-size: 25px;
+  }
 
-    .mainText {
-        text-align: start;
-        min-width: 100%;
-        max-width: 355px;
-    }
+  .mainImageSpan {
+    font-size: 27px;
+  }
 
-    .mainText>h1 {
-        font-size: 20px;
-        color: rgb(255, 159, 49);
-        text-align: start;
-        width: 100%;
-        float: right;
-    }
+  .mainImageText > h2 {
+    font-size: 20px;
+  }
 
-    #root>div.mainContainer.container-fluid>div>h1>span {
-        color: rgb(255, 136, 0);
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-
-    .mainText>h2 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-right: 20px;
-        margin-top: 20px;
-        color: rgb(255, 255, 255);
-        text-align: start;
-        margin-right: 20px;
-    }
-
-    .mainText>h3 {
-        direction: rtl;
-        font-size: 15px;
-        line-height: 50px;
-        margin-right: 20px;
-        color: rgb(230, 230, 230);
-        text-align: start;
-        max-width: 700px;
-    }
-
-    .button {
-        padding: 8px 20px 10px 20px;
-        font-size: 15px;
-    }
+  .mainImageText > h3 {
+    font-size: 20px;
+  }
 }
 
-@media(max-width:370px) {
-    .mainContainer {
-        height: 90vh;
-    }
+@media (max-width: 576px) {
+  .mainText {
+    padding: 0px;
+    text-align: center;
+  }
+  .mainImageText {
+    text-align: start;
+    padding: 0px;
+    margin-right: -10px;
+  }
+
+  .mainImageText > h1 {
+    font-size: 20px;
+    color: rgb(255, 159, 49);
+    text-align: start;
+    width: 355px;
+    float: right;
+  }
+
+  .mainImageSpan {
+    color: rgb(255, 136, 0);
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .mainImageText > h2 {
+    font-size: 19px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: start;
+    margin-right: 20px;
+  }
+
+  .mainImageText > h3 {
+    direction: rtl;
+    font-size: 15px;
+    line-height: 50px;
+    margin-right: 0px;
+    text-align: start;
+    max-width: 700px;
+  }
+
+  .button {
+    padding: 8px 20px 10px 20px;
+    font-size: 15px;
+  }
+  .botton1 {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 370px) {
+  .mainContainer {
+    min-height: 90vh;
+  }
 }

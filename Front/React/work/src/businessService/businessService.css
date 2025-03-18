@@ -1,198 +1,217 @@
-.networkTitle{
-    font-size: 100px;
-    color: white;
-    font-weight: 700;
+.networkTitle {
+  font-size: 100px;
+  color: white;
+  font-weight: 700;
 }
-.businessParagraphContainer{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1000px;
-    padding-top: 250px;
+.businessParagraphContainer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  padding-top: 250px;
 }
-.businessRow{
-    justify-content: space-between;
-    display: flex;
-    width: 70%;
-    margin: 0px auto;
+.businessRow {
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
 }
-.businessparagraph{
-    direction: rtl;
-    height: 500px;
-    padding-right: 50px;
+.businessparagraph {
+  direction: rtl;
+  height: 500px;
+  padding-right: 50px;
 }
-.businessparagraph >h1{
-    margin: 0px -20px 50px 0px;
-    font-size: 40px;
+.businessparagraph > h1 {
+  margin: 0px -20px 50px 0px;
+  font-size: 40px;
 }
 
-.businessparagraph >ol >li{
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.676);
-    margin-right: 20px;
+.businessparagraph > ol > li {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.676);
+  margin-right: 20px;
 }
-.businessImage{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+.bussinesSpecialist {
+  position: absolute;
+  width: 100%;
+  max-height: 400px;
+  bottom: 0;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 20px 0px 0px 0px;
+  transform: translateX(-50%);
 }
-.businessAccordingContainer{
-    padding: 200px 0px 150px 0px;
-    background-image: url('/public//image/background\ \(4\).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bussinesSpecialistRow {
+  margin: 0px auto;
 }
-.explanebusinessService{
-    background-blend-mode: color-dodge;
-    background-color: #003cb426;
-    background-image: url('/public/image/businessService\ \(3\).jpg');
-    background-size: 150%;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: right;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    padding: 50px 0px;
+.bussinesImageRow {
+  position: relative;
+  min-height: 400px;
 }
-.imageNetworkConsulting{
-    width: 80%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: rgb(0, 0, 0) 0px 4px 12px;
+.businessImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.whatbusinessService{
-    width: 80%;
-    min-height: 450px;
-    padding: 40px;
-    color: rgb(238, 238, 238);
-    background-color: #27334d26;
-    backdrop-filter: blur(5px);
-    border-radius: 15px ;
-    border: 2px solid #717171;
-    margin: -50px auto 0px;
-    text-align: end;
+.businessAccordingContainer {
+  padding: 200px 0px 150px 0px;
+  background-image: url("/public//image/background\ \(4\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.whatbusinessService >h6{
-    max-width: 100%;
-    padding: 20px;
-    font-size: 25px;
+.explanebusinessService {
+  background-color: #00112d;
+  background-image: url("/public/image/services/businessServiceMainImage.jpg");
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 100px 0px 50px 0px;
 }
-.whatbusinessService >h1{
-    max-width: 100%;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    font-size: 45px;
+.imageNetworkConsulting {
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 4px 12px;
 }
-.rowExplanenetworkColsulting{
-    background-color: rgba(255, 255, 255, 0.299);
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.whatbusinessService {
+  width: 80%;
+  min-height: 450px;
+  padding: 40px;
+  color: rgb(238, 238, 238);
+  background-color: #27334d26;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 2px solid #717171;
+  margin: -50px auto 0px;
+  text-align: end;
 }
-.businessDetailsContainer{
-    direction: rtl;
-    padding: 150px 0px;
-    background-image: url('/public/image/background\ \(4\).jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.whatbusinessService > h6 {
+  max-width: 100%;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 40px;
+  direction: rtl;
+  text-align: start;
 }
-.businessDetailsContainer>h2{
-    text-align: center;
-    margin-bottom: 100px;
+.whatbusinessService > h1 {
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 45px;
 }
-.businessDerailsRow{
-    max-width:80%;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-evenly;
+.rowExplanenetworkColsulting {
+  background-color: rgba(255, 255, 255, 0.299);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.businessDetailsContainer {
+  direction: rtl;
+  padding: 150px 0px;
+  background-image: url("/public/image/background\ \(4\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.businessDetailsContainer > h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.businessDerailsRow {
+  max-width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 /* Col */
-#root > div.businessDetailsContainer.container-fluid > div > div{
-    width: 45%;
-    padding: 5px 15px ;
-    margin: 15px 0px ;
-    min-height: 60px;
-    border-radius: 15px;
-    border: 1px solid #ff8000;
-    border-right: 4px solid #ff8000;
+#root > div.businessDetailsContainer.container-fluid > div > div {
+  width: 45%;
+  padding: 5px 15px;
+  margin: 15px 0px;
+  min-height: 60px;
+  border-radius: 15px;
+  border: 1px solid #ff8000;
+  border-right: 4px solid #ff8000;
+  display: grid;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.618);
+}
+
+@media (max-width: 1400px) {
+  .businessRow {
+    width: 90%;
+  }
+  .whatbusinessService {
+    margin-top: 70px;
+  }
+  .businessparagraph > h1 {
+    font-size: 35px;
+  }
+  .businessparagraph > ol > li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 990px) {
+  .businessparagraph {
+    margin-top: 50px;
+  }
+  .whatbusinessService {
+    margin-top: 70px;
+  }
+  .whatbusinessService > h1 {
+    font-size: 30px;
+  }
+  .whatbusinessService > h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 828px) {
+  .whatbusinessService {
+    padding: 10px;
+  }
+  .whatbusinessService > h1 {
+    font-size: 35px;
+  }
+  .whatbusinessService > h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 770px) {
+  .businessDerailsRow {
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+  }
+  #root > div.businessDetailsContainer.container-fluid > div > div {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 5px 15px;
+    min-height: auto;
     display: grid;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.618);
+  }
 }
-
-@media(max-width:1400px){
-    .businessRow{
-        width: 90%;
-    }
-    .whatbusinessService{
-        margin-top: 70px;
-    }
-    .businessparagraph>h1{
-        font-size: 35px;
-    }
-    .businessparagraph>ol>li{
-        font-size: 15px;
-    }
-}
-@media(max-width:990px){
-
-    .businessparagraph{
-        margin-top: 50px;
-    }
-    .whatbusinessService{
-        margin-top: 70px;
-    }
-    .whatbusinessService>h1{
-        font-size: 30px;
-    }
-    .whatbusinessService>h6{
-        font-size: 20px;
-        
-    }
-}
-@media(max-width:828px){
-    .whatbusinessService{
-        padding: 10px;
-    }
-    .whatbusinessService>h1{
-        font-size: 35px;
-    }
-    .whatbusinessService>h6{
-        font-size: 20px;
-    }
-}
-@media(max-width:770px){
-    .businessDerailsRow{
-        width:100%;
-        margin: 0px auto;
-        display: grid;
-    }
-    #root > div.businessDetailsContainer.container-fluid > div > div{
-        width: 100%;
-        margin:15px 0px ;
-        padding: 5px 15px ;
-        min-height: auto;
-        display: grid;
-        align-items: center;
-    }
-}
-@media(max-width:550px){
-    .whatbusinessService{
-        padding: 10px;
-    }
-    .whatbusinessService>h1{
-        font-size: 25px;
-    }
-    .whatbusinessService>h6{
-        font-size: 15px;
-    }
+@media (max-width: 550px) {
+  .whatbusinessService {
+    padding: 10px;
+  }
+  .whatbusinessService > h1 {
+    font-size: 25px;
+  }
+  .whatbusinessService > h6 {
+    font-size: 15px;
+  }
 }
