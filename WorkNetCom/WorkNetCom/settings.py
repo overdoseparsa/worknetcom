@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g6!v7x-9s&tu4f!zn=ye3oq*w4fcq(6hr_)%@=l@1=#dg7b9f&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '192.168.75.96' , '127.0.0.1' , '192.168.1.10' , '0.0.0.0'
+    '62.60.198.69' , 
 ]
 
 
@@ -81,14 +81,23 @@ WSGI_APPLICATION = 'WorkNetCom.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+#DATABASES = {
+    #'postgresql': {
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+   # }
+#}#
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'worknet',
+        'USER': 'parsaworknet',
+        'PASSWORD': 'parsaz3m31383',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
