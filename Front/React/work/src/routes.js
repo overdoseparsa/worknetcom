@@ -12,15 +12,15 @@ import ContactForm from "./contactForm/contactForm";
 
 let routes = [
   { path: "/", element: <Home /> },
-  { path: "/Services", element: <Service /> },
-  { path: "/NetworkConsulting", element: <NetworkConsulting /> },
-  { path: "/ServicePage", element: <ServicePage /> },
-  { path: "/ActiveNetworkServices", element: <ActiveNetworkServices /> },
-  { path: "/PassiveNetworkService", element: <PassiveNetworkService /> },
-  { path: "/NetworkSecurity", element: <NetworkSecurity /> },
-  { path: "/businessService", element: <BusinessService /> },
-  { path: "/WebService", element: <WebService /> },
-  { path: "/ProductPage", element: <ProductPage /> },
-  { path:"/ContactForm", element:< ContactForm/>},
+  { path: "/Services/", element: <Service /> },
+  { path: "/NetworkConsulting/", element: <NetworkConsulting /> },
+  { path: "/ServicePage/", element: <ServicePage /> },
+  { path: "/ActiveNetworkServices/", element: <ActiveNetworkServices /> },
+  { path: "/PassiveNetworkService/", element: <PassiveNetworkService /> },
+  { path: "/NetworkSecurity/", element: <NetworkSecurity /> },
+  { path: "/businessService/", element: <BusinessService /> },
+  { path: "/WebService/", element: <WebService /> },
+  { path: "/ProductPage/", element: <ProductPage /> },
+  { path:"/ContactForm/", element:< ContactForm/>},
 ];
 export default routes

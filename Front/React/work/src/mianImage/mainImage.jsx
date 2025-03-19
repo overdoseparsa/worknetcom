@@ -32,12 +32,12 @@ export default class mainImage extends Component {
                 </div>
                 <div>
                   <button type="button" className="botton1">
-                    <Link className="mainImageLink" to={"/servicePage"}>
+                    <Link className="mainImageLink" to={"/servicePage/"}>
                       اطلاعات بیشتر
                     </Link>
                   </button>
                   <button type="button" className="botton2">
-                    <Link className="mainImageLink" to={"/ContactForm"}>
+                    <Link className="mainImageLink" to={"/ContactForm/"}>
                       تماس باما
                     </Link>
                   </button>

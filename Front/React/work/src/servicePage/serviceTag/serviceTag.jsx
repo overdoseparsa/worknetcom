@@ -63,7 +63,7 @@ export default function ServiceTag() {
               راهکارهای بهینه‌ای در زمینه طراحی، پیاده‌سازی، بهینه‌سازی و امنیت
               شبکه‌های کامپیوتری ارائه می‌کنیم
             </h6>
-            <Link to={"/networkConsulting"}>
+            <Link to={"/networkConsulting/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg
@@ -88,7 +88,7 @@ export default function ServiceTag() {
               استفاده از جدیدترین فناوری‌ها، راهکارهایی را برای بهینه‌سازی
               عملکرد شبکه‌های سازمانی ارائه می‌دهیم
             </h6>
-            <Link to={"/ActiveNetworkServices"}>
+            <Link to={"/ActiveNetworkServices/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg
@@ -113,7 +113,7 @@ export default function ServiceTag() {
               استفاده از جدیدترین فناوری‌ها، راهکارهایی را برای بهینه‌سازی
               عملکرد شبکه‌های سازمانی ارائه می‌دهیم
             </h6>
-            <Link to={"/PassiveNetworkService"}>
+            <Link to={"/PassiveNetworkService/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg
@@ -138,7 +138,7 @@ export default function ServiceTag() {
               شبکه، از اطلاعات و زیرساخت‌های شما در برابر تهدیدات سایبری محافظت
               می‌کند.
             </h6>
-            <Link to={"/NetworkSecurity"}>
+            <Link to={"/NetworkSecurity/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg
@@ -160,7 +160,7 @@ export default function ServiceTag() {
             <h6>
             شرکت WORKNET علاوه بر خدمات تخصصی شبکه، در حوزه بازرگانی تجهیزات شبکه و فناوری اطلاعات نیز فعالیت دارد. ما با تأمین تجهیزات اورجینال از برندهای معتبر، راهکارهایی حرفه‌ای و مقرون‌به‌صرفه را برای کسب‌وکارها و سازمان‌ها ارائه می‌دهیم.
             </h6>
-            <Link to={"/businessService"}>
+            <Link to={"/businessService/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg
@@ -185,7 +185,7 @@ export default function ServiceTag() {
               استفاده از جدیدترین تکنولوژی‌ها، وب‌سایت‌ها و نرم‌افزارهایی سریع،
               امن و کاربردی طراحی و پیاده‌سازی می‌کنیم.
             </h6>
-            <Link to={"/webService"}>
+            <Link to={"/webService/"}>
               <h6>
                 اطلاعات بیشتر
                 <svg

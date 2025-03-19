@@ -84,10 +84,10 @@ export default function NavBar() {
             <Nav.Link as={NavLink} to={"/"} className="navbarLink">
               صفحه اصلی
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"/Services"} className="navbarLink">
+            <Nav.Link as={NavLink} to={"/Services/"} className="navbarLink">
               خدمات
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"/ProductPage"} className="navbarLink">
+            <Nav.Link as={NavLink} to={"/ProductPage/"} className="navbarLink">
               محصولات
             </Nav.Link>
           </Nav>
@@ -98,14 +98,14 @@ export default function NavBar() {
           <Nav>
             <Nav.Link
               as={NavLink}
-              to={"/ContactForm"}
+              to={"/ContactForm/"}
               className="ms-3 ms-lg-0 navbarLink"
             >
               تماس باما
             </Nav.Link>
             <Nav.Link
               as={NavLink}
-              to={"/AdminPanel"}
+              to={"/AdminPanel/"}
               className="ms-3 ms-lg-0 navbarLink"
             >
               پنل مدیریت

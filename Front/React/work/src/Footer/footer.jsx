@@ -133,28 +133,28 @@ export default function footer() {
         </Col>
         <Col>
           <h5>
-            <Link className="footerServiceLink" to={"/servicePage"}>
+            <Link className="footerServiceLink" to={"/servicePage/"}>
               خدمات شرکت
             </Link>
           </h5>
           <ul className="p-0">
             <li>
-              <Link to={"/networkConsulting"}>مشاوره شبکه</Link>
+              <Link to={"/networkConsulting/"}>مشاوره شبکه</Link>
             </li>
             <li>
-              <Link to={"/ActiveNetworkServices"}>خدمات اکتیو شبکه</Link>
+              <Link to={"/ActiveNetworkServices/"}>خدمات اکتیو شبکه</Link>
             </li>
             <li>
-              <Link to={"/passiveNetworkService"}>خدمات پسیو شبکه</Link>
+              <Link to={"/passiveNetworkService/"}>خدمات پسیو شبکه</Link>
             </li>
             <li>
-              <Link to={"/NetworkSecurity"}>امنیت شبکه</Link>
+              <Link to={"/NetworkSecurity/"}>امنیت شبکه</Link>
             </li>
             <li>
-              <Link to={"/businessService"}>خدمات بازرگانی</Link>
+              <Link to={"/businessService/"}>خدمات بازرگانی</Link>
             </li>
             <li>
-              <Link to={"/webService"}>طراحی وب و اپلیکیشن</Link>
+              <Link to={"/webService/"}>طراحی وب و اپلیکیشن</Link>
             </li>
           </ul>
         </Col>
@@ -223,7 +223,7 @@ export default function footer() {
             style={{
               width: 40,
             }}
-            src="Image/لوگو_دانش_بنیان-removebg-preview-1.png"
+            src="/Image/لوگو_دانش_بنیان-removebg-preview-1.png"
           />
         </Col>
         <Col 

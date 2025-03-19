@@ -73,7 +73,7 @@ export default function Home() {
             <Image  src="Image/Vector-Nowruz-00011.1-GraphicTarh.ir_.jpg" fluid/>
             وُرک‌نت فرارسیدن سال نو را به شما همراهان گرامی تبریک می‌گوید. 🌿🌺 <br />
             امیدواریم سالی سرشار از موفقیت، شادی و آرامش پیش رو داشته باشید. 💫 <br />
-            با آرزوی بهترین‌ها در سال جدید،<br /> تیم وُرک‌نت 💙 <span style={{float:'left'}}>Worknetco</span>
+            با آرزوی بهترین‌ها در سال جدید،<br /> تیم فنی مهندسی وُرک‌نت 💙 <span style={{float:'left'}}>Worknetco</span>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={handleClose}>
@@ -115,7 +115,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="leftTitle">
-                  <Link to={"/networkConsulting"}>
+                  <Link to={"/networkConsulting/"}>
                     <h2>مشاوره شبکه</h2>
                   </Link>
                   <p>Network Consulting</p>
@@ -136,7 +136,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="leftTitle">
-                  <Link to={"/ActiveNetworkServices"}>
+                  <Link to={"/ActiveNetworkServices/"}>
                     <h2>خدمات اکتیو شبکه</h2>
                   </Link>
                   <p>Active Network</p>
@@ -157,7 +157,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="leftTitle">
-                  <Link to={"/PassiveNetworkService"}>
+                  <Link to={"/PassiveNetworkService/"}>
                     <h2>خدمات پسیو شبکه</h2>
                   </Link>
                   <p>Pasive Network</p>
@@ -191,7 +191,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="rightTitle">
-                  <Link to={"/NetworkSecurity"}>
+                  <Link to={"/NetworkSecurity/"}>
                     <h2>امنیت شبکه</h2>
                   </Link>
                   <p>Network Security</p>
@@ -212,7 +212,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="rightTitle">
-                  <Link to={"/businessService"}>
+                  <Link to={"/businessService/"}>
                     <h2>خدمات بازرگانی</h2>
                   </Link>
                   <p>Business Service</p>
@@ -233,7 +233,7 @@ export default function Home() {
                   </svg>
                 </Col>
                 <Col className="rightTitle col-8">
-                  <Link to={"/webService"}>
+                  <Link to={"/webService/"}>
                     <h2>خدمات نرم افزار وب</h2>
                   </Link>
                   <p>Web Service</p>
@@ -393,10 +393,10 @@ export default function Home() {
                 دیگر در مسیر موفقیت و نوآوری برداریم.
               </p>
               <button type="botton" className="botton1" id="contactBotton1">
-                <Link to={"/Services"}>اطلاعات بیشتر</Link>
+                <Link to={"/Services/"}>اطلاعات بیشتر</Link>
               </button>
               <button type="botton" id="contactBotton2" className="botton2 ">
-                <Link to={"/ContactForm"}>تماس باما</Link>
+                <Link to={"/ContactForm/"}>تماس باما</Link>
               </button>
             </Col>
           </Row>
