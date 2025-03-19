@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap";
-import {
-  FaInstagram,
-  FaTelegram,
-  FaWhatsapp,
-  FaSearchLocation,
-} from "react-icons/fa";
 import "./footer.css";
 
 export default function footer() {
@@ -159,16 +153,16 @@ export default function footer() {
           </ul>
         </Col>
       </Row>
-      <Container className="copyRight d-flex mt-4" fluid>
+      <Container className="copyRight mt-4" fluid>
         <Col style={{
-          width:500,
-          height:70,
+          maxWidth:500,
+          minHeight:70,
           paddingTop:10,
           border:'2px solid #f38226',
           borderRadius:15,
           paddingLeft:15,
           backgroundColor:'#cacaca59'
-        }} className="col-4 mx-2 ">
+        }} className="col-xl-4 col-12 mx-2 footerImageLogo ">
           <Image
           className="mx-2 rounded"
             style={{
@@ -219,7 +213,7 @@ export default function footer() {
             src="/Image/IMS.jpg"
           />
           <Image
-          className="mx-2 rounded"
+          className=" rounded"
             style={{
               width: 40,
             }}
@@ -228,7 +222,7 @@ export default function footer() {
         </Col>
         <Col 
         style={{paddingTop:20}}
-        className="col-7">
+        className="col-xl-7 col-12">
           <p className="m-0 copyRightText d-inline english-text">
             Designed & Developed by
             <Link to={"/"} className="text-blue-400 hover:underline mx-1 p-0">

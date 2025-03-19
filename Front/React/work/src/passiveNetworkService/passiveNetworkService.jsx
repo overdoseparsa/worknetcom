@@ -122,7 +122,7 @@ export default class passiveNetworkService extends Component {
               </Container>
               <Image
                 className="passiveNetworkImage col-12"
-                src="image/services/passivenetworkImage.png"
+                src="/image/services/passivenetworkImage.png"
               ></Image>
             </Col>
           </Row>

@@ -23,6 +23,7 @@
 }
 .copyRight{
     text-align: end;
+    display: flex;
 }
 .footerImageContainer{
     text-align: center;
@@ -38,6 +39,13 @@
 }
 .english-text {
     font-family: 'Poppins', sans-serif;
+}
+@media(max-width:1227px){
+    .copyRight{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
 }
 @media(max-width:768px){
     #root > div.footerContainer.container-fluid > div.d-grid.d-md-flex.text-center.text-md-end.row > div{

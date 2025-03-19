@@ -116,7 +116,7 @@ export default function ActiveNetworkService() {
             </Container>
             <Image
               className="ActiveNetworkImage col-12"
-              src="image/services/activenetworkImage.jpg"
+              src="/image/services/activenetworkImage.jpg"
             ></Image>
           </Col>
         </Row>

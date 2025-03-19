@@ -54,13 +54,13 @@ export default function ContactForm() {
 
   const handelSubmit = async (e) => {
     e.preventDefault();
-  
+
     // اگر فرم کامل نیست، پیغام خطا را نمایش می‌دهیم
     if (!isFormComplete()) {
       setFormComplete(true);
       return;
     }
-  
+
     function getCurrentDateTime() {
       const now = new Date();
       const year = now.getFullYear();
@@ -69,16 +69,16 @@ export default function ContactForm() {
       const hours = String(now.getHours()).padStart(2, "0");
       const minutes = String(now.getMinutes()).padStart(2, "0");
       const seconds = String(now.getSeconds()).padStart(2, "0");
-  
+
       return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
     }
-  
+
     setLoading(true);
     setSuccess(false);
     setError("");
     setIsError(false);
     let time = getCurrentDateTime();
-  
+
     const formDataToSend = new FormData();
     formDataToSend.append("name", formData.name);
     formDataToSend.append("email", formData.email);
@@ -86,15 +86,21 @@ export default function ContactForm() {
     formDataToSend.append("body_text", formData.body_text);
     formDataToSend.append("created", time);
     formDataToSend.append("file", formData.file);
-  
+
     try {
-      const response = await fetch("http://192.168.0.147/api/v1/content/create/", {
-        method: "POST",
-        body: formDataToSend,
-      });
-  
+      const response = await fetch(
+        "http://192.168.0.147/api/v1/content/create/",
+        {
+          method: "POST",
+          body: formDataToSend,
+          headers: {
+            Accept: "application/json", // تنظیم هدر برای پاسخ JSON
+          },
+        }
+      );
+
       if (response.ok) {
-        setSuccess(true);
+        setSuccess(true); // ارسال موفقیت‌آمیز
         setFormData({
           name: "",
           email: "",
@@ -104,11 +110,14 @@ export default function ContactForm() {
           file: null,
         });
       } else {
+        const errorMessage = await response.text();
         setIsError(true);
-        setError("خطایی رخ داده لطفا دوباره تلاش کنید");
+        setError(`خطا از سمت سرور: ${errorMessage}`);
       }
     } catch (error) {
-      setSuccess(true);
+      setIsError(true);
+      setError("مشکلی در ارسال درخواست رخ داد: " + error.message);
+      setSuccess(false);
     } finally {
       setLoading(false);
     }
@@ -119,7 +128,7 @@ export default function ContactForm() {
       <Container className={`colorFace ${click ? "click zIndex" : ""}`} fluid>
         <Container className="containerFaceP p p-md-5">
           <p className="FaceP">
-          ما در Worknet باور داریم که سرمایه اصلی هر سازمان، تیمی قوی و متخصص
+            ما در Worknet باور داریم که سرمایه اصلی هر سازمان، تیمی قوی و متخصص
             است. اگر به دنبال محیطی پویا، حرفه‌ای و سرشار از فرصت‌های رشد هستید،
             ما مشتاق آشنایی با شما هستیم در صورتی که علاقه‌مند به همکاری با ما
             هستید، می‌توانید رزومه خود را ارسال کنید یا درخواست همکاری و استخدام
@@ -141,7 +150,10 @@ export default function ContactForm() {
         </Container>
       </Container>
 
-      <Container className={`ContactFormContainer Opacity ${click ? "Opacity" : ""}`} fluid>
+      <Container
+        className={`ContactFormContainer ${click ? "Opacity" : ""}`}
+        fluid
+      >
         <Container
           className="p-0 mx-auto"
           style={{ maxWidth: 600, borderRadius: 15, position: "relative" }}
@@ -207,7 +219,6 @@ export default function ContactForm() {
               <Form.Label>فایل خود را انتخاب کنید</Form.Label>
               <Form.Control type="file" onChange={handelFileChange} />
             </Form.Group>
-
             {isError && (
               <Alert style={{ direction: "rtl" }} variant="danger">
                 {error}

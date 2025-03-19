@@ -69,7 +69,7 @@ export default function NavBar() {
         >
           <Image
             className="worknetLogo"
-            src="image/worknetService2.png"
+            src="/Image/worknetService2.png"
             fluid
           />
         </Navbar.Brand>
