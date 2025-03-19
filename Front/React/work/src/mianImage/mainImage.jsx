@@ -55,7 +55,7 @@ export default class mainImage extends Component {
               >
                 <Image
                   className="Image"
-                  src="image/DALL·E 2025-01-29 10.44.57 - A clean and modern homepage theme for a technology company specializing in network design, sales, supervision, and implementation of data center proje.jpg"
+                  src="/Image/mainImagePage.jpg"
                   fluid
                 />
               </Col>

@@ -131,7 +131,7 @@ export default function BusinessService() {
             </Container>
             <Image
               className="businessImage col-12"
-              src="/image/services/bussinessImage.jpg"
+              src="/image/bussinessImage.jpg"
             ></Image>
           </Col>
         </Row>

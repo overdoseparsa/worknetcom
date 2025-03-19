@@ -25,13 +25,6 @@
   line-height: 150px;
   font-weight: 600;
 }
-.Manager {
-  background-image: url("../../public/Image/40ca1118d8ca4a6ccc8b6b5dc8347f28_LE_upscale_balanced_x4.jpg");
-  height: 1000px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .webServiceparagraph {
   direction: rtl;
   height: 500px;
@@ -95,7 +88,7 @@
 }
 .explanewebService {
   background-color: #010413;
-  background-image: url("../../public/Image/services/webServiceMianImage.jpg");
+  background-image: url("../../public/Image/webServiceMianImage.jpg");
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;

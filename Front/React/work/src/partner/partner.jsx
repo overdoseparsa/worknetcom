@@ -3,24 +3,7 @@ import "./partner.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { motion } from "framer-motion";
 
-const images = [
-  "image/طراحی-لوگو-وب-سایت-فروشگاهی.png",
-  "image/LOGO",
-  "image/طراحی-لوگو-شرکت-مانا-پوشش.png",
-  "image/طراحی-لوگو-برای-برند.png",
-  "image/tech-co-logo.png",
-];
-
 export default function Partner() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000); // تغییر اسلاید هر 2 ثانیه
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <>
@@ -34,348 +17,348 @@ export default function Partner() {
         <div className="slider">
           <ul className="mb-0 sliderUL">
             <li>
-              <img src="image/LOGO/asemanafraz.png" alt="" />
+              <img src="/image/asemanafraz.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/azaduniversity.png" alt="" />
+              <img src="/image/azaduniversity.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/irisa.png" alt="" />
+              <img src="/image/irisa.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/keshavarzi-palet.jpg" alt="" />
+              <img src="/image/keshavarzi-palet.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/khuisf-logo.png" alt="" />
+              <img src="/image/khuisf-logo.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/mmte.png" alt="" />
+              <img src="/image/mmte.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/Mes-Rafsanjan-FC-Logo.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/Metro-Arm.jpg" alt="" />
+              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sepah-palet.png" alt="" />
+              <img src="/image/Metro-Arm.jpg" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/shahrkord.webp" alt="" />
+              <img src="/image/palayeshnaft.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/sina-palet.png" alt="" />
+              <img src="/image/persha.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/spsilogo-notext.png" alt="" />
+              <img src="/image/refah-new-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/tejarat-palet.png" alt="" />
+              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tosee-taavon-palet-240x240.png" alt="" />
+              <img src="/image/sepah-palet.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/Zob_Ahan_logo.png" alt="" />
+              <img src="/image/shahrkord.webp" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/شرکت-MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/مجتمع-فولاد-اصفهان.jpg" alt="" />
-            </li>
-
-            <li>
-              <img
-                src="image/LOGO/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
-                alt=""
-              />
+              <img src="/image/sina-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/taaminejtemae.png" alt="" />
+              <img src="/image/spsilogo-notext.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/asemanafraz.png" alt="" />
+              <img src="/image/tejarat-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/azaduniversity.png" alt="" />
+              <img src="/image/tose-e-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/irisa.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/keshavarzi-palet.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/khuisf-logo.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/mmte.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/Mes-Rafsanjan-FC-Logo.png" alt="" />
+              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/Metro-Arm.jpg" alt="" />
+              <img src="/image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/شرکت-MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sepah-palet.png" alt="" />
+              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/shahrkord.webp" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sina-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/spsilogo-notext.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tejarat-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/Zob_Ahan_logo.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/شرکت-MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="image/LOGO/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
                 alt=""
               />
             </li>
             <li>
-              <img src="image/LOGO/taaminejtemae.png" alt="" />
+              <img src="/image/taaminejtemae.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/asemanafraz.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/azaduniversity.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/irisa.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/keshavarzi-palet.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/khuisf-logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/mmte.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/Metro-Arm.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/palayeshnaft.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/persha.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/refah-new-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/sepah-palet.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/shahrkord.webp" alt="" />
+            </li>
+            <li>
+              <img src="/image/sina-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/spsilogo-notext.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tejarat-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tose-e-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/شرکت-MME.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+            </li>
+
+            <li>
+              <img
+                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img src="/image/taaminejtemae.png" alt="" />
             </li>
           </ul>
         </div>
         <div className="slider mt-5">
           <ul className="mb-0 sliderULRevers">
             <li>
-              <img src="image/LOGO/asemanafraz.png" alt="" />
+              <img src="/image/asemanafraz.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/azaduniversity.png" alt="" />
+              <img src="/image/azaduniversity.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/irisa.png" alt="" />
+              <img src="/image/irisa.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/keshavarzi-palet.jpg" alt="" />
+              <img src="/image/keshavarzi-palet.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/khuisf-logo.png" alt="" />
+              <img src="/image/khuisf-logo.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/mmte.png" alt="" />
+              <img src="/image/mmte.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/Mes-Rafsanjan-FC-Logo.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/Metro-Arm.jpg" alt="" />
+              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sepah-palet.png" alt="" />
+              <img src="/image/Metro-Arm.jpg" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/shahrkord.webp" alt="" />
+              <img src="/image/palayeshnaft.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/sina-palet.png" alt="" />
+              <img src="/image/persha.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/spsilogo-notext.png" alt="" />
+              <img src="/image/refah-new-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/tejarat-palet.png" alt="" />
+              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tosee-taavon-palet-240x240.png" alt="" />
+              <img src="/image/sepah-palet.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/Zob_Ahan_logo.png" alt="" />
+              <img src="/image/shahrkord.webp" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/شرکت-MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/مجتمع-فولاد-اصفهان.jpg" alt="" />
-            </li>
-
-            <li>
-              <img
-                src="image/LOGO/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
-                alt=""
-              />
+              <img src="/image/sina-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/taaminejtemae.png" alt="" />
+              <img src="/image/spsilogo-notext.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/asemanafraz.png" alt="" />
+              <img src="/image/tejarat-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/azaduniversity.png" alt="" />
+              <img src="/image/tose-e-palet.png" alt="" />
             </li>
             <li>
-              <img src="image/LOGO/irisa.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/keshavarzi-palet.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/khuisf-logo.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/mmte.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/Mes-Rafsanjan-FC-Logo.png" alt="" />
+              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/Metro-Arm.jpg" alt="" />
+              <img src="/image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/شرکت-MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sepah-palet.png" alt="" />
+              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
             </li>
 
             <li>
-              <img src="image/LOGO/shahrkord.webp" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/sina-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/spsilogo-notext.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tejarat-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/Zob_Ahan_logo.png" alt="" />
-            </li>
-            <li>
-              <img src="image/LOGO/شرکت-MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
-            </li>
-
-            <li>
-              <img src="image/LOGO/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="image/LOGO/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
                 alt=""
               />
             </li>
             <li>
-              <img src="image/LOGO/taaminejtemae.png" alt="" />
+              <img src="/image/taaminejtemae.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/asemanafraz.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/azaduniversity.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/irisa.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/keshavarzi-palet.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/khuisf-logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/mmte.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/Metro-Arm.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/palayeshnaft.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/persha.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/refah-new-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/image/sepah-palet.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/shahrkord.webp" alt="" />
+            </li>
+            <li>
+              <img src="/image/sina-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/spsilogo-notext.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tejarat-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tose-e-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/image/شرکت-MME.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+            </li>
+
+            <li>
+              <img
+                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img src="/image/taaminejtemae.png" alt="" />
             </li>
           </ul>
         </div>

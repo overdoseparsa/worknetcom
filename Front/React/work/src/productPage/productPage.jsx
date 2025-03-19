@@ -22,7 +22,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage"
-                src="/image/product Image/cameraProduct.jpg"
+                src="/image/cameraProduct.jpg"
                 fluid
               />
             </motion.div>
@@ -46,7 +46,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage1"
-                src="/image/product Image/radioProduct.jpg"
+                src="/image/radioProduct.jpg"
               />
             </motion.div>
             <Carousel.Caption className="productSliderItem">
@@ -66,7 +66,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage3 d-block"
-                src="/image/product Image/electritic.jpg"
+                src="/image/electritic.jpg"
                 alt="First slide"
               />
             </motion.div>
@@ -90,7 +90,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage2 d-block"
-                src="/image/product Image/networkProduct.jpg"
+                src="/image/networkProduct.jpg"
                 alt="First slide"
               />
             </motion.div>
@@ -115,7 +115,7 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/product Image/cameraProduct (2).jpg"
+              src="/image/cameraProduct (2).jpg"
               fluid
             />
           </Col>
@@ -158,7 +158,7 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/product Image/electritic (2).jpg"
+              src="/image/electritic (2).jpg"
               fluid
             />
           </Col>
@@ -191,7 +191,7 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/product Image/radioProduct (2).jpg"
+              src="/image/radioProduct (2).jpg"
               fluid
             />
           </Col>
@@ -210,7 +210,7 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/product Image/networkProduct (2).jpg"
+              src="/image/networkProduct (2).jpg"
               fluid
             />
           </Col>

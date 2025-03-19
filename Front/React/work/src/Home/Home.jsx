@@ -253,7 +253,7 @@ export default function Home() {
                 <h6>کارشناس ومتخصص</h6>
               </Col>
               <Col className=" histoyCol ">
-                <h2>175</h2>
+                <h2>263</h2>
                 <h6>پروژه های موفق</h6>
               </Col>
               <Col className=" histoyCol col">
@@ -264,7 +264,7 @@ export default function Home() {
           </Col>
           <Col xs={4} className=" imgCol p-0">
             <Image
-              src="../image/nick-office-04.jpg"
+              src="/image/nick-office-04.jpg"
               style={{
                 objectFit: "cover",
               }}

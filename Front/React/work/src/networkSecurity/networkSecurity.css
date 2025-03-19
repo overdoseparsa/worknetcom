@@ -87,7 +87,7 @@ list-style: none;
 .explaneSecuritynetwork {
   background-blend-mode: color-dodge;
   background-color: #003cb426;
-  background-image: url("../../public/Image/services/networkSecurityMianImage.jpg");
+  background-image: url("../../public/Image/networkSecurityMianImage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
