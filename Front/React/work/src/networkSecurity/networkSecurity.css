@@ -79,7 +79,7 @@ list-style: none;
 }
 .networkSecurityAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +87,7 @@ list-style: none;
 .explaneSecuritynetwork {
   background-blend-mode: color-dodge;
   background-color: #003cb426;
-  background-image: url("/public/image/services/networkSecurityMianImage.jpg");
+  background-image: url("../../public/Image/services/networkSecurityMianImage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@ list-style: none;
 .securityDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

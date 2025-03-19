@@ -28,7 +28,7 @@
 .baseProjectContainer {
     padding: 150px 0px 100px 0px;
     text-align: center;
-    background-image: url(../../public/image/background\ \(4\).jpg);
+    background-image: url("../../public/Image/background4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

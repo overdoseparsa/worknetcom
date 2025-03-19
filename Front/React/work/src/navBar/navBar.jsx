@@ -147,6 +147,7 @@ export default function NavBar() {
             )}
             <Button
               variant="outline-warning"
+              size="sm"
               className="me-5 mb-lg-0 mb-sm-3 fs-5"
               style={{
                 height:40,

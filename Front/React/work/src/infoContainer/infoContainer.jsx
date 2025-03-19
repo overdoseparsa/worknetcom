@@ -134,6 +134,55 @@ export default function InfoContainer() {
               </p>
             </Col>
           </Row>
+          {/* forth */}
+          <Row
+            className={`fadeIn rowContainer d-md-flex show`}
+          >
+            <Col
+              className="textContainer col-12 col-md-6 pt-0 pb-5"
+              md={{ order: "first" }}
+              xs={{ order: "last" }}
+            >
+              <h2 className="mb-4 mt-5"> شرکت مس رفسنجان</h2>
+              <p>
+                شرکت ما در مجموعه‌های مس رفسنجان پروژه‌هایی شامل اجرای دوربین‌های
+                امنیتی و نظارتی، راه‌اندازی شبکه کامپیوتری، ایجاد ارتباط از طریق
+                فیبر نوری، پیاده‌سازی شبکه‌های صنعتی و تأمین کالا و تجهیزات را
+                انجام داده است
+              </p>
+            </Col>
+            <Col
+              className="imgContainer col-sm-12 col-md-6 p-0"
+              md={{ order: "last" }}
+              xs={{ order: "first" }}
+            >
+              <Image src="image/mesRafsanjan.jpg" fluid />
+            </Col>
+          </Row>
+          {/* fith */}
+          <Row
+            className={`fadeIn rowContainer d-md-flex show ${
+              itemsVisible[3] ? "" : ""
+            }`}
+          >
+            <Col
+              className="imgContainer col-sm-12 col-md-6 p-0"
+              xs={{ order: "first" }}
+            >
+              <Image src="/Image/fouladSefidDasht.jpg" fluid />
+            </Col>
+            <Col
+              className="textContainer col-12 col-md-6  p-0 pb-5"
+              xs={{ order: "last" }}
+            >
+              <h2 className="mb-4 mt-5">شرکت فولاد سفید دشت</h2>
+              <p>
+                شرکت ما در همکاری با فولاد سفید دشت، تأمین کالا و تجهیزات شبکه و ارائه
+                خدمات اکتیو شبکه را بر عهده داشته است. این پروژه با هدف بهبود
+                زیرساخت‌های ارتباطی و افزایش کارایی سیستم‌های شبکه اجرا شده است.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </Container>
     </>

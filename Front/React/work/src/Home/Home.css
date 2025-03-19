@@ -3,7 +3,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
 /* //////////////////// Service Container */
 .serviveContainer {
   background-color: #f9f9fa;
@@ -162,7 +161,7 @@ a :hover {
   min-width: 355px;
   justify-content: center;
   box-shadow: rgb(255, 98, 0) 0px 4px 12px;
-  background-image: url("../../public/image/orangeeffect\ \(6\).jpg");
+  background-image: url("../../public//Image//orangeeffect\ \(6\).jpg");
   background-position: center;
   background-size: cover;
 }
@@ -479,7 +478,7 @@ a :hover {
   #contactBotton1,
   #contactBotton2 {
     font-size: 10px;
-    width: 100px;
+    min-width: 100px;
     height: 40px;
   }
 }

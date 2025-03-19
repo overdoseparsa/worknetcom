@@ -108,7 +108,7 @@
 }
 .mainImageContainer {
   background-color: #f4f5f7;
-  background-image: url("/public/image/mainImage\ \(3\).jpg");
+  background-image: url("../../public/Image/mainImage3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

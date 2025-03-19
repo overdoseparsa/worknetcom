@@ -61,14 +61,14 @@
 }
 .businessAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .explanebusinessService {
   background-color: #00112d;
-  background-image: url("/public/image/services/businessServiceMainImage.jpg");
+  background-image: url("../../public//Image/services/businessServiceMainImage.jpg");
   background-size: 150%;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@
 .businessDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

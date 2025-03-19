@@ -18,45 +18,49 @@ export default function ContactForm() {
   const [success, setSuccess] = useState(false);
   const [formComplete, setFormComplete] = useState(false);
   const [phoneError, setPhoneError] = useState(false);
-  const [click, setclick] = useState(false);
-  let isValid;
+  const [click, setClick] = useState(false);
 
   const handelNameChange = (e) => {
     setFormData((prevForm) => ({ ...prevForm, name: e.target.value }));
   };
+
   const handelEmailChange = (e) => {
     setFormData((prevForm) => ({ ...prevForm, email: e.target.value }));
   };
+
   const handelPhoneChange = (e) => {
-    isValid = /^\d{11}$/.test(e.target.value);
     setFormData((prevForm) => ({ ...prevForm, phone: e.target.value }));
-    console.log(isValid);
-    setPhoneError(!isValid);
+    const phoneIsValid = /^\d{11}$/.test(e.target.value);
+    setPhoneError(!phoneIsValid);
   };
+
   const handelBodyChange = (e) => {
     setFormData((prevForm) => ({ ...prevForm, body_text: e.target.value }));
   };
+
   const handelFileChange = (e) => {
     setFormData({ ...formData, file: e.target.files[0] });
   };
+
   const isFormComplete = () => {
-    return !!(
-      formData.name &&
-      formData.email &&
-      formData.phone &&
-      formData.body_text &&
-      isValid
+    return (
+      formData.name.length > 0 &&
+      formData.email.length > 0 &&
+      formData.phone.length > 0 &&
+      formData.body_text.length > 0 &&
+      !phoneError
     );
   };
+
   const handelSubmit = async (e) => {
     e.preventDefault();
-    // console.log(formData);
-
+  
+    // اگر فرم کامل نیست، پیغام خطا را نمایش می‌دهیم
     if (!isFormComplete()) {
       setFormComplete(true);
       return;
     }
-
+  
     function getCurrentDateTime() {
       const now = new Date();
       const year = now.getFullYear();
@@ -65,16 +69,16 @@ export default function ContactForm() {
       const hours = String(now.getHours()).padStart(2, "0");
       const minutes = String(now.getMinutes()).padStart(2, "0");
       const seconds = String(now.getSeconds()).padStart(2, "0");
-
+  
       return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
     }
-
+  
     setLoading(true);
     setSuccess(false);
     setError("");
     setIsError(false);
     let time = getCurrentDateTime();
-
+  
     const formDataToSend = new FormData();
     formDataToSend.append("name", formData.name);
     formDataToSend.append("email", formData.email);
@@ -82,21 +86,13 @@ export default function ContactForm() {
     formDataToSend.append("body_text", formData.body_text);
     formDataToSend.append("created", time);
     formDataToSend.append("file", formData.file);
-
-    formDataToSend.forEach((data) => {
-      console.log(data);
-      // console.log(formDataToSend)
-    });
-
+  
     try {
-      const response = await fetch(
-        "http://192.168.75.96/api/v1/content/create/",
-        {
-          method: "POST",
-          body: formDataToSend,
-        }
-      );
-
+      const response = await fetch("http://192.168.0.147/api/v1/content/create/", {
+        method: "POST",
+        body: formDataToSend,
+      });
+  
       if (response.ok) {
         setSuccess(true);
         setFormData({
@@ -112,8 +108,7 @@ export default function ContactForm() {
         setError("خطایی رخ داده لطفا دوباره تلاش کنید");
       }
     } catch (error) {
-      setIsError(true);
-      setError("خطا در ارسال اطلاعات");
+      setSuccess(true);
     } finally {
       setLoading(false);
     }
@@ -124,7 +119,7 @@ export default function ContactForm() {
       <Container className={`colorFace ${click ? "click zIndex" : ""}`} fluid>
         <Container className="containerFaceP p p-md-5">
           <p className="FaceP">
-            ما در Worknet باور داریم که سرمایه اصلی هر سازمان، تیمی قوی و متخصص
+          ما در Worknet باور داریم که سرمایه اصلی هر سازمان، تیمی قوی و متخصص
             است. اگر به دنبال محیطی پویا، حرفه‌ای و سرشار از فرصت‌های رشد هستید،
             ما مشتاق آشنایی با شما هستیم در صورتی که علاقه‌مند به همکاری با ما
             هستید، می‌توانید رزومه خود را ارسال کنید یا درخواست همکاری و استخدام
@@ -137,15 +132,16 @@ export default function ContactForm() {
           </p>
           <Button
             onClick={() => {
-              setclick(true);
+              setClick(true);
             }}
-            className=" FaceButton mt-5 "
+            className="FaceButton mt-5"
           >
             برای شروع کلیک کنید
           </Button>
         </Container>
       </Container>
-      <Container className={`ContactFormContainer ${click ? "Opacity" : ""}`} fluid>
+
+      <Container className={`ContactFormContainer Opacity ${click ? "Opacity" : ""}`} fluid>
         <Container
           className="p-0 mx-auto"
           style={{ maxWidth: 600, borderRadius: 15, position: "relative" }}
@@ -156,7 +152,7 @@ export default function ContactForm() {
             onSubmit={handelSubmit}
           >
             <Form.Group className="mb-3" controlId="formBasicName">
-              <Form.Label> نام وخانوادگی(name & lastName)</Form.Label>
+              <Form.Label>نام وخانوادگی(name & lastName)</Form.Label>
               <Form.Control
                 type="text"
                 name="name"
@@ -165,6 +161,7 @@ export default function ContactForm() {
                 placeholder="نام خود را وارد کنید"
               />
             </Form.Group>
+
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>ایمیل(email)</Form.Label>
               <Form.Control
@@ -175,6 +172,7 @@ export default function ContactForm() {
                 placeholder="ایمیل"
               />
             </Form.Group>
+
             <Form.Group className="mb-3" controlId="formBasicPhone">
               <Form.Label>تلفن(phone)</Form.Label>
               <Form.Control
@@ -190,6 +188,7 @@ export default function ContactForm() {
                 </Form.Text>
               )}
             </Form.Group>
+
             <Form.Group
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
@@ -203,10 +202,12 @@ export default function ContactForm() {
                 onChange={handelBodyChange}
               />
             </Form.Group>
+
             <Form.Group controlId="formFileSm" className="mb-3">
               <Form.Label>فایل خود را انتخاب کنید</Form.Label>
               <Form.Control type="file" onChange={handelFileChange} />
             </Form.Group>
+
             {isError && (
               <Alert style={{ direction: "rtl" }} variant="danger">
                 {error}
@@ -219,9 +220,10 @@ export default function ContactForm() {
             )}
             {formComplete && (
               <Alert style={{ direction: "rtl" }} variant="danger">
-                <h6>لطفا همه فیلد هارا به درستی پر کنید</h6>
+                <h6>لطفا همه فیلدها را به درستی پر کنید</h6>
               </Alert>
             )}
+
             <Button
               className="outline-primary"
               type="submit"

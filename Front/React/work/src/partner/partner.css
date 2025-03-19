@@ -34,7 +34,7 @@
 }
 .sliderontainer{
     padding: 250px 0px;
-    background-image: url(../../public/image/background\ \(3\).jpg);
+    background-image: url("../../public/Image/background3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

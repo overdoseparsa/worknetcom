@@ -2,7 +2,7 @@
     min-height:450px ;
     padding: 50px ;
     direction: rtl;
-    background-image: url("/public/image/background\ \(6\).jpg");
+    background-image: url("../../public//Image//background\ \(6\).jpg");
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,7 @@
 .copyRightText{
     font-size: 15px;
     color: rgb(60, 60, 60);
+    width: 900px;
 }
 .english-text {
     font-family: 'Poppins', sans-serif;

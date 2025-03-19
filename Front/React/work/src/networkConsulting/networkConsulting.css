@@ -60,7 +60,7 @@
 }
 .networkAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +68,7 @@
 .explanenetworkColsulting {
   background-blend-mode: color-dodge;
   background-color: #93522437;
-  background-image: url("/public/image/services/networkConsultingMainImage.jpg");
+  background-image: url("../../public/Image/services/networkConsultingMainImage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 .consultingDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -176,7 +176,7 @@ export default function ServiceTag() {
               </h6>
             </Link>
           </Col>
-          <Col className="serviceInfo" sm={6}>
+          <Col className="serviceInfo" style={{minHeight:100}} sm={6}>
             <h1 className="numService ">06</h1>
             <h3 className=" "> نرم افزار ،خدمات وب</h3>
             <h6>

@@ -20,10 +20,10 @@ export default class mainImage extends Component {
               <Col className="mainText">
                 <div className="mainImageText">
                   <h1>
-                    <span className="mainImageSpan"> ورک‌نت:</span> پیشگام تحول
+                    <span className="mainImageSpan"> وُرک‌نت:</span> پیشگام تحول
                     در زیرساخت‌های هوشمند
                   </h1>
-                  <h2>شرکت فنی مهندسی ورک‌نت سپاهان غرب</h2>
+                  <h2>شرکت فنی مهندسی وُرک‌نت سپاهان غرب</h2>
                   <h3>
                     ارائه دهنده‌خدمات:طراحی,فروش,نظارت واجرای پروژه های شبکه
                     <span>(Active&Pasive)</span>,دیتاسنتر,برق,UPS,سیستم های

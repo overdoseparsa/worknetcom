@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Modal, Button } from "react-bootstrap";
 import "./Home.css";
 import NavBar from "../navBar/navBar";
 import MainImage from "../mianImage/mainImage";
@@ -21,6 +21,12 @@ export default function Home() {
     false,
   ]);
   const sectionRef = useRef(null);
+  const [show, setShow] = useState(true);
+  const [reapet, setReapet] = useState(true);
+  const handleClose = () => {
+    setShow(false);
+    setReapet(false);
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -58,7 +64,24 @@ export default function Home() {
 
   return (
     <>
-      <NavBar />
+      {reapet && (
+        <Modal show={show} onHide={handleClose}  style={{ direction: "rtl" }}>
+          <Modal.Header className="modelHeader" style={{ direction: "ltr" }} closeButton>
+            <Modal.Title></Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Image  src="Image/Vector-Nowruz-00011.1-GraphicTarh.ir_.jpg" fluid/>
+            وُرک‌نت فرارسیدن سال نو را به شما همراهان گرامی تبریک می‌گوید. 🌿🌺 <br />
+            امیدواریم سالی سرشار از موفقیت، شادی و آرامش پیش رو داشته باشید. 💫 <br />
+            با آرزوی بهترین‌ها در سال جدید،<br /> تیم وُرک‌نت 💙 <span style={{float:'left'}}>Worknetco</span>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" onClick={handleClose}>
+              بستن
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      )}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -240,7 +263,12 @@ export default function Home() {
             </Row>
           </Col>
           <Col xs={4} className=" imgCol p-0">
-            <Image src="../image/Building-New-York.jpg" />
+            <Image
+              src="../image/nick-office-04.jpg"
+              style={{
+                objectFit: "cover",
+              }}
+            />
           </Col>
           <Col ref={sectionRef} xs={5} className="explaneCol ">
             <h2 className={`fadeIn ${itemsVisible[0] ? "show" : ""}`}>

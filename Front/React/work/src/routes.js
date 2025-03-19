@@ -9,7 +9,6 @@ import BusinessService from "./businessService/businessService";
 import ProductPage from "./productPage/productPage";
 import WebService from "./webService&software/webService";
 import ContactForm from "./contactForm/contactForm";
-import AdminPanel from "./adminPanel/adminPanel";
 
 let routes = [
   { path: "/", element: <Home /> },
@@ -23,6 +22,5 @@ let routes = [
   { path: "/WebService", element: <WebService /> },
   { path: "/ProductPage", element: <ProductPage /> },
   { path:"/ContactForm", element:< ContactForm/>},
-  { path:"/AdminPanel", element:< AdminPanel/>}
 ];
 export default routes

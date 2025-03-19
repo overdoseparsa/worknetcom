@@ -26,7 +26,7 @@
   font-weight: 600;
 }
 .Manager {
-  background-image: url("/public/image/40ca1118d8ca4a6ccc8b6b5dc8347f28_LE_upscale_balanced_x4.jpg");
+  background-image: url("../../public/Image/40ca1118d8ca4a6ccc8b6b5dc8347f28_LE_upscale_balanced_x4.jpg");
   height: 1000px;
   background-size: contain;
   background-position: center;
@@ -77,7 +77,7 @@
 }
 .webServiceAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,7 +95,7 @@
 }
 .explanewebService {
   background-color: #010413;
-  background-image: url("/public/image/services/webServiceMianImage.jpg");
+  background-image: url("../../public/Image/services/webServiceMianImage.jpg");
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@
 .webServiceDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -63,7 +63,7 @@
 }
 .passiveNetworkAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@
 .explanePassivenetwork {
   background-blend-mode: color-dodge;
   background-color: #003cb426;
-  background-image: url("/public/image/services/passivenetworkMainImage.webp");
+  background-image: url("../../public/Image/services/passivenetworkMainImage.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@
 .passiveDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

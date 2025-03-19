@@ -1,6 +1,6 @@
 .ContactFormContainer {
   padding: 120px;
-  background-image: url("/public/image/networkFrombg.jpg");
+  background-image: url("../../public/Image/networkFrombg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -61,7 +61,7 @@
 }
 .activeNetworkAccordingContainer {
   padding: 200px 0px 150px 0px;
-  background-image: url("/public//image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +69,7 @@
 .explaneActivenetwork {
   background-blend-mode: color-dodge;
   background-color: #0055ff12;
-  background-image: url("/public/image/services/activenetworkMainImage.jpg");
+  background-image: url("../../public/Image/services/activenetworkMainImage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 .activeDetailsContainer {
   direction: rtl;
   padding: 150px 0px;
-  background-image: url("/public/image/background\ \(4\).jpg");
+  background-image: url("../../public/Image/background4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,5 +211,10 @@
   }
   .whatsActiveNetwork > h6 {
     font-size: 15px;
+  }
+}
+@media(max-width:435px){
+  .worknetLogo{
+    width: 100px;
   }
 }
