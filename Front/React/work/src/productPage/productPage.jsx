@@ -45,7 +45,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage1"
-                src="/Image/RadioProduct.jpg"
+                src="/Image/RadioProductVireLess.jpg"
               />
             </motion.div>
             <Carousel.Caption className="productSliderItem">
@@ -89,7 +89,7 @@ export default function productpage() {
             >
               <Image
                 className="productSlideImage2 d-block"
-                src="/Image/NetworkProduct.jpg"
+                src="/Image/NetworkProductAI.jpg"
                 alt="First slide"
               />
             </motion.div>
