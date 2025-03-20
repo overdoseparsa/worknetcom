@@ -54,8 +54,6 @@ export default function ContactForm() {
 
   const handelSubmit = async (e) => {
     e.preventDefault();
-
-    // اگر فرم کامل نیست، پیغام خطا را نمایش می‌دهیم
     if (!isFormComplete()) {
       setFormComplete(true);
       return;
@@ -89,7 +87,7 @@ export default function ContactForm() {
 
     try {
       const response = await fetch(
-        "http://62.60.198.69sservi/api/v1/content/create/",
+        "http://62.60.198.69/api/v1/content/create/",
         {
           method: "POST",
           body: formDataToSend,
