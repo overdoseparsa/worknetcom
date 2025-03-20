@@ -1,8 +1,7 @@
 import React from "react";
 import "./productPage.css";
 import { Container, Row, Col, Carousel, Image } from "react-bootstrap";
-import { delay, motion } from "framer-motion";
-import { duration } from "@mui/material";
+import { motion } from "framer-motion";
 
 export default function productpage() {
   return (
@@ -115,7 +114,7 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/cameraProduct (2).jpg"
+              src="/image/cameraProduct(2).jpg"
               fluid
             />
           </Col>
@@ -158,9 +157,40 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/electritic (2).jpg"
+              src="/image/electritic(2).jpg"
               fluid
             />
+          </Col>
+        </Row>
+      </Container>
+      <Container
+        className="expaneProductContainer"
+        style={{ backgroundColor: "#e9e9e9" }}
+        fluid
+      >
+        <Row className="explaneProductRow">
+          <Col
+            sm={12}
+            lg={6}
+            className="explaneProductImageCol col-12 col-lg-6"
+          >
+            <Image
+              className="explaneProductImage"
+              src="/image/networkProduct(2).jpg"
+              fluid
+            />
+          </Col>
+          <Col sm={12} lg={6} className="explaneProductCol col-12 col-lg-6">
+            <div div>
+              <h3 className="fw-bold">محصولات شبکه </h3>
+              <p className="fw-bold">
+                تولید و تأمین محصولات شبکه نیز فعالیت دارد. این محصولات شامل
+                سوئیچ‌ها، روترها، مودم‌ها، فایروال‌ها، کابل‌های شبکه، پچ‌پنل‌ها
+                و تجهیزات اکتیو و پسیو شبکه هستند. این تجهیزات برای بهبود
+                ارتباطات شبکه‌ای، افزایش سرعت انتقال داده و ایجاد شبکه‌های
+                پایدار و امن در سازمان‌ها و صنایع مختلف طراحی و تولید می‌شوند
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>
@@ -191,40 +221,9 @@ export default function productpage() {
           >
             <Image
               className="explaneProductImage"
-              src="/image/radioProduct (2).jpg"
+              src="/image/radioProduct(2).jpg"
               fluid
             />
-          </Col>
-        </Row>
-      </Container>
-      <Container
-        className="expaneProductContainer"
-        style={{ backgroundColor: "#e9e9e9" }}
-        fluid
-      >
-        <Row className="explaneProductRow">
-          <Col
-            sm={12}
-            lg={6}
-            className="explaneProductImageCol col-12 col-lg-6"
-          >
-            <Image
-              className="explaneProductImage"
-              src="/image/networkProduct (2).jpg"
-              fluid
-            />
-          </Col>
-          <Col sm={12} lg={6} className="explaneProductCol col-12 col-lg-6">
-            <div div>
-              <h3 className="fw-bold">محصولات شبکه </h3>
-              <p className="fw-bold">
-                تولید و تأمین محصولات شبکه نیز فعالیت دارد. این محصولات شامل
-                سوئیچ‌ها، روترها، مودم‌ها، فایروال‌ها، کابل‌های شبکه، پچ‌پنل‌ها
-                و تجهیزات اکتیو و پسیو شبکه هستند. این تجهیزات برای بهبود
-                ارتباطات شبکه‌ای، افزایش سرعت انتقال داده و ایجاد شبکه‌های
-                پایدار و امن در سازمان‌ها و صنایع مختلف طراحی و تولید می‌شوند
-              </p>
-            </div>
           </Col>
         </Row>
       </Container>

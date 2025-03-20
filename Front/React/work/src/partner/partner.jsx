@@ -81,20 +81,20 @@ export default function Partner() {
               <img src="/image/Zob_Ahan_logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/شرکت-MME.jpg" alt="" />
+              <img src="/image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+              <img src="/image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>
@@ -166,20 +166,20 @@ export default function Partner() {
               <img src="/image/Zob_Ahan_logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/شرکت-MME.jpg" alt="" />
+              <img src="/image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+              <img src="/image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>
@@ -255,20 +255,20 @@ export default function Partner() {
               <img src="/image/Zob_Ahan_logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/شرکت-MME.jpg" alt="" />
+              <img src="/image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+              <img src="/image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>
@@ -340,20 +340,20 @@ export default function Partner() {
               <img src="/image/Zob_Ahan_logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/شرکت-MME.jpg" alt="" />
+              <img src="/image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/شرکت-مهندسی-نیک-اندیش-200x170.png" alt="" />
+              <img src="/image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/مجتمع-فولاد-اصفهان.jpg" alt="" />
+              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/وکتور-لوگو-آرم-شهرداری-اصفهان-1.png"
+                src="/image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>

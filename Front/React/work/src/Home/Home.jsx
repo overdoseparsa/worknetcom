@@ -70,7 +70,7 @@ export default function Home() {
             <Modal.Title></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Image  src="Image/Vector-Nowruz-00011.1-GraphicTarh.ir_.jpg" fluid/>
+            <Image  src="Image/VectorNowruz.jpg" fluid/>
             وُرک‌نت فرارسیدن سال نو را به شما همراهان گرامی تبریک می‌گوید. 🌿🌺 <br />
             امیدواریم سالی سرشار از موفقیت، شادی و آرامش پیش رو داشته باشید. 💫 <br />
             با آرزوی بهترین‌ها در سال جدید،<br /> تیم فنی مهندسی وُرک‌نت 💙 <span style={{float:'left'}}>Worknetco</span>

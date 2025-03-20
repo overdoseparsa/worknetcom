@@ -217,7 +217,7 @@ export default function footer() {
             style={{
               width: 40,
             }}
-            src="/Image/لوگو_دانش_بنیان-removebg-preview-1.png"
+            src="/Image/daneshBonyan.png"
           />
         </Col>
         <Col 
