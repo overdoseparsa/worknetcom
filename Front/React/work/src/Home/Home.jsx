@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Image, Modal, Button } from "react-bootstrap";
 import "./Home.css";
-import NavBar from "../navBar/navBar";
 import MainImage from "../mianImage/mainImage";
 import "bootstrap";
 import Slides from "../slides/slides";
@@ -70,7 +69,7 @@ export default function Home() {
             <Modal.Title></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Image  src="Image/VectorNowruz.jpg" fluid/>
+            <Image  src="/Image/VectorNowruz.jpg" fluid/>
             وُرک‌نت فرارسیدن سال نو را به شما همراهان گرامی تبریک می‌گوید. 🌿🌺 <br />
             امیدواریم سالی سرشار از موفقیت، شادی و آرامش پیش رو داشته باشید. 💫 <br />
             با آرزوی بهترین‌ها در سال جدید،<br /> تیم فنی مهندسی وُرک‌نت 💙 <span style={{float:'left'}}>Worknetco</span>
@@ -379,7 +378,7 @@ export default function Home() {
             <Col className="colContactAvatarImage col-5">
               <Image
                 className="contactAvatarImage"
-                src="image/sapiens.svg"
+                src="/image/sapiens.svg"
                 fluid
               />
             </Col>

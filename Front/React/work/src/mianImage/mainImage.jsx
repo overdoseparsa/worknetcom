@@ -55,7 +55,7 @@ export default class mainImage extends Component {
               >
                 <Image
                   className="Image"
-                  src="/Image/mainImagePage.jpg"
+                  src="/Image/mainImagePage.JPG"
                   fluid
                 />
               </Col>
