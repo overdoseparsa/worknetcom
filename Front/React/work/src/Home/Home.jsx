@@ -168,8 +168,8 @@ export default function Home() {
           {/* ///////////// middle */}
           <Row className="middleRow sm-4">
             <div className="text-center">
-              <Image className="firstImage" src="/image/worknetService.png" />
-              <Image className="secondImage" src="/image/worknetService2.png" />
+              <Image className="firstImage" src="/Image/worknetService.png" />
+              <Image className="secondImage" src="/Image/worknetService2.png" />
             </div>
           </Row>
 
@@ -263,7 +263,7 @@ export default function Home() {
           </Col>
           <Col xs={4} className=" imgCol p-0">
             <Image
-              src="/image/nick-office-04.jpg"
+              src="/Image/nick-office-04.jpg"
               style={{
                 objectFit: "cover",
               }}
@@ -378,7 +378,7 @@ export default function Home() {
             <Col className="colContactAvatarImage col-5">
               <Image
                 className="contactAvatarImage"
-                src="/image/sapiens.svg"
+                src="/Image/sapiens.svg"
                 fluid
               />
             </Col>

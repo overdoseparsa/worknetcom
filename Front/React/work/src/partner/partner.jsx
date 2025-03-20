@@ -17,348 +17,339 @@ export default function Partner() {
         <div className="slider">
           <ul className="mb-0 sliderUL">
             <li>
-              <img src="/image/asemanafraz.png" alt="" />
+              <img src="/Image/asemanafraz.png" alt="" />
             </li>
             <li>
-              <img src="/image/azaduniversity.png" alt="" />
+              <img src="/Image/azaduniversity.png" alt="" />
             </li>
             <li>
-              <img src="/image/irisa.png" alt="" />
+              <img src="/Image/irisa.png" alt="" />
             </li>
             <li>
-              <img src="/image/keshavarzi-palet.jpg" alt="" />
+              <img src="/Image/keshavarzi-palet.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/khuisf-logo.png" alt="" />
+              <img src="/Image/khuisf-logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/mmte.png" alt="" />
+              <img src="/Image/mmte.png" alt="" />
             </li>
             <li>
-              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Metro-Arm.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/palayeshnaft.png" alt="" />
+              <img src="/Image/Mes-Rafsanjan-FC-Logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/sepah-palet.png" alt="" />
+              <img src="/Image/Metro-Arm.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/shahrkord.webp" alt="" />
+              <img src="/Image/palayeshnaft.png" alt="" />
             </li>
             <li>
-              <img src="/image/sina-palet.png" alt="" />
+              <img src="/Image/persha.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/spsilogo-notext.png" alt="" />
+              <img src="/Image/refah-new-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/tejarat-palet.png" alt="" />
+              <img src="/Image/sefiddasht_ahanpakhsh.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/tose-e-palet.png" alt="" />
+              <img src="/Image/sepah-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Zob_Ahan_logo.png" alt="" />
+              <img src="/Image/shahrkord.webp" alt="" />
             </li>
             <li>
-              <img src="/image/MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/nikAndish.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
-            </li>
-
-            <li>
-              <img
-                src="/image/shahrdaryEsfahan.png"
-                alt=""
-              />
+              <img src="/Image/sina-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/taaminejtemae.png" alt="" />
+              <img src="/Image/spsilogo-notext.png" alt="" />
             </li>
             <li>
-              <img src="/image/asemanafraz.png" alt="" />
+              <img src="/Image/tejarat-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/azaduniversity.png" alt="" />
+              <img src="/Image/tose-e-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/irisa.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/keshavarzi-palet.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/khuisf-logo.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/mmte.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+              <img src="/Image/tosee-taavon-palet-240x240.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/Metro-Arm.jpg" alt="" />
+              <img src="/Image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/sepah-palet.png" alt="" />
+              <img src="/Image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/shahrkord.webp" alt="" />
-            </li>
-            <li>
-              <img src="/image/sina-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/spsilogo-notext.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tejarat-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Zob_Ahan_logo.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/nikAndish.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
+              <img src="/Image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/shahrdaryEsfahan.png"
+                src="/Image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>
             <li>
-              <img src="/image/taaminejtemae.png" alt="" />
+              <img src="/Image/taaminejtemae.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/asemanafraz.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/azaduniversity.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/irisa.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/keshavarzi-palet.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/khuisf-logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/mmte.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/Metro-Arm.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/palayeshnaft.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/persha.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/refah-new-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sefiddasht_ahanpakhsh.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sepah-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/shahrkord.webp" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sina-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/spsilogo-notext.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tejarat-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tose-e-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tosee-taavon-palet-240x240.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/MME.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/nikAndish.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/fouladMobarakehLogo.jpg" alt="" />
+            </li>
+
+            <li>
+              <img
+                src="/Image/shahrdaryEsfahan.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img src="/Image/taaminejtemae.png" alt="" />
             </li>
           </ul>
         </div>
         <div className="slider mt-5">
           <ul className="mb-0 sliderULRevers">
-            <li>
-              <img src="/image/asemanafraz.png" alt="" />
+          <li>
+              <img src="/Image/asemanafraz.png" alt="" />
             </li>
             <li>
-              <img src="/image/azaduniversity.png" alt="" />
+              <img src="/Image/azaduniversity.png" alt="" />
             </li>
             <li>
-              <img src="/image/irisa.png" alt="" />
+              <img src="/Image/irisa.png" alt="" />
             </li>
             <li>
-              <img src="/image/keshavarzi-palet.jpg" alt="" />
+              <img src="/Image/keshavarzi-palet.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/khuisf-logo.png" alt="" />
+              <img src="/Image/khuisf-logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/mmte.png" alt="" />
+              <img src="/Image/mmte.png" alt="" />
             </li>
             <li>
-              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Metro-Arm.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/palayeshnaft.png" alt="" />
+              <img src="/Image/Mes-Rafsanjan-FC-Logo.png" alt="" />
             </li>
             <li>
-              <img src="/image/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/sepah-palet.png" alt="" />
+              <img src="/Image/Metro-Arm.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/shahrkord.webp" alt="" />
+              <img src="/Image/palayeshnaft.png" alt="" />
             </li>
             <li>
-              <img src="/image/sina-palet.png" alt="" />
+              <img src="/Image/persha.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/spsilogo-notext.png" alt="" />
+              <img src="/Image/refah-new-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/tejarat-palet.png" alt="" />
+              <img src="/Image/sefiddasht_ahanpakhsh.jpg" alt="" />
             </li>
             <li>
-              <img src="/image/tose-e-palet.png" alt="" />
+              <img src="/Image/sepah-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Zob_Ahan_logo.png" alt="" />
+              <img src="/Image/shahrkord.webp" alt="" />
             </li>
             <li>
-              <img src="/image/MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/nikAndish.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
-            </li>
-
-            <li>
-              <img
-                src="/image/shahrdaryEsfahan.png"
-                alt=""
-              />
+              <img src="/Image/sina-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/taaminejtemae.png" alt="" />
+              <img src="/Image/spsilogo-notext.png" alt="" />
             </li>
             <li>
-              <img src="/image/asemanafraz.png" alt="" />
+              <img src="/Image/tejarat-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/azaduniversity.png" alt="" />
+              <img src="/Image/tose-e-palet.png" alt="" />
             </li>
             <li>
-              <img src="/image/irisa.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/keshavarzi-palet.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/khuisf-logo.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/mmte.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+              <img src="/Image/tosee-taavon-palet-240x240.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/Metro-Arm.jpg" alt="" />
+              <img src="/Image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/MME.jpg" alt="" />
             </li>
 
             <li>
-              <img src="/image/palayeshnaft.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/persha.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/refah-new-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/sefiddasht_ahanpakhsh.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/image/sepah-palet.png" alt="" />
+              <img src="/Image/nikAndish.png" alt="" />
             </li>
 
             <li>
-              <img src="/image/shahrkord.webp" alt="" />
-            </li>
-            <li>
-              <img src="/image/sina-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/spsilogo-notext.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tejarat-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tose-e-palet.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/tosee-taavon-palet-240x240.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/Zob_Ahan_logo.png" alt="" />
-            </li>
-            <li>
-              <img src="/image/MME.jpg" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/nikAndish.png" alt="" />
-            </li>
-
-            <li>
-              <img src="/image/fouladMobarakehLogo.jpg" alt="" />
+              <img src="/Image/fouladMobarakehLogo.jpg" alt="" />
             </li>
 
             <li>
               <img
-                src="/image/shahrdaryEsfahan.png"
+                src="/Image/shahrdaryEsfahan.png"
                 alt=""
               />
             </li>
             <li>
-              <img src="/image/taaminejtemae.png" alt="" />
+              <img src="/Image/taaminejtemae.png" alt="" />
+            </li><li>
+              <img src="/Image/asemanafraz.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/azaduniversity.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/irisa.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/keshavarzi-palet.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/khuisf-logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/mmte.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/Mes-Rafsanjan-FC-Logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/Metro-Arm.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/palayeshnaft.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/persha.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/refah-new-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sefiddasht_ahanpakhsh.jpg" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sepah-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/shahrkord.webp" alt="" />
+            </li>
+            <li>
+              <img src="/Image/sina-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/spsilogo-notext.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tejarat-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tose-e-palet.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/tosee-taavon-palet-240x240.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/Zob_Ahan_logo.png" alt="" />
+            </li>
+            <li>
+              <img src="/Image/MME.jpg" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/nikAndish.png" alt="" />
+            </li>
+
+            <li>
+              <img src="/Image/fouladMobarakehLogo.jpg" alt="" />
+            </li>
+
+            <li>
+              <img
+                src="/Image/shahrdaryEsfahan.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img src="/Image/taaminejtemae.png" alt="" />
             </li>
           </ul>
         </div>

@@ -67,7 +67,7 @@ export default function InfoContainer() {
               className="imgContainer col-sm-12 col-md-6 p-0"
               xs={{ order: "first" }}
             >
-              <Image src="/image/zobAhan.jpg" fluid />
+              <Image src="/Image/zobAhan.jpg" fluid />
             </Col>
             <Col
               className="textContainer col-12 col-md-6 pt-0 pb-5"
@@ -106,7 +106,7 @@ export default function InfoContainer() {
               md={{ order: "last" }}
               xs={{ order: "first" }}
             >
-              <Image src="/image/fouladmobarake.jpg" fluid />
+              <Image src="/Image/fouladmobarake.jpg" fluid />
             </Col>
           </Row>
           {/* third */}
@@ -120,7 +120,7 @@ export default function InfoContainer() {
               xs={{ order: "first" }}
               style={{ backgroundColor: "#ffffff", borderRadius: 15 }}
             >
-              <Image src="/image/irisaprojectimage.png" fluid />
+              <Image src="/Image/irisaProjectImage.png" fluid />
             </Col>
             <Col
               className="textContainer col-12 col-md-6  p-0 pb-5"
@@ -156,7 +156,7 @@ export default function InfoContainer() {
               md={{ order: "last" }}
               xs={{ order: "first" }}
             >
-              <Image src="/image/mesRafsanjan.jpg" fluid />
+              <Image src="/Image/mesRafsanjan.jpg" fluid />
             </Col>
           </Row>
           {/* fith */}

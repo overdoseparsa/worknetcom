@@ -17,7 +17,7 @@ export default function Slides() {
         <Carousel.Item>
           <img
             className="slideImage d-block w-100"
-            src="image/Isfahan subway.jpg"
+            src="/Image/Isfahansubway.jpg"
             alt="First slide"
           />
           <Carousel.Caption className="slidelItem">
@@ -32,7 +32,7 @@ export default function Slides() {
         <Carousel.Item>
           <img
             className="slideImage d-block w-100"
-            src="image/social security.jpg"
+            src="/Image/social.jpg"
             alt="First slide"
           />
           <Carousel.Caption className="slidelItem">
@@ -48,7 +48,7 @@ export default function Slides() {
         <Carousel.Item>
           <img
             className="slideImage d-block w-100"
-            src="image/isfahan refinery.jpg"
+            src="/Image/isfahanrefinery.jpg"
             alt="First slide"
           />
           <Carousel.Caption className="slidelItem">
@@ -63,7 +63,7 @@ export default function Slides() {
         <Carousel.Item>
           <img
             className="slideImage d-block w-100"
-            src="image/MEE.jpg"
+            src="/Image/MME.jpg"
             alt="First slide"
           />
           <Carousel.Caption className="slidelItem">
