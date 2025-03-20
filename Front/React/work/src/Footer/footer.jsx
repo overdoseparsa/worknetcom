@@ -11,7 +11,7 @@ export default function footer() {
         <Col className="footerImageContainer">
           <Image
             className="footerImage"
-            src="/image/worknetService2.png"
+            src="/Image/worknetService2.png"
             fluid
           />
         </Col>

@@ -181,7 +181,7 @@ export default function WebService() {
             </Container>
             <Image
               className="webServiceImage col-12"
-              src="/image/webServiceImage.jpg"
+              src="/Image/webServiceImage.jpg"
             ></Image>
           </Col>
         </Row>

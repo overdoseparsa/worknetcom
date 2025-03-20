@@ -89,18 +89,18 @@ export default function ContactForm() {
 
     try {
       const response = await fetch(
-        "http://192.168.0.147/api/v1/content/create/",
+        "http://62.60.198.69/api/v1/content/create/",
         {
           method: "POST",
           body: formDataToSend,
           headers: {
-            Accept: "application/json", // تنظیم هدر برای پاسخ JSON
+            Accept: "application/json",
           },
         }
       );
 
       if (response.ok) {
-        setSuccess(true); // ارسال موفقیت‌آمیز
+        setSuccess(true);
         setFormData({
           name: "",
           email: "",

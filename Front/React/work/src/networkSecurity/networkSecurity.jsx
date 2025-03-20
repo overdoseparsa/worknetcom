@@ -125,7 +125,7 @@ export default function Networksecurity() {
             </Container>
             <Image
               className="networkSecurityImage col-12"
-              src="/image/networkSecurityImage.jpg"
+              src="/Image/networkSecurityImage.jpg"
             ></Image>
           </Col>
         </Row>

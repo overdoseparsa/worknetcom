@@ -63,7 +63,7 @@ export default function Slides() {
         <Carousel.Item>
           <img
             className="slideImage d-block w-100"
-            src="/Image/MME.jpg"
+            src="/Image/MEEco.jpg"
             alt="First slide"
           />
           <Carousel.Caption className="slidelItem">

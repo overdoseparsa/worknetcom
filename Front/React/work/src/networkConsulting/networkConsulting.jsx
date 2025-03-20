@@ -121,7 +121,7 @@ export default function NetworkConsulting() {
             </Container>
             <Image
               className="networkImage col-12"
-              src="/image/networkConsultingImage.jpg"
+              src="/Image/networkConsultingImage.jpg"
               fluid
             />
           </Col>
