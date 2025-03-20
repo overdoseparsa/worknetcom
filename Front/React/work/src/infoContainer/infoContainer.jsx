@@ -120,7 +120,7 @@ export default function InfoContainer() {
               xs={{ order: "first" }}
               style={{ backgroundColor: "#ffffff", borderRadius: 15 }}
             >
-              <Image src="/Image/irisaProjectImage.png" fluid />
+              <Image src="/Image/irisaCOImage.png" fluid />
             </Col>
             <Col
               className="textContainer col-12 col-md-6  p-0 pb-5"

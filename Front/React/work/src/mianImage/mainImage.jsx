@@ -13,8 +13,8 @@ export default class mainImage extends Component {
           <Row className="mainContainer d-flex">
             <motion.div 
             className="motionDiv"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              initial={{  opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ duration: 1.5, delay: 1 }}
             >
               <Col className="mainText">
@@ -46,8 +46,8 @@ export default class mainImage extends Component {
             </motion.div>
             <motion.div
             style={{width:'50%'}}
-            initial={{x:-100, opacity:0}}
-            animate={{x:0, opacity:1}}
+            initial={{ opacity:0}}
+            animate={{ opacity:1}}
             transition={{duration:1.5, delay:1.5}}
             >
               <Col

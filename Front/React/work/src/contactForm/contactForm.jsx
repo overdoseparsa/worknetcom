@@ -89,7 +89,7 @@ export default function ContactForm() {
 
     try {
       const response = await fetch(
-        "http://62.60.198.69/api/v1/content/create/",
+        "http://62.60.198.69sservi/api/v1/content/create/",
         {
           method: "POST",
           body: formDataToSend,
