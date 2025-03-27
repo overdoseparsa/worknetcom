@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { Form, Container, Button, Alert, Spinner } from "react-bootstrap";
 import "./contactForm.css";
 import "bootstrap";
@@ -51,6 +51,18 @@ export default function ContactForm() {
       !phoneError
     );
   };
+  // const getCsrfToken = () => {
+  //   return document.cookie
+  //     .split("; ")
+  //     .find((row) => row.startsWith("csrftoken="))
+  //     ?.split("=")[1];
+  // };
+  // const csrfToken = getCsrfToken();
+  // if (!csrfToken) {
+  //   console.error("CSRF Token not found!");
+  //   return;
+  // }
+
 
   const handelSubmit = async (e) => {
     e.preventDefault();
@@ -83,7 +95,9 @@ export default function ContactForm() {
     formDataToSend.append("phone", formData.phone);
     formDataToSend.append("body_text", formData.body_text);
     formDataToSend.append("created", time);
-    formDataToSend.append("file", formData.file);
+    if (formData.file) {
+      formDataToSend.append("file", formData.file);
+    }
 
     try {
       const response = await fetch(
@@ -91,8 +105,10 @@ export default function ContactForm() {
         {
           method: "POST",
           body: formDataToSend,
+          credentials: "include",
           headers: {
             Accept: "application/json",
+            // "X-CSRFToken": csrfToken,
           },
         }
       );
@@ -169,6 +185,7 @@ export default function ContactForm() {
                 value={formData.name}
                 onChange={handelNameChange}
                 placeholder="نام خود را وارد کنید"
+                required
               />
             </Form.Group>
 
@@ -180,6 +197,7 @@ export default function ContactForm() {
                 value={formData.email}
                 onChange={handelEmailChange}
                 placeholder="ایمیل"
+                required
               />
             </Form.Group>
 
@@ -191,6 +209,7 @@ export default function ContactForm() {
                 value={formData.phone}
                 onChange={handelPhoneChange}
                 placeholder="شماره تلفن"
+                required
               />
               {phoneError && (
                 <Form.Text className="text-danger">
@@ -210,6 +229,7 @@ export default function ContactForm() {
                 name="body_text"
                 value={formData.body_text}
                 onChange={handelBodyChange}
+                required
               />
             </Form.Group>
 
@@ -217,7 +237,7 @@ export default function ContactForm() {
               <Form.Label>فایل خود را انتخاب کنید</Form.Label>
               <Form.Control type="file" onChange={handelFileChange} />
             </Form.Group>
-            {isError && (
+            {isError && error && (
               <Alert style={{ direction: "rtl" }} variant="danger">
                 {error}
               </Alert>

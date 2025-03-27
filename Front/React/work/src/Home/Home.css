@@ -51,6 +51,9 @@
   padding: 0px;
   padding-right: 20px;
 }
+.firstImage{
+  width: 100%;
+}
 
 .rightRow {
   direction: rtl;
@@ -64,7 +67,7 @@
   border: 2px solid #b5b5b5;
   border-radius: 20px;
   height: 100px;
-  width: 400px;
+  max-width: 400px;
   display: grid;
   align-items: center;
   margin: 15px 0px;
@@ -141,6 +144,7 @@ a :hover {
 .middleRow {
   display: grid;
   align-items: center;
+  min-width: 200px;
 }
 
 /* /////////////////// aboutContainer */
@@ -362,28 +366,11 @@ a :hover {
 
 /* responsive */
 @media (max-width: 1450px) {
-  .srviceContant {
-    display: grid;
-    justify-content: space-evenly;
-  }
-  .firstImage{
-    display: none;
-  }
-  .secondImage{
-    display: inline-block;
-    width: 300px;
-    margin: 0px auto;
-  }
+
   .middleRow {
     margin: 50px 0px;
   }
 
-  .leftRow,
-  .rightRow {
-    display: grid;
-    width: 900px;
-    justify-content: center;
-  }
 }
 @media (max-width: 1240px) {
   .aboutContainer {
@@ -397,7 +384,6 @@ a :hover {
     max-width: 100%;
     min-height: 400px;
   }
-
   .historyRow {
     width: 100%;
     margin: 0px;
@@ -434,7 +420,7 @@ a :hover {
     top: 30%;
     left: 65%;
   }
-
+  
   .cubeContainer2 {
     width: 150px;
     height: 150px;
@@ -471,6 +457,24 @@ a :hover {
   .fromP > h3 {
     font-size: 20px;
     font-weight: 600;
+  }
+  .srviceContant {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  .firstImage{
+    display: none;
+  }
+  .secondImage{
+    display: inline-block;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .leftRow,
+  .rightRow {
+    display: grid;
+    width: 900px;
+    justify-content: center;
   }
   .fromP > p {
     font-size: 15px;
